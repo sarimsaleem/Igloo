@@ -1,0 +1,11 @@
+.banner-container {
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Hide any overflow */
+  }
+  
+  .carousel-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the entire container without distortion */
+  }
+  

@@ -1,0 +1,52 @@
+.homesection1{
+    padding-block: 30px;
+}
+
+.homesection1-heading{
+    text-align: center;
+    font-family: "Open Sans";
+    margin-bottom: 5%;
+    color: #494646;
+}
+.homesection1-sub-heading{
+    font-family: "Open Sans";       
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #212529;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    text-align: center;
+    line-height: 45px;
+}
+.homesection1-text{    
+    text-align: center;
+    font-family: "Open Sans";   
+    color: #494646;
+    margin-top: 56px;
+    margin-bottom: 0px;
+}
+
+.homesection1-subParent{
+    padding-bottom: 30px;
+}
+
+.keywords-row {
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+    gap: 15px;
+    background: linear-gradient(30deg,rgba(90,35,92,1) 0%,rgba(162,24,90,1) 28%,rgba(114,35,92,1) 100%); 
+    padding: 30px 0;    
+}
+
+.keywords-row span {
+    padding: 0 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11px;
+    font-family: "Open Sans";
+    letter-spacing: 1px;
+}

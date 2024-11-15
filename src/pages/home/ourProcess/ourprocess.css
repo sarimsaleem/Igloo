@@ -1,0 +1,27 @@
+.homeSection2-icon {
+    color: #b9b1b1;
+    font-size: 40px;
+}
+
+.card-heading {
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #000;
+    position: relative;
+    padding-bottom: 20px;
+    font-family: "Open Sans";
+}
+.card-text{
+    font-size: 13px;
+    color: #494646;
+    letter-spacing: 0.6px;
+    font-family: "Open Sans";
+}
+
+.section2-heading{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700 !important
+}

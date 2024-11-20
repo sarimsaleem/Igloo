@@ -1,0 +1,88 @@
+.brandingagencychoose {
+  text-align: center;
+  padding: 40px 0px;
+  max-width: 1000px;
+  margin: 50px auto 0;
+}
+
+.brandingagencychoose-heading {
+  margin-bottom: 10px;
+  font-family: "Open Sans";
+  font-size: 31px;
+  font-weight: 600;
+  color: #000;
+  line-height: 34px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 39px;
+  text-align: center;
+}
+
+.brandingagencychoose-underline {
+  width: 50px;
+  height: 2px;
+  background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
+  margin: 0 auto 20px auto;
+}
+
+.brandingagencychoose-description {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #626262;
+  /* Dark gray for readability */
+  margin-bottom: 20px;
+  font-family: "Open Sans";
+}
+
+.brandingagencychoose-button {
+  background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.brandingAgency-subParent {
+  background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
+  padding-block: 39px;
+}
+
+.brandingAgency-subParent-container {
+  text-align: center;
+  color: white;
+}
+
+.brandingAgency-subParent-container h4 {
+  font-size: 50px;
+  line-height: 45px;
+  letter-spacing: -2px;
+  font-weight: 100;
+  font-family: "Open Sans";
+}
+
+.brandingAgency-subParent-container p {
+  margin: 0 0 22px;
+  font-family: "Open Sans";
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+.brandingAgency-process-seperater {
+  background: #fff;
+  height: 4px;
+  width: 30px;
+  margin: 5px auto;
+}
+
+.brandingAgency-process-seperater2{
+  background: rgba(114, 35, 92, 1);
+  height: 2px;
+  width: 30px;
+  margin: 5px auto;
+  margin-top: 40px;
+}

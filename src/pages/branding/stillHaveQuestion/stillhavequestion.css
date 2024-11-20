@@ -1,0 +1,80 @@
+.stillQuestion {
+    position: relative;
+    background-image: url("./../../../assets/stillQuestion-banner.jpg");
+    padding: 39px 0;
+    z-index: 1;
+}
+
+.stillQuestion-sub-parent {
+    position: relative;
+    top: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 491px;
+    height: 260px;
+    background-image: url("../../../assets/stillQuestion-leaf.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+}
+
+.stillQuestion-text-container {
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+}
+
+.stillQuestion-heading {
+    font-weight: 600;
+    line-height: 34px;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    letter-spacing: 2px;
+    padding-bottom: 39px;
+    font-size: 36px;
+    color: #fff;
+}
+
+.stillQuestion-text {
+    color: white;
+}
+
+.stillQuestion-btn-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.stillQuestion-btn {
+    font-family: "Open Sans";
+    background: linear-gradient(30deg,
+            rgba(114, 35, 92, 1) 0%,
+            rgba(162, 24, 90, 1) 28%,
+            rgba(114, 35, 92, 1) 100%);
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    padding: 12px 22px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin: 10px auto;
+    padding: 10px 22px;
+}
+
+.stillQuestion-btn:hover {
+    background: linear-gradient(30deg,
+            rgba(114, 35, 92, 1) 0%,
+            rgba(162, 24, 90, 1) 28%,
+            rgba(114, 35, 92, 1) 100%);
+}
+
+.stillQuestion-seperator {
+    width: 30px;
+    height: 2px;
+    background: white;
+    margin: 0px auto 20px;
+}

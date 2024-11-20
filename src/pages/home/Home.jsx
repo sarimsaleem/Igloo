@@ -1,14 +1,28 @@
 import React from 'react'
 import DigitalMarketing from './digitalMarketing/DigitalMarketing'
 import OurProcess from './ourProcess/OurProcess'
-import Featured from './featurerd/Featured'
+// import Featured from './featurerd/Featured'
+import LatestWork from './latestWork/LatestWork'
+import OurServices from './ourServices/OurServices'
+import LeaderShip from './leadership/LeaderShip'
+import Bounce from './bounce/Bounce'
+import OurClients from './ourClients/OurClients'
+import BookConsultation from './bookConsultation/BookConsultation'
+import Banner from '../../components/Crousel/Banner'
 
 const Home = () => {
     return (
         <>
+            <Banner />
             <DigitalMarketing />
-            <OurProcess/>
-            <Featured />
+            <OurProcess />
+            {/* <Featured /> */}
+            <LatestWork />
+            <OurServices />
+            <LeaderShip />
+            <Bounce />
+            <OurClients />
+            <BookConsultation />
         </>
     )
 }

@@ -1,0 +1,88 @@
+.brandingServices {
+    padding-top: 40px;
+}
+
+.brandingServices-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.branding-seperator {
+    width: 30px;
+    height: 2px;
+    background: #72235c;
+    margin: 20px 0;
+}
+
+.brandingServices-heading {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    line-height: 34px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.brandingServices-detail {
+    text-align: center;
+    margin: 0 0 22px;
+    color: #494646;
+    line-height: 23px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    letter-spacing: .3px;
+    font-family: "Open Sans";
+}
+
+/* //////////////////////////////////// */
+
+.brandingServices-parent {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    /* Optional for visual separation */
+}
+
+.brandingServices-icon-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.brandingServices-icon {
+    width: 50px;
+    height: auto;
+}
+
+.brandingServices-text-parent {
+    padding: 0 10px;
+    border-bottom: 1px solid #eaeaea;
+    margin: 0 100px 0 0;
+}
+
+.brandingServices-text-heading {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.brandingServices-head-text-separator {
+    width: 50px;
+    height: 3px;
+    background-color: #800020;
+    margin: 10px 0 26px;
+}
+
+.brandingServices-text {
+    font-size: 1rem;    
+    color: #555;
+    line-height: 1.5;
+    margin: 0 0 12px;
+}

@@ -1,59 +1,67 @@
-.logo {
-    width: 100px;
-}
+    .logo {
+        width: 100px;
+    }
 
-.consultation-btn {
-    background: transparent !important; 
-    outline: none !important; 
-    border: 2px solid #72235c !important;
-    margin-left: 20px;
-    font-size: 15px;
-    border-radius: 0 !important; 
-    font-weight: 600;
-    color: white; 
-}
+    .consultation-btn {
+        background: transparent !important;
+        outline: none !important;
+        border: 2px solid #72235c !important;
+        margin-left: 20px;
+        font-size: 15px;
+        border-radius: 0 !important;
+        font-weight: 600;
+        color: white;
+    }
 
-.consultation-btn:hover {
-    background: #72235c !important; 
-    border: 2px solid #72235c !important;
-}
+    .consultation-btn:hover {
+        background: #72235c !important;
+        border: 2px solid #72235c !important;
+    }
 
-.consultation-btn:focus,
-.consultation-btn:active {
-    background-color: transparent !important; 
-    border-color: #72235c !important; 
-}
+    .consultation-btn:focus,
+    .consultation-btn:active {
+        background-color: transparent !important;
+        border-color: #72235c !important;
+    }
 
-.navbar {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-}
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+        background-color: transparent;
+        transition: background-color 0.3s ease;
+    }
 
-.navbar .nav-link {
-    color: white !important;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
+    .navbar .nav-link {
+        color: white !important;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
 
-.navbar .dropdown-menu .dropdown-item {
-    color: #c8c8c8;
-    font-family: 'Open Sans';
-    text-transform: uppercase;
-    font-size: 11px;
-}
-.navbar .dropdown-menu .dropdown-item:hover{
-    background: transparent;
-    color: white;
-}
+    .navbar .dropdown-menu .dropdown-item {
+        color: #c8c8c8;
+        font-family: 'Open Sans';
+        text-transform: uppercase;
+        font-size: 11px;
+    }
 
-.navbar .dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-.navbar-divider{
-    margin: 0;
-    background: rgba(255, 255, 255, .16);
-}
+    .navbar .dropdown-menu .dropdown-item:hover {
+        background: transparent;
+        color: white;
+    }
+
+    .navbar .dropdown-menu {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .navbar-divider {
+        margin: 0;
+        background: rgba(255, 255, 255, .16);
+    }
+
+    .navbar-scrolled {
+        background-color: #000 !important;
+    }

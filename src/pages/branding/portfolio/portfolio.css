@@ -1,8 +1,38 @@
-.portfolio-cart-container img{
+.portfolio-cart-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .portfolio-cart-container img {
     width: 100%;
-}
-.portfolio-h1{
-    text-align: center;
-    margin: 0 0 40px;
-    /* font-family: "Open Sans"; */
-}
+    transition: opacity 0.3s ease;
+  }
+  
+  .portfolio-cart-container:hover img {
+    opacity: 0.6; /* Change this value to control the fading effect */
+  }
+  
+  .portfolio-cart-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .portfolio-cart-container:hover .overlay {
+    opacity: 1; /* Make the overlay visible on hover */
+  }
+  
+  .portfolio-cart-container .overlay-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

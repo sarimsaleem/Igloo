@@ -47,7 +47,7 @@ const Header = ({ bgColor }) => {
                             <Divider className='navbar-divider'/>
                             <NavDropdown.Item  onClick={() => navigate('/logo-and-brand-guidelines')} >Logo and Brand Guidelines</NavDropdown.Item>
                             <Divider className='navbar-divider'/>
-                            <NavDropdown.Item href="/">Packaging Design</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/packaging-design")}>Packaging Design</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Digital Marketing" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/">Digital Marketing</NavDropdown.Item>

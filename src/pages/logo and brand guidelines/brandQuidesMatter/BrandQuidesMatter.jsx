@@ -23,11 +23,10 @@ const BrandQuidesMatter = () => {
                     </Col>
                     <Col md={5}>
                         <div className="brandingServices-text-parent2">
-                            <h1 className="brandingServices-text-heading">Logo Design</h1>
+                            <h1 className="brandingServices-text-heading">Strong Brand Identity</h1>
                             <div className="brandingServices-head-text-separator"></div>
                             <p className="brandingServices-text">
-                            Your company logo is the “face” of your business. At Igloo, we develop strong logos based on a powerfully defined brand identity. We incorporate carefully crafted visual elements that communicate what your business represents to consumers.
-                            </p>
+                            Strong brand identities rely on consistency. It clarifies what your business represents through visual elements like color palettes and your tone of voice. At Igloo, we have ample experience developing brand personas for startups and businesses looking to revamp.</p>
                         </div>
                     </Col>
                     <Col md={1}>
@@ -37,11 +36,10 @@ const BrandQuidesMatter = () => {
                     </Col>
                     <Col md={5}>
                         <div className="brandingServices-text-parent2">
-                            <h1 className="brandingServices-text-heading">Logo Design</h1>
+                            <h1 className="brandingServices-text-heading">Customer Loyalty</h1>
                             <div className="brandingServices-head-text-separator"></div>
                             <p className="brandingServices-text">
-                            Your company logo is the “face” of your business. At Igloo, we develop strong logos based on a powerfully defined brand identity. We incorporate carefully crafted visual elements that communicate what your business represents to consumers.
-                            </p>
+                            High-quality products and services are not enough to keep customers happy—most of them also seek positive customer experiences. You can expect repeat business and steadier profits by creating guidelines that help retain these experiences.</p>
                         </div>
                     </Col>
                 </Row>
@@ -53,11 +51,10 @@ const BrandQuidesMatter = () => {
                     </Col>
                     <Col md={5}>
                         <div className="brandingServices-text-parent2">
-                            <h1 className="brandingServices-text-heading">Logo Design</h1>
+                            <h1 className="brandingServices-text-heading">Increased Revenue</h1>
                             <div className="brandingServices-head-text-separator"></div>
                             <p className="brandingServices-text">
-                            Your company logo is the “face” of your business. At Igloo, we develop strong logos based on a powerfully defined brand identity. We incorporate carefully crafted visual elements that communicate what your business represents to consumers.
-                            </p>
+                            Brand consistency has the potential to increase revenue by 23%. By outsourcing a singular team that works with a deep knowledge of your brand, you can significantly improve your bottom line.</p>
                         </div>
                     </Col>
                     <Col md={1}>
@@ -67,11 +64,10 @@ const BrandQuidesMatter = () => {
                     </Col>
                     <Col md={5}>
                         <div className="brandingServices-text-parent2">
-                            <h1 className="brandingServices-text-heading">Logo Design</h1>
+                            <h1 className="brandingServices-text-heading">Streamlined Processes</h1>
                             <div className="brandingServices-head-text-separator"></div>
                             <p className="brandingServices-text">
-                            Your company logo is the “face” of your business. At Igloo, we develop strong logos based on a powerfully defined brand identity. We incorporate carefully crafted visual elements that communicate what your business represents to consumers.
-                            </p>
+                            Brand guidelines aren’t just useful for consumers—they’re also helpful for your native design team as they carry out your communications and marketing plans.</p>
                         </div>
                     </Col>
                 </Row>

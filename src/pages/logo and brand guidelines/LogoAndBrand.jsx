@@ -7,6 +7,9 @@ import LogoAnaBrandGuide from './logoAndBrandGuide/LogoAnaBrandGuide'
 import Portfolio from './portfolio/Portfolio'
 import BrandQuidesMatter from './brandQuidesMatter/BrandQuidesMatter'
 import GetNotice from './getNotice/GetNotice'
+import BrandGuidelines from './brandGuidelines/BrandGuidelines'
+import Faqs from './faqs/Faqs'
+import LastInsight from './lastInsight/LastInsight'
 const LogoAndBrand = () => {
   return (
     <>
@@ -14,11 +17,13 @@ const LogoAndBrand = () => {
         <LogoAnaBrandGuide />
         <Portfolio />
         <BrandQuidesMatter />
-
         <GetNotice />
-        {/* <StillHaveQuestion /> */}
+        <BrandGuidelines />
+        <StillHaveQuestion />
         <Bounce />
         <BookConsultation />
+        <Faqs/>
+        <LastInsight />
     </>
 )
 }

@@ -9,7 +9,8 @@ const Crousel = () => {
                     Home &nbsp; | &nbsp; Logo and Brand Guidelines / Style Guides
                 </p>
             </div>
-        </div>)
+        </div>
+    )
 }
 
 export default Crousel

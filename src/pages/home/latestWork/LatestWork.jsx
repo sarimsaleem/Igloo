@@ -34,7 +34,8 @@ const LatestWork = () => {
                 >
                     View All Portfolio
                 </Button>
-            </div>        </div>
+            </div>
+        </div>
     )
 }
 

@@ -1,0 +1,46 @@
+.brandGuideMatter {}
+
+.brandGuideMatter-text-parent {}
+
+.brandGuideMatter-heading {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    line-height: 34px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.brandGuideMatter-seperator {
+    width: 40px;
+    height: 2px;
+    background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
+    margin: 24px auto 20px auto;
+}
+
+.brandGuideMatter-detail {
+    margin: 0 0 22px;
+    color: #494646;
+    font-size: 16px;
+    text-align: center;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    letter-spacing: .3px;
+    font-family: "Open Sans";
+}
+
+.brandingServices-text-parent2 {
+    /* margin-top: 50px; */
+
+}
+
+.brandGuideMatter-parent {
+    display: flex;
+    align-items: start;
+    margin: 30px 0 0;
+    padding: 10px;
+
+}

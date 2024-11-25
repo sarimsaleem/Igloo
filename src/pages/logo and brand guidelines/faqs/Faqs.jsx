@@ -1,6 +1,6 @@
 import React from 'react';
 import { Accordion, Col, Row } from 'react-bootstrap'; // Assuming you're using React Bootstrap
-import './Faqs.css';
+import './faqs.css';
 
 const Faqs = () => {
   return (

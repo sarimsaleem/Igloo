@@ -15,8 +15,6 @@ const BrandGuidelines = () => {
                 <div className="brandguidelines-seperator"></div>
                 <p className='brandguidelines-detail'>
                     At Igloo, we produce on-brand content, no matter the medium you choose. Below are the premier logo and brand guideline services we provide.</p>
-
-                    
             </Container>
             <Row className="brandingServices-parent">
                     <Col md={2}>

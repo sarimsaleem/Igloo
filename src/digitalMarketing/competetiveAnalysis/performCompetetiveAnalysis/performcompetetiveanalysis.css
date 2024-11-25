@@ -1,0 +1,52 @@
+.competetiveanalysis-imageContainer {
+    width: 100%;
+  }
+  
+  .competetiveanalysis-imageContainer img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .brandingServices-list {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin-top: 30px;
+  }
+
+.brandingServices-list li {
+    white-space: nowrap;
+    margin: 0 20px;
+    color: #555555;
+}
+
+.socialMedia-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: start;
+  padding: 0 10px;
+  margin: 20px 0;
+}
+
+.socialMedia-item {
+  display: flex;
+  align-items: center;
+  margin: 0 20px 0 0;
+}
+
+.socialMedia-icon {
+  font-size: 24px;
+  color: #72235C;
+  margin: 0 13px 0 0;
+  margin-bottom: 5px;
+}
+
+.socialMedia-name {
+  font-size: 16px;
+  color: #333;
+  white-space: nowrap;
+}
+

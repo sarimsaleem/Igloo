@@ -9,6 +9,7 @@ import Bounce from './bounce/Bounce'
 import OurClients from './ourClients/OurClients'
 import BookConsultation from './bookConsultation/BookConsultation'
 import Banner from '../../components/Crousel/Banner'
+import CaseStudy from './caseStudy/CaseStudy'
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
             <LatestWork />
             <OurServices />
             <LeaderShip />
+            <CaseStudy />  
             <Bounce />
             <OurClients />
             <BookConsultation />

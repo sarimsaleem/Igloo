@@ -8,6 +8,8 @@ import Home from './pages/home/Home';
 import Branding from "./pages/branding/Branding"
 import LogoAndBrand from './pages/logo and brand guidelines/LogoAndBrand';
 import PackagesDesign from './pages/packagesDesign/PackagesDesign';
+import DigitalMarketing from './digitalMarketing/digitalMarketing/DigitalMarketing';
+import CompetetiveAnalysis from './digitalMarketing/competetiveAnalysis/CompetetiveAnalysis';
 const App = () => {
     return (
         <div>
@@ -18,6 +20,8 @@ const App = () => {
                     <Route path='/branding' element={<Branding />} />
                     <Route path='/logo-and-brand-guidelines' element={<LogoAndBrand />} />
                     <Route path='/packaging-design' element={<PackagesDesign />} />
+                    <Route path='/digital-marketing-agency-in-dubai' element={<DigitalMarketing />} />
+                    <Route path='/competitive-analysis' element={<CompetetiveAnalysis />} />
                 </Routes>
                 <Footer />
             </Router>

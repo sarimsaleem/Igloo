@@ -38,7 +38,7 @@ const Header = ({ bgColor }) => {
     return (
         <Navbar expand="lg" className={`${scrolled ? 'navbar-scrolled' : ''} ${bgClass}`}>
             <Container>
-                <Navbar.Brand href=""><img className='logo' src={logo} alt="Logo" /></Navbar.Brand>
+                <Navbar.Brand onClick={ () => navigate("/")}><img className='logo' src={logo} alt="Logo" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
@@ -50,9 +50,9 @@ const Header = ({ bgColor }) => {
                             <NavDropdown.Item onClick={() => navigate("/packaging-design")}>Packaging Design</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Digital Marketing" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/">Digital Marketing</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/digital-marketing-agency-in-dubai")}>Digital Marketing</NavDropdown.Item>
                             <Divider className='navbar-divider'/>
-                            <NavDropdown.Item href="/">Competitive Analysis</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/competitive-analysis")}>Competitive Analysis</NavDropdown.Item>
                             <Divider className='navbar-divider'/>
                             <NavDropdown.Item href="/">Marketing Automation</NavDropdown.Item>
                             <Divider className='navbar-divider'/>

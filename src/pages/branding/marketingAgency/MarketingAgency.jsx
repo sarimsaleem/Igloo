@@ -11,8 +11,6 @@ const MarketingAgency = () => {
       <p className='agency-description'>
         The Igloo branding team has worked with B2B, B2C, and e-commerce businesses across the region and beyond for over 15 years. We’ve launched hundreds of successful campaigns and helped our clients exceed their business goals through branding
       </p>
-      {/* <button className='consultation-button'>BOOK A FREE CONSULTATION</button> */}
-
       <Row style={{marginTop:"50px"}}>
         <Col md={4}>
           <div className="agency-column">

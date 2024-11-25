@@ -1,0 +1,12 @@
+.caseStudy-main-heading{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    line-height: 34px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    padding-top: 39px;
+    text-align: center;
+    margin: 0;
+}

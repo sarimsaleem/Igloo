@@ -10,7 +10,7 @@ import { Col, Row } from 'react-bootstrap';
 const Portfolio = () => {
   return (
     <div className='portfolio'>
-      <h1 className='portfolio-h1'>PORTFOLIO</h1>
+      <h1 className='portfolio-h1' style={{textAlign: "center", fontSize: "30px", fontWeight: "600"}}>PORTFOLIO</h1>
       <Row style={{ '--bs-gutter-x': '0px' }}>
         <Col md={4}>
           <div className="portfolio-cart-container">

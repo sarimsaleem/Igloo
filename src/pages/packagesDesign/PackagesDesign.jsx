@@ -8,6 +8,7 @@ import GetNotice from '../logo and brand guidelines/getNotice/GetNotice'
 import BrandGuidelines from './brandGuidelines/BrandGuidelines'
 import LastInsight from '../logo and brand guidelines/lastInsight/LastInsight'
 import Faqs from '../logo and brand guidelines/faqs/Faqs'
+import Bounce from '../home/bounce/Bounce'
 
 const PackagesDesign = () => {
   return (
@@ -19,6 +20,7 @@ const PackagesDesign = () => {
         <GetNotice />
         <BrandGuidelines />
         <StillHaveQuestion />
+        <Bounce />
         <Faqs/>
         <LastInsight />
     </>

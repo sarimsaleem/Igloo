@@ -5,9 +5,9 @@ const Crousel = () => {
   return (
     <div className='crousel'>
       <div className='crousel-overlay'>
-        <h1 className='branding-crousel-heading'>DIGITAL MARKETING AGENCY IN DUBAI</h1>
+        <h1 className='branding-crousel-heading'>Branding Agency in Dubai</h1>
         <p className='breadcrumb'>
-          Home &nbsp; | &nbsp; DIGITAL MARKETING AGENCY IN DUBAI
+          Home &nbsp; | &nbsp; Branding Agency in Dubai
         </p>
       </div>
     </div>

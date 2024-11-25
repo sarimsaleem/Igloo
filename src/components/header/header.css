@@ -40,12 +40,16 @@
         font-weight: 600;
         letter-spacing: 1px;
     }
+    .navbar-expand-lg .navbar-nav .dropdown-menu{
+        padding: 0;
+    }
 
     .navbar .dropdown-menu .dropdown-item {
         color: #c8c8c8;
         font-family: 'Open Sans';
         text-transform: uppercase;
         font-size: 11px;
+        padding: 10px;
     }
 
     .navbar .dropdown-menu .dropdown-item:hover {

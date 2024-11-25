@@ -14,11 +14,10 @@ const Branding = () => {
             <MarketingAgency />
             <Portfolio />
             <BrandingAgencyChoose />
-            <BrandingServices /> 
+            <BrandingServices />
             <StillHaveQuestion />
             <Bounce />
-            <BookConsultation />    
-        
+            <BookConsultation />
         </>
     )
 }

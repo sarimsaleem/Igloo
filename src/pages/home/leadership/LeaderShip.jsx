@@ -6,7 +6,6 @@ import section2 from "../../../assets/section6-2.jpg"
 import section3 from "../../../assets/section6-3.jpg"
 import section4 from "../../../assets/section6-4.jpg"
 import section5 from "../../../assets/section6-5.jpg"
-import section6 from "../../../assets/section6-6.jpg"
 
 const LeaderShip = () => {
     return (
@@ -46,23 +45,7 @@ const LeaderShip = () => {
                     </Row>
                 </Container>
             </div>
-            <div className="section6-subparent">
-                <Row style={{ "--bs-gutter-x": "0" }}>
-                    <Col md={6} style={{ padding: "0px" }}>
-                        <div className="section6-image-parent">
-                            <img src={section6} alt="" />
-                        </div>
-                    </Col>
-                    <Col md={6} style={{ padding: "0px" }}>
-                        <div className="section6-subparent-text-parent">
-                            <h1 className='section6-subparent-text-heading'>GMCClinics Case Study</h1>
-                            <h4 className='section6-subparent-text-subHead'>Group of Clinics | GMCClinics</h4>
-                            <p className='section6-subparent-text' >GMCClinics first contacted Igloo to help them acquire new patients (PPC) and to improve their ranking on the search engines (SEO).</p>
-                            <Button className="section6-subparent-btn">view case study</Button>
-                        </div>
-                    </Col>
-                </Row>
-            </div>
+            
 
         </>
     )

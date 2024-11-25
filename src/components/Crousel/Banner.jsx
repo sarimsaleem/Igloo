@@ -1,7 +1,7 @@
 import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import CrouselVideo from '../../assets/crousel.mp4';
-import './Banner.css';
+import './banner.css';
 
 const Banner = () => {
   return (

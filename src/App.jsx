@@ -10,6 +10,7 @@ import LogoAndBrand from './pages/logo and brand guidelines/LogoAndBrand';
 import PackagesDesign from './pages/packagesDesign/PackagesDesign';
 import DigitalMarketing from './digitalMarketing/digitalMarketing/DigitalMarketing';
 import CompetetiveAnalysis from './digitalMarketing/competetiveAnalysis/CompetetiveAnalysis';
+import MarketingAutomation from './digitalMarketing/marketingAutomation/MarketingAutomation';
 const App = () => {
     return (
         <div>
@@ -22,6 +23,7 @@ const App = () => {
                     <Route path='/packaging-design' element={<PackagesDesign />} />
                     <Route path='/digital-marketing-agency-in-dubai' element={<DigitalMarketing />} />
                     <Route path='/competitive-analysis' element={<CompetetiveAnalysis />} />
+                    <Route path='/marketing-automation' element={<MarketingAutomation />} />
                 </Routes>
                 <Footer />
             </Router>

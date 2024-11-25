@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from './Crousel/Carousel'
 import BrandingAndProduction from './brandingAndProduction/BrandingAndProduction'
-import Portfolio from './Portfolio/Portfolio'
+import Portfolio from './portfolio/Portfolio'
 import DesignedPackaging from './designedPackaging/DesignedPackaging'
 import StillHaveQuestion from '../branding/stillHaveQuestion/StillHaveQuestion'
 import GetNotice from '../logo and brand guidelines/getNotice/GetNotice'

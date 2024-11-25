@@ -25,7 +25,7 @@ const DigitalMarkeringAgency = () => {
             </div>
 
             <Container>
-                <h1 className='agency-heading'>Digital Marketing Agency</h1>
+                <h1 className='agency-heading'>Why Hire a Digital Marketing Agency?</h1>
                 <div className='heading-underline'></div>
                 <p className='agency-description'>
                     Not all businesses have the time, resources, or expertise to manage their own digital marketing campaigns. However, all businesses need to market their products and services. Hiring a digital marketing agency will make sense for you if:</p>

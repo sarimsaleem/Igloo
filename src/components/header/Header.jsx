@@ -54,7 +54,7 @@ const Header = ({ bgColor }) => {
                             <Divider className='navbar-divider'/>
                             <NavDropdown.Item onClick={() => navigate("/competitive-analysis")}>Competitive Analysis</NavDropdown.Item>
                             <Divider className='navbar-divider'/>
-                            <NavDropdown.Item href="/">Marketing Automation</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/marketing-automation")}>Marketing Automation</NavDropdown.Item>
                             <Divider className='navbar-divider'/>
                             <NavDropdown.Item href="/">Email Marketing</NavDropdown.Item>
                             <Divider className='navbar-divider'/>

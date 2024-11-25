@@ -5,7 +5,7 @@ import footerimg1 from "../../assets/1.svg"
 import footerimg2 from "../../assets/2.svg"
 import footerimg3 from "../../assets/3.svg"
 import footerimg4 from "../../assets/4.svg"
-import Logo from '../../assets/Logo.png';
+import Logo from '../../assets/logo.png';
 import "./footer.css"
 import { FacebookOutlined, InstagramOutlined, LinkedinOutlined } from '@ant-design/icons';
 

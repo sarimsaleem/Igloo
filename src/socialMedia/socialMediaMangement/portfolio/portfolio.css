@@ -1,0 +1,33 @@
+.portfolio-container{
+    padding: 50px 0;
+}
+
+.video-frame{
+    width: 100%;
+    height: 800px;
+}
+.socialMedia-porfolio-heading{
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.portfolio-cart-container {
+    overflow: hidden;
+    position: relative;
+    /* border: 1px solid #ddd; */
+    border-radius: 0;
+  }
+  
+  .portfolio-cart-container img {
+    width: 100%; 
+    height: auto; 
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .portfolio-cart-container img:hover {
+    transform: scale(1.1); 
+  }
+  

@@ -14,6 +14,8 @@ import MarketingAutomation from './digitalMarketing/marketingAutomation/Marketin
 import EmailMarketing from './digitalMarketing/emailMarketing/EmailMarketing';
 import ChatBot from './digitalMarketing/chatBot/ChatBot';
 import ContentCreationMaintenance from './digitalMarketing/contentCreationMaintenance/ContentCreationMaintenance';
+import SocialMediaManegement from './socialMedia/socialMediaMangement/SocialMediaManegement';
+import CommunityManagement from './socialMedia/communityManagement/CommunityManagement';
 const App = () => {
     return (
         <div>
@@ -30,6 +32,8 @@ const App = () => {
                     <Route path='/email-marketing' element={<EmailMarketing />} />
                     <Route path='/chatbots-live-chat' element={<ChatBot />} />
                     <Route path='/content-creation-and-maintenance' element={<ContentCreationMaintenance />} />
+                    <Route path='/social-media-agency-in-dubai' element={<SocialMediaManegement />} />
+                    <Route path='/community-management' element={<CommunityManagement />} />
                 </Routes>
                 <Footer />
             </Router>

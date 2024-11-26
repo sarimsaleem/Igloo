@@ -11,6 +11,9 @@ import PackagesDesign from './pages/packagesDesign/PackagesDesign';
 import DigitalMarketing from './digitalMarketing/digitalMarketing/DigitalMarketing';
 import CompetetiveAnalysis from './digitalMarketing/competetiveAnalysis/CompetetiveAnalysis';
 import MarketingAutomation from './digitalMarketing/marketingAutomation/MarketingAutomation';
+import EmailMarketing from './digitalMarketing/emailMarketing/EmailMarketing';
+import ChatBot from './digitalMarketing/chatBot/ChatBot';
+import ContentCreationMaintenance from './digitalMarketing/contentCreationMaintenance/ContentCreationMaintenance';
 const App = () => {
     return (
         <div>
@@ -24,6 +27,9 @@ const App = () => {
                     <Route path='/digital-marketing-agency-in-dubai' element={<DigitalMarketing />} />
                     <Route path='/competitive-analysis' element={<CompetetiveAnalysis />} />
                     <Route path='/marketing-automation' element={<MarketingAutomation />} />
+                    <Route path='/email-marketing' element={<EmailMarketing />} />
+                    <Route path='/chatbots-live-chat' element={<ChatBot />} />
+                    <Route path='/content-creation-and-maintenance' element={<ContentCreationMaintenance />} />
                 </Routes>
                 <Footer />
             </Router>

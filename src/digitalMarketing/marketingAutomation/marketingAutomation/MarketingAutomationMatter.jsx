@@ -86,6 +86,6 @@ const MarketingAutomationMatter = () => {
             </Container>
         </div>
     )
-}
+} 
 
 export default MarketingAutomationMatter

@@ -84,7 +84,7 @@ const Header = ({ bgColor }) => {
                             <Divider className='navbar-divider' />
                             <NavDropdown.Item onClick={() => navigate("/community-management")}>Community Management</NavDropdown.Item>
                             <Divider className='navbar-divider' />
-                            <NavDropdown.Item onClick={() => navigate("/content-creation-and-maintenance")}>Influencer Marketing</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/influencer-marketing")}>Influencer Marketing</NavDropdown.Item>
                             <Divider className='navbar-divider' />
                             <NavDropdown.Item onClick={() => navigate("/content-creation-and-maintenance")}>Photography and Videography</NavDropdown.Item>
                         </NavDropdown>

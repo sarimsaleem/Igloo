@@ -16,6 +16,7 @@ import ChatBot from './digitalMarketing/chatBot/ChatBot';
 import ContentCreationMaintenance from './digitalMarketing/contentCreationMaintenance/ContentCreationMaintenance';
 import SocialMediaManegement from './socialMedia/socialMediaMangement/SocialMediaManegement';
 import CommunityManagement from './socialMedia/communityManagement/CommunityManagement';
+import InfluencerMarketing from './socialMedia/influencerMarketing/InfluencerMarketing';
 const App = () => {
     return (
         <div>
@@ -34,6 +35,7 @@ const App = () => {
                     <Route path='/content-creation-and-maintenance' element={<ContentCreationMaintenance />} />
                     <Route path='/social-media-agency-in-dubai' element={<SocialMediaManegement />} />
                     <Route path='/community-management' element={<CommunityManagement />} />
+                    <Route path='/influencer-marketing' element={<InfluencerMarketing />} />
                 </Routes>
                 <Footer />
             </Router>

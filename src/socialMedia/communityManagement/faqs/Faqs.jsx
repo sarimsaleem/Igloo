@@ -50,7 +50,7 @@ const Faqs = () => {
             <Accordion.Item className='accordion-box' eventKey="4">
               <Accordion.Header className='accordion-heading'>Where is your digital marketing team based?
               </Accordion.Header>
-              <Accordion.Body >
+              <Accordion.Body > 
                 Our team is based in Dubai, France, UK, US, Serbia, Poland, India, and Lebanon.
               </Accordion.Body>
             </Accordion.Item>

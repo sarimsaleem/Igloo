@@ -65,9 +65,9 @@ const Header = ({ bgColor }) => {
                         <NavDropdown title="Search/Media Buying" id="basic-nav-dropdown">
                             <NavDropdown.Item onClick={() => navigate("/ppc-management-agency")}>PPC/Google Ads</NavDropdown.Item>
                             <Divider className='navbar-divider' />
-                            <NavDropdown.Item onClick={() => navigate("/content-creation-and-maintenance")}>SEO</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/seo-agency-in-dubai")}>SEO</NavDropdown.Item>
                             <Divider className='navbar-divider' />
-                            <NavDropdown.Item onClick={() => navigate("/content-creation-and-maintenance")}>Lead Generation</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/lead-generation-agency")}>Lead Generation</NavDropdown.Item>
                             <Divider className='navbar-divider' />
                             <NavDropdown.Item onClick={() => navigate("/content-creation-and-maintenance")}>Insights and Analytics</NavDropdown.Item>
                             <Divider className='navbar-divider' />

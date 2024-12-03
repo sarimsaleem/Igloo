@@ -1,11 +1,11 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import { Col, Row } from 'react-bootstrap'
-import brandguidelines1 from "../../assets/ppcService1.svg"
-import brandguidelines2 from "../../assets/ppcService2.svg"
-import brandguidelines3 from "../../assets/ppcService3.svg"
-import brandguidelines4 from "../../assets/ppcService4.svg"
-import brandguidelines5 from "../../assets/ppcService5.svg"
+import brandguidelines1 from "../../../assets/ppcService1.svg"
+import brandguidelines2 from "../../../assets/ppcService2.svg"
+import brandguidelines3 from "../../../assets/ppcService3.svg"
+import brandguidelines4 from "../../../assets/ppcService4.svg"
+import brandguidelines5 from "../../../assets/ppcService5.svg"
 const OurServices = () => {
     return (
         <div>

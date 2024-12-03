@@ -1,29 +1,30 @@
 import React from 'react';
 import Slider from 'react-slick';
+import "./casestudy.css";
 import { Button } from 'react-bootstrap';
-import caseStudy1 from "../../assets/section6-6.jpg";
-import caseStudy2 from "../../assets/caseStudy2.jpg";
-import caseStudy3 from "../../assets/caseStudy3.jpg";
-import "./caseStudy.css"
+import section6 from "../../../assets/section6-6.jpg";
+import caseStudy10 from "../../../assets/caseStudy2.jpg";
+import caseStudy11 from "../../../assets/caseStudy3.jpg";
+
 const CaseStudy = () => {
     const sliderData = [
         {
-            image: caseStudy1,
-            heading: "Google Ads Case Study",
-            subHead: "International School in Dubai | UAE",
-            text: "To increase the ROI of Ad Spend",
+            image: section6,
+            heading: "GMCClinics Case Study",
+            subHead: "Group of Clinics | GMCClinics",
+            text: "GMCClinics first contacted Igloo to help them acquire new patients (PPC) and to improve their ranking on the search engines (SEO).",
         },
         {
-            image: caseStudy2,
-            heading: "Google Ads Case Study",
-            subHead: "Leading Waterpark in Dubai | UAE",
+            image: caseStudy10,
+            heading: "Another Case Study",
+            subHead: "Another Group | Company ABC",
             text: "Company ABC reached out to improve their brand presence and digital footprint.",
         },
         {
-            image: caseStudy3,
-            heading: "Google Ads Case Study",
-            subHead: "Online Gift Shop in the UAE | UAE",
-            text: "To increase the ROI of Ad Spend",
+            image: caseStudy11,
+            heading: "XYZ Corp Case Study",
+            subHead: "Tech Industry | XYZ Corp",
+            text: "XYZ Corp aimed to enhance their customer engagement and increase conversions through PPC campaigns.",
         },
     ];
 
@@ -46,7 +47,7 @@ const CaseStudy = () => {
                             <div className="section6-slide-content">
                                 <div style={{ display: "flex", flexDirection: "row" }}>
                                     <div style={{ flex: 1 }}>
-                                        <div className="caseStudy-image-parent">
+                                        <div className="section6-image-parent">
                                             <img src={slide.image} alt={slide.heading} />
                                         </div>
                                     </div>

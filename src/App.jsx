@@ -18,6 +18,8 @@ import SocialMediaManegement from './socialMedia/socialMediaMangement/SocialMedi
 import CommunityManagement from './socialMedia/communityManagement/CommunityManagement';
 import InfluencerMarketing from './socialMedia/influencerMarketing/InfluencerMarketing';
 import MediaBuying from './mediaBuying/MediaBuying';
+import SEOs from './mediaBuying/seo/SEOs';
+import LeadGeneration from './mediaBuying/leadGeneration/LeadGeneration';
 const App = () => {
     return (
         <div>
@@ -38,6 +40,8 @@ const App = () => {
                     <Route path='/community-management' element={<CommunityManagement />} />
                     <Route path='/influencer-marketing' element={<InfluencerMarketing />} />
                     <Route path='/ppc-management-agency' element={<MediaBuying />} />
+                    <Route path='/seo-agency-in-dubai' element={<SEOs />} />
+                    <Route path='/lead-generation-agency' element={<LeadGeneration />} />
                 </Routes>
                 <Footer />
             </Router>

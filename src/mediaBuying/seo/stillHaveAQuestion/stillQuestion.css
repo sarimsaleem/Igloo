@@ -1,0 +1,12 @@
+.stillQuestion-bg-Img {
+    position: relative;
+    top: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 546px;
+    height: 252px;
+    background-image: url("../../../assets/stillQuestion-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+}

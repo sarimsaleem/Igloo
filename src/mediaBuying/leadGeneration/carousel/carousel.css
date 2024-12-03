@@ -1,8 +1,8 @@
-.media-carousel{
+.lead-gen-carousel{
     position: relative;
     width: 100%;
     height: 300px;
-    background: url('../../assets/media-carousel.jpg');
+    background: url('../../../assets/lead-gen-carousel.jpg');
     display: flex;
     justify-content: center;
     align-items: center;

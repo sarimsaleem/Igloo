@@ -20,7 +20,8 @@ const ContentMarketing = () => {
                 <Button className="logoAndBrand-btn" >BOOK A FREE CONSULTATION
                 </Button>
             </div>
-        </Container>)
+        </Container>
+        )
 }
 
 export default ContentMarketing

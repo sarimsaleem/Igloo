@@ -17,6 +17,7 @@ import ContentCreationMaintenance from './digitalMarketing/contentCreationMainte
 import SocialMediaManegement from './socialMedia/socialMediaMangement/SocialMediaManegement';
 import CommunityManagement from './socialMedia/communityManagement/CommunityManagement';
 import InfluencerMarketing from './socialMedia/influencerMarketing/InfluencerMarketing';
+import MediaBuying from './mediaBuying/MediaBuying';
 const App = () => {
     return (
         <div>
@@ -36,6 +37,7 @@ const App = () => {
                     <Route path='/social-media-agency-in-dubai' element={<SocialMediaManegement />} />
                     <Route path='/community-management' element={<CommunityManagement />} />
                     <Route path='/influencer-marketing' element={<InfluencerMarketing />} />
+                    <Route path='/ppc-management-agency' element={<MediaBuying />} />
                 </Routes>
                 <Footer />
             </Router>

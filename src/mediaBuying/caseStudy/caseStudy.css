@@ -1,0 +1,11 @@
+.caseStudy-image-parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caseStudy-image-parent img{
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+}

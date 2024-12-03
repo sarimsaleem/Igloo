@@ -20,7 +20,7 @@
 .faqs-divider {
     width: 100px;
     height: 3px;
-    background-color: #6e1d3c;
+    background: #6e1d3c;
     margin: 10px auto 30px;
     border: none;
 }

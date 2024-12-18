@@ -1,0 +1,11 @@
+.insight-carousel{
+
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background: url('../../../assets/insight-carousesl.jpg');
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+}

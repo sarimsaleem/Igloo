@@ -17,9 +17,11 @@ import ContentCreationMaintenance from './digitalMarketing/contentCreationMainte
 import SocialMediaManegement from './socialMedia/socialMediaMangement/SocialMediaManegement';
 import CommunityManagement from './socialMedia/communityManagement/CommunityManagement';
 import InfluencerMarketing from './socialMedia/influencerMarketing/InfluencerMarketing';
-import MediaBuying from './mediaBuying/MediaBuying';
 import SEOs from './mediaBuying/seo/SEOs';
 import LeadGeneration from './mediaBuying/leadGeneration/LeadGeneration';
+import InsightsAnalytics from './mediaBuying/insightsAnalytics/InsightsAnalytics';
+import PPCs from './mediaBuying/ppc/PPCs';
+import FacebookAdds from './mediaBuying/facebookAdds/FacebookAdds';
 const App = () => {
     return (
         <div>
@@ -39,9 +41,11 @@ const App = () => {
                     <Route path='/social-media-agency-in-dubai' element={<SocialMediaManegement />} />
                     <Route path='/community-management' element={<CommunityManagement />} />
                     <Route path='/influencer-marketing' element={<InfluencerMarketing />} />
-                    <Route path='/ppc-management-agency' element={<MediaBuying />} />
+                    <Route path='/ppc-management-agency' element={<PPCs />} />
                     <Route path='/seo-agency-in-dubai' element={<SEOs />} />
                     <Route path='/lead-generation-agency' element={<LeadGeneration />} />
+                    <Route path='/insights-and-analytics' element={<InsightsAnalytics />} />
+                    <Route path='/facebook-ads' element={<FacebookAdds />} />
                 </Routes>
                 <Footer />
             </Router>

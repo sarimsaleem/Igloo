@@ -1,11 +1,6 @@
 import React from 'react'
 import "./facebookAdManagement.css"
 import { Col, Container, Row } from 'react-bootstrap'
-import brandguidelines1 from "../../../assets/googleAna1.svg"
-import brandguidelines2 from "../../../assets/googleAna2.svg"
-import brandguidelines3 from "../../../assets/googleAna3.svg"
-import brandguidelines4 from "../../../assets/googleAna4.svg"
-
 import brandGuideMatter1 from "../../../assets/insight1.svg"
 import brandGuideMatter2 from "../../../assets/insight2.svg"
 import brandGuideMatter3 from "../../../assets/insight3.svg"

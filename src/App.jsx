@@ -22,6 +22,9 @@ import LeadGeneration from './mediaBuying/leadGeneration/LeadGeneration';
 import InsightsAnalytics from './mediaBuying/insightsAnalytics/InsightsAnalytics';
 import PPCs from './mediaBuying/ppc/PPCs';
 import FacebookAdds from './mediaBuying/facebookAdds/FacebookAdds';
+import InstagramAds from './mediaBuying/instagramAds/InstagramAds';
+
+
 const App = () => {
     return (
         <div>
@@ -46,6 +49,7 @@ const App = () => {
                     <Route path='/lead-generation-agency' element={<LeadGeneration />} />
                     <Route path='/insights-and-analytics' element={<InsightsAnalytics />} />
                     <Route path='/facebook-ads' element={<FacebookAdds />} />
+                    <Route path='/instagram-ads' element={<InstagramAds />} />
                 </Routes>
                 <Footer />
             </Router>

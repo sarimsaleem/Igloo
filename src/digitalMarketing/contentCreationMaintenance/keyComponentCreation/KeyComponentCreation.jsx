@@ -4,7 +4,7 @@ import emailMarketinImg from "../../../assets/Competitive-Analysis-img_1.jpg";
 import { Col, Container, Row } from 'react-bootstrap';
 import emailMarketinImg1 from "../../../assets/keyComponent1.svg";
 import emailMarketinImg2 from "../../../assets/keyComponent2.svg";
-import keyComponent3 from "../../../assets/keycomponent3.png";
+import emailMarketinImg3 from "../../../assets/keycomponent3.png";
 import emailMarketinImg4 from "../../../assets/keyComponent4.svg";
 
 
@@ -50,7 +50,7 @@ const KeyComponentCreation = () => {
           <Row className="brandGuideMatter-parent">
             <Col md={1}>
               <div className="brandingServices-icon-parent">
-                <img src={keyComponent3} alt="Branding Icon" className="brandingServices-icon" />
+                <img src={emailMarketinImg3} alt="Branding Icon" className="brandingServices-icon" />
               </div>
             </Col>
             <Col md={5}>

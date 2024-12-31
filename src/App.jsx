@@ -37,7 +37,7 @@ const App = () => {
                     <Route path='/logo-and-brand-guidelines' element={<LogoAndBrand />} />
                     <Route path='/packaging-design' element={<PackagesDesign />} />
                     <Route path='/digital-marketing-agency-in-dubai' element={<DigitalMarketing />} />
-                    {/* <Route path='/competitive-analysis' element={<CompetetiveAnalysis />} />
+                    <Route path='/competitive-analysis' element={<CompetetiveAnalysis />} />
                     <Route path='/marketing-automation' element={<MarketingAutomation />} />
                     <Route path='/email-marketing' element={<EmailMarketing />} />
                     <Route path='/chatbots-live-chat' element={<ChatBot />} />
@@ -52,7 +52,7 @@ const App = () => {
                     <Route path='/facebook-ads' element={<FacebookAdds />} />
                     <Route path='/instagram-ads' element={<InstagramAds />} />
                     <Route path='/linkedin-ads' element={<Linkdin />} />
-                    <Route path='/youtube-ads' element={<Youtube />} /> */}
+                    <Route path='/youtube-ads' element={<Youtube />} />
                 </Routes>
                 <Footer />
             </Router>

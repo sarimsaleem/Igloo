@@ -23,6 +23,8 @@ import InsightsAnalytics from './mediaBuying/insightsAnalytics/InsightsAnalytics
 import PPCs from './mediaBuying/ppc/PPCs';
 import FacebookAdds from './mediaBuying/facebookAdds/FacebookAdds';
 import InstagramAds from './mediaBuying/instagramAds/InstagramAds';
+import Linkdin from './mediaBuying/linkdin/Linkdin';
+import Youtube from './mediaBuying/youtube/Youtube';
 
 
 const App = () => {
@@ -50,6 +52,8 @@ const App = () => {
                     <Route path='/insights-and-analytics' element={<InsightsAnalytics />} />
                     <Route path='/facebook-ads' element={<FacebookAdds />} />
                     <Route path='/instagram-ads' element={<InstagramAds />} />
+                    <Route path='/linkedin-ads' element={<Linkdin />} />
+                    <Route path='/youtube-ads' element={<Youtube />} />
                 </Routes>
                 <Footer />
             </Router>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from "./carousel/Carousel"
 import ContentMarketingAgency from './contentMarketingAgency/ContentMarketingAgency'
-import KeyComponentCreation from './keyComponentCreation/KeyComponentCreation'
+// import KeyComponentCreation from './keyComponentCreation/KeyComponentCreation'
 import OurClients from './ourClients/OurClients'
 import ContentMaintenanceServices from './contentMaintenanceServices/ContentMaintenanceServices'
 import LastInsight from '../../pages/logo and brand guidelines/lastInsight/LastInsight'
@@ -14,7 +14,7 @@ const ContentCreationMaintenance = () => {
     <>
       <Carousel />
       <ContentMarketingAgency />
-      <KeyComponentCreation />
+      {/* <KeyComponentCreation /> */}
       <OurClients />
       <ContentMaintenanceServices />
       <StillHaveAQuestion /> 

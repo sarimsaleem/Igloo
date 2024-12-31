@@ -23,9 +23,8 @@ import InsightsAnalytics from './mediaBuying/insightsAnalytics/InsightsAnalytics
 import PPCs from './mediaBuying/ppc/PPCs';
 import FacebookAdds from './mediaBuying/facebookAdds/FacebookAdds';
 import InstagramAds from './mediaBuying/instagramAds/InstagramAds';
-import Linkdin from './mediaBuying/linkdin/Linkdin';
 import Youtube from './mediaBuying/youtube/Youtube';
-
+import Linkdin from "./mediaBuying/linkdin/Linkdin"
 
 const App = () => {
     return (

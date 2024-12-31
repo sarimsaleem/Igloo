@@ -9,22 +9,22 @@ import Branding from "./pages/branding/Branding"
 import LogoAndBrand from './pages/logo and brand guidelines/LogoAndBrand';
 import PackagesDesign from './pages/packagesDesign/PackagesDesign';
 import DigitalMarketing from './digitalMarketing/digitalMarketing/DigitalMarketing';
-import CompetetiveAnalysis from './digitalMarketing/competetiveAnalysis/CompetetiveAnalysis';
-import MarketingAutomation from './digitalMarketing/marketingAutomation/MarketingAutomation';
-import EmailMarketing from './digitalMarketing/emailMarketing/EmailMarketing';
-import ChatBot from './digitalMarketing/chatBot/ChatBot';
-import ContentCreationMaintenance from './digitalMarketing/contentCreationMaintenance/ContentCreationMaintenance';
-import SocialMediaManegement from './socialMedia/socialMediaMangement/SocialMediaManegement';
-import CommunityManagement from './socialMedia/communityManagement/CommunityManagement';
-import InfluencerMarketing from './socialMedia/influencerMarketing/InfluencerMarketing';
-import SEOs from './mediaBuying/seo/SEOs';
-import LeadGeneration from './mediaBuying/leadGeneration/LeadGeneration';
-import InsightsAnalytics from './mediaBuying/insightsAnalytics/InsightsAnalytics';
-import PPCs from './mediaBuying/ppc/PPCs';
-import FacebookAdds from './mediaBuying/facebookAdds/FacebookAdds';
-import InstagramAds from './mediaBuying/instagramAds/InstagramAds';
-import Youtube from './mediaBuying/youtube/Youtube';
-import Linkdin from "./mediaBuying/linkdin/Linkdin"
+// import CompetetiveAnalysis from './digitalMarketing/competetiveAnalysis/CompetetiveAnalysis';
+// import MarketingAutomation from './digitalMarketing/marketingAutomation/MarketingAutomation';
+// import EmailMarketing from './digitalMarketing/emailMarketing/EmailMarketing';
+// import ChatBot from './digitalMarketing/chatBot/ChatBot';
+// import ContentCreationMaintenance from './digitalMarketing/contentCreationMaintenance/ContentCreationMaintenance';
+// import SocialMediaManegement from './socialMedia/socialMediaMangement/SocialMediaManegement';
+// import CommunityManagement from './socialMedia/communityManagement/CommunityManagement';
+// import InfluencerMarketing from './socialMedia/influencerMarketing/InfluencerMarketing';
+// import SEOs from './mediaBuying/seo/SEOs';
+// import LeadGeneration from './mediaBuying/leadGeneration/LeadGeneration';
+// import InsightsAnalytics from './mediaBuying/insightsAnalytics/InsightsAnalytics';
+// import PPCs from './mediaBuying/ppc/PPCs';
+// import FacebookAdds from './mediaBuying/facebookAdds/FacebookAdds';
+// import InstagramAds from './mediaBuying/instagramAds/InstagramAds';
+// import Youtube from './mediaBuying/youtube/Youtube';
+// import Linkdin from "./mediaBuying/linkdin/Linkdin"
 
 const App = () => {
     return (
@@ -37,7 +37,7 @@ const App = () => {
                     <Route path='/logo-and-brand-guidelines' element={<LogoAndBrand />} />
                     <Route path='/packaging-design' element={<PackagesDesign />} />
                     <Route path='/digital-marketing-agency-in-dubai' element={<DigitalMarketing />} />
-                    <Route path='/competitive-analysis' element={<CompetetiveAnalysis />} />
+                    {/* <Route path='/competitive-analysis' element={<CompetetiveAnalysis />} />
                     <Route path='/marketing-automation' element={<MarketingAutomation />} />
                     <Route path='/email-marketing' element={<EmailMarketing />} />
                     <Route path='/chatbots-live-chat' element={<ChatBot />} />
@@ -52,7 +52,7 @@ const App = () => {
                     <Route path='/facebook-ads' element={<FacebookAdds />} />
                     <Route path='/instagram-ads' element={<InstagramAds />} />
                     <Route path='/linkedin-ads' element={<Linkdin />} />
-                    <Route path='/youtube-ads' element={<Youtube />} />
+                    <Route path='/youtube-ads' element={<Youtube />} /> */}
                 </Routes>
                 <Footer />
             </Router>

@@ -75,9 +75,9 @@ const Header = ({ bgColor }) => {
                             <Divider className='navbar-divider' />
                             <NavDropdown.Item onClick={() => navigate("/instagram-ads")}>Instagram Ads</NavDropdown.Item>
                             <Divider className='navbar-divider' />
-                            <NavDropdown.Item onClick={() => navigate("/content-creation-and-maintenance")}>LinkedIn Ads</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/linkedin-ads")}>LinkedIn Ads</NavDropdown.Item>
                             <Divider className='navbar-divider' />
-                            <NavDropdown.Item onClick={() => navigate("/content-creation-and-maintenance")}>YouTube Ads</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/youtube-ads")}>YouTube Ads</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Social Media" id="basic-nav-dropdown">
                             <NavDropdown.Item onClick={() => navigate("/social-media-agency-in-dubai")}>Social Media Management</NavDropdown.Item>

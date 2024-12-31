@@ -69,6 +69,8 @@ const Footer = () => {
                             <Text style={{ display: 'block', color: '#626262' }}>11900 Biscayne Blvd, Suite 105, Miami, FL 33181</Text>
                             <Text style={{ display: 'block', color: '#626262' }}>T: +1 (305) 497-3267</Text>
                             <Text style={{ display: 'block', color: '#626262' }}>E: info@weareigloo.com</Text>
+
+
                         </Col>
                     </Row>
                     <hr style={{ margin: "0" }} />

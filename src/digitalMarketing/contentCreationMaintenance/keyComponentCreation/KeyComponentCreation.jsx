@@ -4,7 +4,7 @@ import emailMarketinImg from "../../../assets/Competitive-Analysis-img_1.jpg";
 import { Col, Container, Row } from 'react-bootstrap';
 import emailMarketinImg1 from "../../../assets/keyComponent1.svg";
 import emailMarketinImg2 from "../../../assets/keyComponent2.svg";
-import keyComponent3 from "../../../assets/keycomponent3.svg";
+import keyComponent3 from "../../../assets/keycomponent3.png";
 import emailMarketinImg4 from "../../../assets/keyComponent4.svg";
 
 

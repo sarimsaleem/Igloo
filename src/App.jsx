@@ -9,22 +9,22 @@ import Branding from "./pages/branding/Branding"
 import LogoAndBrand from './pages/logo and brand guidelines/LogoAndBrand';
 import PackagesDesign from './pages/packagesDesign/PackagesDesign';
 import DigitalMarketing from './digitalMarketing/digitalMarketing/DigitalMarketing';
-// import CompetetiveAnalysis from './digitalMarketing/competetiveAnalysis/CompetetiveAnalysis';
-// import MarketingAutomation from './digitalMarketing/marketingAutomation/MarketingAutomation';
-// import EmailMarketing from './digitalMarketing/emailMarketing/EmailMarketing';
-// import ChatBot from './digitalMarketing/chatBot/ChatBot';
-// import ContentCreationMaintenance from './digitalMarketing/contentCreationMaintenance/ContentCreationMaintenance';
-// import SocialMediaManegement from './socialMedia/socialMediaMangement/SocialMediaManegement';
-// import CommunityManagement from './socialMedia/communityManagement/CommunityManagement';
-// import InfluencerMarketing from './socialMedia/influencerMarketing/InfluencerMarketing';
-// import SEOs from './mediaBuying/seo/SEOs';
-// import LeadGeneration from './mediaBuying/leadGeneration/LeadGeneration';
-// import InsightsAnalytics from './mediaBuying/insightsAnalytics/InsightsAnalytics';
-// import PPCs from './mediaBuying/ppc/PPCs';
-// import FacebookAdds from './mediaBuying/facebookAdds/FacebookAdds';
-// import InstagramAds from './mediaBuying/instagramAds/InstagramAds';
-// import Youtube from './mediaBuying/youtube/Youtube';
-// import Linkdin from "./mediaBuying/linkdin/Linkdin"
+import CompetetiveAnalysis from './digitalMarketing/competetiveAnalysis/CompetetiveAnalysis';
+import MarketingAutomation from './digitalMarketing/marketingAutomation/MarketingAutomation';
+import EmailMarketing from './digitalMarketing/emailMarketing/EmailMarketing';
+import ChatBot from './digitalMarketing/chatBot/ChatBot';
+import ContentCreationMaintenance from './digitalMarketing/contentCreationMaintenance/ContentCreationMaintenance';
+import SocialMediaManegement from './socialMedia/socialMediaMangement/SocialMediaManegement';
+import CommunityManagement from './socialMedia/communityManagement/CommunityManagement';
+import InfluencerMarketing from './socialMedia/influencerMarketing/InfluencerMarketing';
+import SEOs from './mediaBuying/seo/SEOs';
+import LeadGeneration from './mediaBuying/leadGeneration/LeadGeneration';
+import InsightsAnalytics from './mediaBuying/insightsAnalytics/InsightsAnalytics';
+import PPCs from './mediaBuying/ppc/PPCs';
+import FacebookAdds from './mediaBuying/facebookAdds/FacebookAdds';
+import InstagramAds from './mediaBuying/instagramAds/InstagramAds';
+import Youtube from './mediaBuying/youtube/Youtube';
+import Linkdin from "./mediaBuying/linkdin/Linkdin"
 
 const App = () => {
     return (

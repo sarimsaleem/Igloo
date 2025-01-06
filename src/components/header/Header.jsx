@@ -86,14 +86,14 @@ const Header = ({ bgColor }) => {
                             <Divider className='navbar-divider' />
                             <NavDropdown.Item onClick={() => navigate("/influencer-marketing")}>Influencer Marketing</NavDropdown.Item>
                             <Divider className='navbar-divider' />
-                            <NavDropdown.Item onClick={() => navigate("/content-creation-and-maintenance")}>Photography and Videography</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/photography-and-videography")}>Photography and Videography</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Web/App" id="basic-nav-dropdown">
                             <NavDropdown.Item onClick={() => navigate("/web-design-agency-in-dubai")}>Web Design/ Development</NavDropdown.Item>
                             <Divider className='navbar-divider' />
                             <NavDropdown.Item onClick={() => navigate("/content-creation-and-maintenance")}>Mobile App Design/ Development</NavDropdown.Item>
                             <Divider className='navbar-divider' />
-                            <NavDropdown.Item onClick={() => navigate("/content-creation-and-maintenance")}>CRO</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/conversion-rate-optimization")}>CRO</NavDropdown.Item>
                             <Divider className='navbar-divider' />
                             <NavDropdown.Item onClick={() => navigate("/content-creation-and-maintenance")}>COA</NavDropdown.Item>
                             <Divider className='navbar-divider' />

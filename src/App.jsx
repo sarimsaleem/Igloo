@@ -25,6 +25,7 @@ import FacebookAdds from './mediaBuying/facebookAdds/FacebookAdds';
 import InstagramAds from './mediaBuying/instagramAds/InstagramAds';
 import Youtube from './mediaBuying/youtube/Youtube';
 import Linkdin from "./mediaBuying/linkdin/Linkdin"
+import WebDesignDevelopment from './webApp/webDesignDevelopment/WebDesignDevelopment';
 
 const App = () => {
     return (
@@ -53,6 +54,7 @@ const App = () => {
                     <Route path='/instagram-ads' element={<InstagramAds />} />
                     <Route path='/linkedin-ads' element={<Linkdin />} />
                     <Route path='/youtube-ads' element={<Youtube />} />
+                    <Route path='/web-design-agency-in-dubai' element={<WebDesignDevelopment />} />
                 </Routes>
                 <Footer />
             </Router>

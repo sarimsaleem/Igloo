@@ -8,13 +8,13 @@ import { FaLaptop } from 'react-icons/fa';
 
 const BookConsultation = () => {
     const settings = {
-        dots: true, // Show navigation dots
-        infinite: true, // Loop slides
-        speed: 500, // Animation speed
-        slidesToShow: 1, // Show 1 group of slides at a time
-        slidesToScroll: 1, // Scroll 1 group at a time
-        autoplay: true, // Enable autoplay
-        autoplaySpeed: 3000, // Speed of autoplay in milliseconds
+        dots: true, 
+        infinite: true,
+        speed: 500, 
+        slidesToShow: 1, 
+        slidesToScroll: 1, 
+        autoplay: true, 
+        autoplaySpeed: 3000, 
     };
 
     const slides = [
@@ -42,7 +42,7 @@ const BookConsultation = () => {
                     <div className="bookcolsultation-parent">
                         <Slider {...settings}>
                             {Array(2)
-                                .fill(slides) // Duplicate slides for another set
+                                .fill(slides)   
                                 .map((group, index) => (
                                     <div key={index}>
                                         <Row>

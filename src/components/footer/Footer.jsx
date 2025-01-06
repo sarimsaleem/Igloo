@@ -57,7 +57,6 @@ const Footer = () => {
                             <Text style={{ display: 'block', color: '#626262' }}>Insights and Analytics</Text>
                         </Col>
 
-                        {/* Offices Section */}
                         <Col xs={24} sm={12} md={12} lg={6}>
                             <Title level={4} style={{ color: '#000' }}>OUR OFFICES</Title>
                             <Title level={5} style={{ color: '#000', marginBlock: "5px" }}>DUBAI</Title>

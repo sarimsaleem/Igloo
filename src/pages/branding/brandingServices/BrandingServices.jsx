@@ -16,7 +16,6 @@ const BrandingServices = () => {
                 <div className="branding-seperator"></div>
                 <p className='brandingServices-detail'>We offer the following services to develop and fine-tune your company image.</p>
             </div>
-            {/* <Container> */}
                 <Row className="brandingServices-parent">
                     <Col md={2}>
                         <div className="brandingServices-icon-parent">
@@ -114,7 +113,6 @@ const BrandingServices = () => {
                         </div>
                     </Col>
                 </Row>
-            {/* </Container> */}
         </div>
     )
 }

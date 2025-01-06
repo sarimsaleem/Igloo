@@ -78,7 +78,7 @@ const GetAhead = () => {
                     <Container>
                         <Row>
                             {clients.slice(0, 4).map((client, index) => (
-                                <Col md={3} key={index}> {/* Change md={4} to md={3} for more space */}
+                                <Col md={3} key={index}> 
                                     <div className="image-box">
                                         <img src={client} alt={`Client ${index + 1}`} />
                                     </div>

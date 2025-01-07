@@ -5,7 +5,7 @@ import brandGuideMatter3 from "../../../assets/ppc3.svg"
 import brandGuideMatter4 from "../../../assets/ppc4.svg"
 import brandGuideMatter5 from "../../../assets/ppc5.svg"
 import brandGuideMatter6 from "../../../assets/ppc6.svg"
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 
 const WhyInvestInPPC = () => {
     return (

@@ -91,7 +91,7 @@ const Header = ({ bgColor }) => {
                         <NavDropdown title="Web/App" id="basic-nav-dropdown">
                             <NavDropdown.Item onClick={() => navigate("/web-design-agency-in-dubai")}>Web Design/ Development</NavDropdown.Item>
                             <Divider className='navbar-divider' />
-                            <NavDropdown.Item onClick={() => navigate("/content-creation-and-maintenance")}>Mobile App Design/ Development</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/mobile-app-design")}>Mobile App Design/ Development</NavDropdown.Item>
                             <Divider className='navbar-divider' />
                             <NavDropdown.Item onClick={() => navigate("/conversion-rate-optimization")}>CRO</NavDropdown.Item>
                             <Divider className='navbar-divider' />

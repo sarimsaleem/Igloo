@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
-import "./ourservices.css"
+import "./ourServices.css"
 import { AiOutlineGlobal } from 'react-icons/ai'
 import { IoMegaphoneOutline } from 'react-icons/io5'
 import { GiAirBalloon, GiOnTarget } from 'react-icons/gi'

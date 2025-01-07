@@ -1,5 +1,5 @@
 import React from 'react'
-import "./brandingagencychoose.css"
+import "./brandingAgencyChoose.css"
 import './../../home/ourClients/ourclients.css'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import client1 from "../../../assets/ourclients1.png"

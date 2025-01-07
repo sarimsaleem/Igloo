@@ -8,7 +8,7 @@ import LeaderShip from './leadership/LeaderShip'
 import Bounce from './bounce/Bounce'
 import OurClients from './ourClients/OurClients'
 import BookConsultation from './bookConsultation/BookConsultation'
-import Banner from '../../components/Crousel/Banner'
+import Banner from '../../components/banner/Banner'
 import CaseStudy from './caseStudy/CaseStudy'
 
 const Home = () => {

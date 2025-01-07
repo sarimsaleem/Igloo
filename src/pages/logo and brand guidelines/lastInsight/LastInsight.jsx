@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./lastinsight.css";
+import "./lastInsight.css";
 import lastinsight1 from "./../../../assets/lastinsight1.png";
 import lastinsight2 from "./../../../assets/lastinsight2.png";
 import lastinsight3 from "./../../../assets/lastinsight3.png";

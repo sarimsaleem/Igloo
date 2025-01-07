@@ -1,5 +1,5 @@
 import React from 'react'
-import './ourclients.css'
+import './ourClients.css'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import client1 from "../../../assets/ourclients1.png"
 import client2 from "../../../assets/ourclients2.svg"

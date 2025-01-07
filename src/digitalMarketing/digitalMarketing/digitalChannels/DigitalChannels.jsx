@@ -1,5 +1,5 @@
 import React from 'react'
-import "./digitalchannels.css"
+import "./digitalChannels.css"
 import { Col, Container, Row } from 'react-bootstrap'
 import { AiOutlineGlobal } from 'react-icons/ai'
 import { IoMegaphoneOutline } from 'react-icons/io5'

@@ -1,5 +1,5 @@
 import React from 'react';
-import './latestwork.css';
+import './latestWork.css';
 import { Button, Col, Row } from 'react-bootstrap';
 import home1 from '../../../assets/homesec4-1.jpg';
 import home2 from '../../../assets/homesec4-2.jpg';

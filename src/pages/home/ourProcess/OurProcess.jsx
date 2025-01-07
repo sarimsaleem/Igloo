@@ -1,5 +1,5 @@
 import React from 'react'
-import "./ourprocess.css"
+import "./ourProcess.css"
 import { Col, Container, Row } from 'react-bootstrap'
 import { MdOutlineDesktopWindows } from 'react-icons/md'
 import { CiTrophy } from 'react-icons/ci'

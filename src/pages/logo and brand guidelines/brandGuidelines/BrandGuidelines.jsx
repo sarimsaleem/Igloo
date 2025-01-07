@@ -1,5 +1,5 @@
 import React from 'react'
-import "./brandguidelines.css"
+import "./brandGuidelines.css"
 import { Container } from 'react-bootstrap'
 import { Col, Row } from 'react-bootstrap'
 import brandguidelines1 from "./../../../assets/brandguidelines-1.svg"

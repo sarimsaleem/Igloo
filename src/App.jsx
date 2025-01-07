@@ -28,6 +28,7 @@ import Linkdin from "./mediaBuying/linkdin/Linkdin"
 import WebDesignDevelopment from './webApp/webDesignDevelopment/WebDesignDevelopment';
 import PhotographyVideograpy from './socialMedia/photographyVideograpy/PhotographyVideograpy';
 import Cro from './webApp/cro/Cro';
+import MobileAppDevelopment from './webApp/mobileAppDevelopment/MobileAppDevelopment';
 
 const App = () => {
     return (
@@ -59,6 +60,7 @@ const App = () => {
                     <Route path='/web-design-agency-in-dubai' element={<WebDesignDevelopment />} />
                     <Route path='/photography-and-videography' element={<PhotographyVideograpy />} />
                     <Route path='/conversion-rate-optimization' element={<Cro />} />
+                    <Route path='/mobile-app-design' element={<MobileAppDevelopment />} />
                 </Routes>
                 <Footer />
             </Router>

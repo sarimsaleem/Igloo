@@ -1,5 +1,5 @@
 import React from 'react';
-import './bookcolsultation.css';
+import './bookColsultation.css';
 import { Button, Container, Row, Col } from 'react-bootstrap';
 import Slider from 'react-slick';
 import { BsEnvelopeOpen } from 'react-icons/bs';

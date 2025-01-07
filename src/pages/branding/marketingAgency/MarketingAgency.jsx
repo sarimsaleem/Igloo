@@ -1,5 +1,5 @@
 import React from 'react';
-import './marketingagency.css';
+import './marketingAgency.css';
 import { Col, Row } from 'react-bootstrap';
 
 const MarketingAgency = () => {

@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import emailMarketinImg1 from "../../../assets/chatbbotServices1.svg"
 import emailMarketinImg2 from "../../../assets/chatbbotServices2.svg"
 import emailMarketinImg3 from "../../../assets/chatbbotServices3.svg"
-import "./chatbotservices.css"
+import "./chatBotServices.css"
 const ChatBotServices = () => {
     return (
         <div style={{ paddingBottom: "20px" }}>

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./socialmediaagency.css"
+import "./socialMediaAgency.css"
 import { Button, Container } from 'react-bootstrap'
 const SocialMediaAgency = () => {
     return (

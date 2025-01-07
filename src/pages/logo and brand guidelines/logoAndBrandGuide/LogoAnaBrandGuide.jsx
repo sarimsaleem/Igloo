@@ -1,5 +1,5 @@
 import React from 'react'
-import "./logoanabrandguide.css"
+import "./logoAnaBrandGuide.css"
 import { Button } from 'react-bootstrap'
 const LogoAnaBrandGuide = () => {
     return (

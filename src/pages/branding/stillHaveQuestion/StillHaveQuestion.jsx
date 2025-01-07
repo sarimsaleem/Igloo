@@ -1,5 +1,5 @@
 import React from "react";
-import "./stillhavequestion.css";
+import "./stillHaveQuestion.css";
 import { Button, Container } from "react-bootstrap";
 
 const StillHaveQuestion = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./designedpackaging.css"
+import "./designedPackaging.css"
 import { Col, Container, Row } from 'react-bootstrap'
 import brandGuideMatter1 from "./../../../assets/designedpackaging-1.svg"
 import brandGuideMatter2 from "./../../../assets/designedpackaging-2.svg"

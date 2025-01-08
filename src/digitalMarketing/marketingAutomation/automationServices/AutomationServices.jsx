@@ -1,5 +1,4 @@
 import React from 'react'
-import "./automationservices.css"
 import { Col, Container, Row } from 'react-bootstrap';
 import marketingAutomation1 from "../../../assets/LEADMANAGEMENT1.svg"
 import marketingAutomation2 from "../../../assets/LEADMANAGEMENT2.svg"

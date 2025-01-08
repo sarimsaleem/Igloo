@@ -1,5 +1,4 @@
 import React from 'react'
-// import "./brandguidelines.css"
 import { Container } from 'react-bootstrap'
 import { Col, Row } from 'react-bootstrap'
 

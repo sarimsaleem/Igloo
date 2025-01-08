@@ -1,5 +1,4 @@
 import React from 'react'
-import "./chatbotmarketing.css"
 import { Button, Container } from 'react-bootstrap'
 
 const ChatbotMarketing = () => {

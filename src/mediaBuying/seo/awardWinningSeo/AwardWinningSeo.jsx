@@ -1,5 +1,4 @@
 import React from 'react'
-import "./awardwinningSeo.css"
 import { Button, Container } from 'react-bootstrap'
 const AwardWinningSeo = () => {
   return (

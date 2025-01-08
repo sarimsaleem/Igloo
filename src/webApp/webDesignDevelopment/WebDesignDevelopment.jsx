@@ -4,13 +4,13 @@ import WebDesign from './webDesign/WebDesign'
 import AdvantageOfCustomWeb from './advantageOfCustomWeb/AdvantageOfCustomWeb'
 import BrandEngaging from './brandEngaging/BrandEngaging'
 import OurClients from './ourClients/OurClients'
-import Porfolio from './porfolio/Porfolio'
 import ApplicationServices from './applicationServices/ApplicationServices'
 import Bounce from '../../pages/home/bounce/Bounce'
 import BookConsultation from '../../pages/home/bookConsultation/BookConsultation'
 import Faqs from '../../pages/logo and brand guidelines/faqs/Faqs'
 import LastInsight from '../../pages/logo and brand guidelines/lastInsight/LastInsight'
 import StillHaveAQuestion from '../../digitalMarketing/contentCreationMaintenance/stillHaveAQuestion/StillHaveAQuestion'
+import Portfolio from './portfolio/portfolio'
 
 const WebDesignDevelopment = () => {
   return (
@@ -20,7 +20,7 @@ const WebDesignDevelopment = () => {
       <AdvantageOfCustomWeb />
       <BrandEngaging />
       <OurClients />
-      <Porfolio />
+      <Portfolio />
       <ApplicationServices />
       <StillHaveAQuestion />
       <Bounce />

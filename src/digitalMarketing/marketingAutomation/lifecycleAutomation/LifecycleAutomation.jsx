@@ -1,5 +1,4 @@
 import React from 'react'
-import "./lifecycleautomation.css"
 import { Button, Container } from 'react-bootstrap'
 const LifecycleAutomation = () => {
     return (

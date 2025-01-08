@@ -1,5 +1,4 @@
 import React from 'react'
-import "./communityManagementServices.css"
 import { Container } from 'react-bootstrap'
 import { Col, Row } from 'react-bootstrap'
 import brandguidelines1 from "./../../../assets/communityServices1.svg"

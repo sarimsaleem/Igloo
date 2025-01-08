@@ -1,5 +1,4 @@
 import React from 'react'
-import "./businessSuccess.css"
 import brandGuideMatter1 from "../../../assets/seo1.svg"
 import brandGuideMatter2 from "../../../assets/seo2.svg"
 import brandGuideMatter3 from "../../../assets/seo3.svg"

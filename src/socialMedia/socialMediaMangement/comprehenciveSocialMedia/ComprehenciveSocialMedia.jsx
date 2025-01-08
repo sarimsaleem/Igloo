@@ -1,5 +1,4 @@
 import React from 'react'
-import "./comprehenciveSocialMedia.css"
 import { Button, Col, Container, Row } from 'react-bootstrap'
 const ComprehenciveSocialMedia = () => {
     return (

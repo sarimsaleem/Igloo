@@ -1,5 +1,4 @@
 import React from 'react'
-import "./stillhaveaquestion.css"
 import { Button, Container } from 'react-bootstrap'
 const StillHaveAQuestion = () => {
   return (

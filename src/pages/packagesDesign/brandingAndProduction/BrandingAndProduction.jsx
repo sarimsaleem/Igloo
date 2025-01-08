@@ -1,5 +1,4 @@
 import React from 'react'
-import "./brandingAndProduction.css"
 import { Button } from 'react-bootstrap'
 const BrandingAndProduction = () => {
     return (

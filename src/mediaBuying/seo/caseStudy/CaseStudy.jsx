@@ -1,6 +1,5 @@
 import React from 'react';
 import Slider from 'react-slick';
-import "./caseStudy.css";
 import { Button, Container } from 'react-bootstrap';
 import section6 from "../../../assets/section6-6.jpg";
 import caseStudy10 from "../../../assets/caseStudy10.jpg";

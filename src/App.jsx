@@ -31,7 +31,7 @@ import PhotographyVideograpy from './pages/photographyVideograpy/PhotographyVide
 import Contact from './components/contact/Contact';
 import WebDesignDevelopment from './pages/webDesignDevelopment/WebDesignDevelopment';
 import MobileAppDevelopment from './pages/mobileAppDevelopment/MobileAppDevelopment';
-// import Cro from './pages/cro/Cro';
+import Cro from './pages/cro/Cro';
 
 const App = () => {
     return (
@@ -63,7 +63,7 @@ const App = () => {
                     <Route path='/photography-and-videography' element={<PhotographyVideograpy />} />
                     <Route path='/web-design-agency-in-dubai' element={<WebDesignDevelopment />} />
                     <Route path='/mobile-app-design' element={<MobileAppDevelopment />} />
-                    {/* <Route path='/conversion-rate-optimization' element={<Cro />} /> */}
+                    <Route path='/conversion-rate-optimization' element={<Cro />} />
                     <Route path='/contact' element={<Contact />} />
 
                 </Routes>

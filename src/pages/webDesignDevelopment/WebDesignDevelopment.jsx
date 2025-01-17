@@ -32,7 +32,6 @@ const WebDesignDevelopment = () => {
         },
     ];
 
-
     const guidence = [
         {
             id: 0,

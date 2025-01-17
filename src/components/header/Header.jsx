@@ -3,23 +3,19 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from "../../assets/logo.png";
+import logo from "/public/assets/images/logo.png";
+import logoBlack from "/public/assets/images/logoBlack.png";
 import "./header.css";
 import { Button } from 'react-bootstrap';
 import { Divider } from 'antd';
 import { useNavigate } from 'react-router-dom';
 
-const Header = ({ bgColor }) => {
+const Header = () => {
     const [scrolled, setScrolled] = useState(false);
-    const navigate = useNavigate();
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 50) {
-                setScrolled(true);
-            } else {
-                setScrolled(false);
-            }
+            setScrolled(window.scrollY > 50);
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -28,17 +24,17 @@ const Header = ({ bgColor }) => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-
-    const bgClass = {
-        transparent: 'navbar-transparent',
-        white: 'navbar-white',
-        blue: 'navbar-blue'
-    }[bgColor] || 'navbar-transparent';
-
+    const navigate = useNavigate()
     return (
-        <Navbar expand="lg" className={`${scrolled ? 'navbar-scrolled' : ''} ${bgClass}`}>
+        <Navbar expand="lg" className={scrolled ? "navbar navbar-scrolled" : "navbar"}>
             <Container>
-                <Navbar.Brand onClick={() => navigate("/")}><img className='logo' src={logo} alt="Logo" /></Navbar.Brand>
+                <Navbar.Brand onClick={() => navigate("/")}>
+                    <img
+                        className="logo"
+                        src={scrolled ? logoBlack : logo}
+                        alt="Logo"
+                    />
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">

@@ -1,0 +1,135 @@
+.brandingServices {
+    padding-block: 40px;
+}
+
+.brandingServices-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.branding-seperator {
+    width: 30px;
+    height: 2px;
+    background: #72235c;
+    margin: 20px 0;
+}
+
+.brandingServices-heading {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    line-height: 34px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+}
+
+.brandingServices-detail {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #494646;
+    line-height: 23px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    letter-spacing: .3px;
+    font-family: "Open Sans";
+}
+
+
+.brandingServices-parent {
+    display: flex;
+    align-items: center;
+    margin: 00;
+}
+
+.brandingServices-icon-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.brandingServices-icon {
+    width: 50px;
+    height: auto;
+}
+
+.brandingServices-text-parent {
+    padding: 15px 0;
+    border-bottom: 1px solid #eaeaea;
+    margin: 0 100px 0 0;
+}
+
+.brandingServices-text-heading {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.brandingServices-head-text-separator {
+    width: 50px;
+    height: 3px;
+    background-color: #800020;
+    margin: 10px 0 26px;
+}
+
+.brandingServices-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin: 20px 0 0;
+}
+
+.brandingServices-list {
+    margin: 20px 0;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: disc;
+    gap: 10px;
+}
+
+.brandingServices-list-item {
+    list-style: disc;
+    margin: 0;
+    word-break: break-word;
+    white-space: normal;
+    padding: 0 30px 0 0;
+    color: #555;
+}
+
+.social-media-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    /* Spacing between items */
+}
+
+.social-media-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Spacing between icon and text */
+    font-size: 16px;
+    color: #4b0082;
+    /* Dark purple color */
+}
+
+.social-media-item i {
+    font-size: 18px;
+}
+
+.heading-border {
+    width: 50px;
+    height: 2px;
+    background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
+    margin: 20px auto 20px auto;
+}

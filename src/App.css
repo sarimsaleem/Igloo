@@ -3,10 +3,6 @@
 body{
     font-family: 'Open Sans';
 }
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
-
-
 h1, h2,h3,h4, h5, h6, p, li{
     font-family: "Open Sans";
 }
@@ -15,3 +11,34 @@ h1, h2,h3,h4, h5, h6, p, li{
     font-family: "Open Sans";
 
 }
+@media (max-width: 990px) {
+    .consultation-btn{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+.main-heading {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .main-description {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+    /* text-align: center; */
+    color: #000;
+    font-family: "Open Sans";
+  }
+  .main-description-bold {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+    color: #000;
+    font-family: "Open Sans";
+    font-weight: 600;
+  }
+  

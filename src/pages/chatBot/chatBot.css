@@ -1,0 +1,18 @@
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    width: 45%; 
+    color: #555555;
+    padding: 0 20px;
+  }
+  
+  .column li {
+    font-size: 16px; 
+    color: #555555;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  

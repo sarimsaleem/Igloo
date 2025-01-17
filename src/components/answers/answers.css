@@ -1,0 +1,25 @@
+.getnotice-btn {
+    font-family: "Open Sans";
+    background: white;
+    color: black;
+    border: none;
+    font-size: 14px;
+    padding: 12px 22px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.getnotice-btn:hover {
+    background: transparent  !important;
+    border: 2px solid white !important;
+    color: white;
+}
+
+.question-btn-parent {
+    display: flex;
+    justify-content: center;
+}

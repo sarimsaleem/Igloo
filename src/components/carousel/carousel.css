@@ -1,0 +1,34 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-size: cover;
+    background-position: center;  
+}
+
+
+.carousel-overlay {
+    text-align: center;
+    margin: 70px 0 0 0;
+}
+
+.branding-carousel-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.breadcrumb {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #aaa;
+}
+
+.breadcrumb span {
+    margin: 0 5px;
+}

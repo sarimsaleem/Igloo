@@ -1,0 +1,38 @@
+import React from 'react';
+import { Button, Col, Row } from 'react-bootstrap';
+import './portfolio.css';
+
+const Portfolio = ({ columns, heading, buttonText, onButtonClick }) => {
+  return (
+    <div>
+      <div className="homesection4">
+        {heading && (
+          <h1 className="homesection4-heading" style={{ marginBottom: '30px', fontSize: '30px' }}>
+            {heading}
+          </h1>
+        )}
+        <Row style={{ padding: 0, margin: 0 }}>
+          {columns.map((column, colIndex) => (
+            <Col md={4} key={colIndex} className="image-column">
+              {column.images.map((image, imgIndex) => (
+                <div className="image-container" key={imgIndex}>
+                  <img src={image.src} alt={image.alt || `Work ${imgIndex + 1}`} />
+                </div>
+              ))}
+            </Col>
+          ))}
+        </Row>
+        <div className="center-button-container">
+          <Button
+            className="homesection4-button"
+            onClick={onButtonClick || (() => console.log('Button clicked!'))}
+          >
+            {buttonText || 'View All Portfolio'}
+          </Button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Portfolio;

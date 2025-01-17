@@ -1,11 +1,11 @@
 import React from 'react';
 import { Layout, Row, Col, Typography } from 'antd';
 import { Container } from 'react-bootstrap';
-import footerimg1 from "../../assets/1.svg"
-import footerimg2 from "../../assets/2.svg"
-import footerimg3 from "../../assets/3.svg"
-import footerimg4 from "../../assets/4.svg"
-import Logo from '../../assets/logo.png';
+import footerimg1 from "/public/assets/images/1.svg"
+import footerimg2 from "/public/assets/images/2.svg"
+import footerimg3 from "/public/assets/images/3.svg"
+import footerimg4 from "/public/assets/images/4.svg"
+import Logo from '/public/assets/images/logo.png';
 import "./footer.css"
 import { FacebookOutlined, InstagramOutlined, LinkedinOutlined } from '@ant-design/icons';
 

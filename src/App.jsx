@@ -1,34 +1,37 @@
 import React from 'react';
 import './App.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header/Header';
 import Footer from "./components/footer/Footer"
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home/Home';
 import Branding from "./pages/branding/Branding"
 import LogoAndBrand from './pages/logo and brand guidelines/LogoAndBrand';
 import PackagesDesign from './pages/packagesDesign/PackagesDesign';
-import DigitalMarketing from './digitalMarketing/digitalMarketing/DigitalMarketing';
-import CompetetiveAnalysis from './digitalMarketing/competetiveAnalysis/CompetetiveAnalysis';
-import MarketingAutomation from './digitalMarketing/marketingAutomation/MarketingAutomation';
-import EmailMarketing from './digitalMarketing/emailMarketing/EmailMarketing';
-import ChatBot from './digitalMarketing/chatBot/ChatBot';
-import ContentCreationMaintenance from './digitalMarketing/contentCreationMaintenance/ContentCreationMaintenance';
-import SocialMediaManegement from './socialMedia/socialMediaMangement/SocialMediaManegement';
-import CommunityManagement from './socialMedia/communityManagement/CommunityManagement';
-import InfluencerMarketing from './socialMedia/influencerMarketing/InfluencerMarketing';
-import SEOs from './mediaBuying/seo/SEOs';
-import LeadGeneration from './mediaBuying/leadGeneration/LeadGeneration';
-import InsightsAnalytics from './mediaBuying/insightsAnalytics/InsightsAnalytics';
-import PPCs from './mediaBuying/ppc/PPCs';
-import FacebookAdds from './mediaBuying/facebookAdds/FacebookAdds';
-import InstagramAds from './mediaBuying/instagramAds/InstagramAds';
-import Youtube from './mediaBuying/youtube/Youtube';
-import Linkdin from "./mediaBuying/linkdin/Linkdin"
-import WebDesignDevelopment from './webApp/webDesignDevelopment/WebDesignDevelopment';
-import PhotographyVideograpy from './socialMedia/photographyVideograpy/PhotographyVideograpy';
-import Cro from './webApp/cro/Cro';
-import MobileAppDevelopment from './webApp/mobileAppDevelopment/MobileAppDevelopment';
+import DigitalMarketing from './pages/digitalMarketing/DigitalMarketing';
+import CompetetiveAnalysis from './pages/competetiveAnalysis/CompetetiveAnalysis';
+import MarketingAutomation from './pages/marketingAutomation/MarketingAutomation';
+import EmailMarketing from './pages/emailMarketing/EmailMarketing';
+import ChatBot from './pages/chatBot/ChatBot';
+import ContentCreationMaintenance from './pages/contentCreationMaintenance/ContentCreationMaintenance';
+import PPCs from './pages/ppc/PPCs';
+import SEOs from './pages/seo/SEOs';
+import LeadGeneration from './pages/leadGeneration/LeadGeneration';
+import InsightsAnalytics from './pages/insightsAnalytics/InsightsAnalytics';
+import FacebookAds from './pages/facebookAds/FacebookAds';
+import InstagramAds from './pages/instagramAds/InstagramAds';
+import Linkdin from "./pages/linkdin/Linkdin"
+import Youtube from './pages/youtube/Youtube';
+import SocialMediaManegement from './pages/socialMediaMangement/SocialMediaManegement';
+import CommunityManagement from './pages/communityManagement/CommunityManagement';
+import InfluencerMarketing from './pages/influencerMarketing/InfluencerMarketing';
+import PhotographyVideograpy from './pages/photographyVideograpy/PhotographyVideograpy';
+import Contact from './components/contact/Contact';
+import WebDesignDevelopment from './pages/webDesignDevelopment/WebDesignDevelopment';
+import MobileAppDevelopment from './pages/mobileAppDevelopment/MobileAppDevelopment';
+// import Cro from './pages/cro/Cro';
 
 const App = () => {
     return (
@@ -46,21 +49,23 @@ const App = () => {
                     <Route path='/email-marketing' element={<EmailMarketing />} />
                     <Route path='/chatbots-live-chat' element={<ChatBot />} />
                     <Route path='/content-creation-and-maintenance' element={<ContentCreationMaintenance />} />
-                    <Route path='/social-media-agency-in-dubai' element={<SocialMediaManegement />} />
-                    <Route path='/community-management' element={<CommunityManagement />} />
-                    <Route path='/influencer-marketing' element={<InfluencerMarketing />} />
                     <Route path='/ppc-management-agency' element={<PPCs />} />
                     <Route path='/seo-agency-in-dubai' element={<SEOs />} />
                     <Route path='/lead-generation-agency' element={<LeadGeneration />} />
                     <Route path='/insights-and-analytics' element={<InsightsAnalytics />} />
-                    <Route path='/facebook-ads' element={<FacebookAdds />} />
+                    <Route path='/facebook-ads' element={<FacebookAds />} />
                     <Route path='/instagram-ads' element={<InstagramAds />} />
                     <Route path='/linkedin-ads' element={<Linkdin />} />
                     <Route path='/youtube-ads' element={<Youtube />} />
-                    <Route path='/web-design-agency-in-dubai' element={<WebDesignDevelopment />} />
+                    <Route path='/social-media-agency-in-dubai' element={<SocialMediaManegement />} />
+                    <Route path='/community-management' element={<CommunityManagement />} />
+                    <Route path='/influencer-marketing' element={<InfluencerMarketing />} />
                     <Route path='/photography-and-videography' element={<PhotographyVideograpy />} />
-                    <Route path='/conversion-rate-optimization' element={<Cro />} />
+                    <Route path='/web-design-agency-in-dubai' element={<WebDesignDevelopment />} />
                     <Route path='/mobile-app-design' element={<MobileAppDevelopment />} />
+                    {/* <Route path='/conversion-rate-optimization' element={<Cro />} /> */}
+                    <Route path='/contact' element={<Contact />} />
+
                 </Routes>
                 <Footer />
             </Router>

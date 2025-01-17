@@ -1,0 +1,14 @@
+.image-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image-container {
+    margin-bottom: 10px;
+}
+
+.middle-image img {
+    height: 100%;
+    object-fit: cover;
+}

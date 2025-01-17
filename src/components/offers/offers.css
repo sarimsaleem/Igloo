@@ -1,0 +1,59 @@
+.bookcolsultation {
+    background: #000;
+    padding-block: 50px;
+}
+
+.bookcolsultation-parent {
+    padding: 20px;
+}
+
+.bookcolsultation-icon-parent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.bookcolsultation-icon {
+    color: white;
+    font-size: 36px;
+}
+
+.bookcolsultation-parent-text {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+.bookcolsultation-parent-text h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.bookcolsultation-parent-text p {
+    font-size: 14px;
+    color: #828282;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.offers-card-parent {
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 776px) {
+   
+
+    .offers-card-parent {
+        margin-top: 50px;
+    }
+
+    .offers-card-parent:first-child {
+        margin-top: 0;
+    }
+}

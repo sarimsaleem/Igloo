@@ -1,0 +1,43 @@
+
+
+.brandingagencychoose {
+    text-align: center;
+    padding: 40px 0px;
+    max-width: 1000px;
+    margin: 50px auto 0;
+  }
+  
+  .brandingagencychoose-heading {
+    margin-bottom: 0px;
+    font-family: "Open Sans";
+    font-size: 31px;
+    font-weight: 600;
+    color: #000;
+    line-height: 34px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /* padding-bottom: 15px; */
+    text-align: center;
+  }
+  
+  
+  
+  .brandingagencychoose-description {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #626262;
+    margin-bottom: 20px;
+    font-family: "Open Sans";
+  }
+  
+  .brandingagencychoose-button {
+    background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }

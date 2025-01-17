@@ -1,0 +1,129 @@
+@keyframes slideUpFadeIn {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.brandingAgency-subParent {
+  background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
+  /* padding-block: 39px; */
+}
+
+.brandingAgency-subParent-container {
+  text-align: center;
+  color: white;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.brandingAgency-subParent-container.animate {
+  animation: slideUpFadeIn 0.6s ease-in-out forwards;
+  animation-delay: var(--delay);
+}
+
+.brandingAgency-subParent-container h4 {
+  font-size: 50px;
+  line-height: 45px;
+  letter-spacing: -2px;
+  font-weight: 100;
+  font-family: "Open Sans";
+}
+
+
+
+.brandingAgency-subParent-container p {
+  margin: 0 0 22px;
+  font-family: "Open Sans";
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+.brandingAgency-process-seperater {
+  background: #fff;
+  height: 4px;
+  width: 30px;
+  margin: 5px auto;
+}
+
+.brandingAgency-process-seperater2 {
+  background: rgba(114, 35, 92, 1);
+  height: 2px;
+  width: 30px;
+  margin: 35px auto;
+  margin-top: 40px;
+}
+
+
+.ourclients {
+  border-top: 1px solid #ccc;
+  padding: 20px;
+}
+
+.ourclients img {
+  height: 170px;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  position: relative;
+  object-fit: contain;
+  margin: 0 auto;
+  width: 170px;
+}
+
+.ourclients-btn {
+  border: 2px solid #000;
+  background-color: #000;
+  font-size: 22px;
+  color: white;
+  font-weight: 700;
+  font-size: 11px;
+  padding: 7px 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 30px auto 0;
+  border-radius: 0px;
+}
+
+.ourclients-btn:hover {
+  color: #000 !important;
+  border: 2px solid #000;
+  background: white !important;
+}
+
+.ourclients-btn:active {
+  border: 2px solid #000 !important;
+}
+
+
+.image-box {
+  border: 1px solid #e8e8e8;
+  margin: 15px auto;
+  min-height: 130px;
+  display: table;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.ourclients-btn-parent {
+  display: flex;
+  justify-content: center;
+}
+
+/* /////////////////////////////////// */
+
+.heading-underline {
+  width: 40px;
+  height: 2px;
+  background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
+  margin: 24px auto 20px auto;
+}

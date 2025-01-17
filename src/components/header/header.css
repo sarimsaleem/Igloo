@@ -1,71 +1,100 @@
-    .logo {
-        width: 100px;
-    }
+.logo {
+    width: 100px;
+    height: 48px;
+    transition: filter 0.3s;
+    cursor: pointer;
+}
 
-    .consultation-btn {
-        background: transparent !important;
-        outline: none !important;
-        border: 2px solid #72235c !important;
-        margin-left: 20px;
-        font-size: 15px;
-        border-radius: 0 !important;
-        font-weight: 600;
-        color: white;
-    }
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: transparent;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
 
-    .consultation-btn:hover {
-        background: #72235c !important;
-        border: 2px solid #72235c !important;
-    }
+.navbar-scrolled {
+    background-color: white !important;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
 
-    .consultation-btn:focus,
-    .consultation-btn:active {
-        background-color: transparent !important;
-        border-color: #72235c !important;
-    }
+.navbar .logo {
+    filter: none;
+}
 
-    .navbar {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 10;
-        background-color: transparent;
-        transition: background-color 0.3s ease;
-    }
+.navbar-scrolled .logo {
+    filter: grayscale(100%);
+}
 
-    .navbar .nav-link {
-        color: white !important;
-        text-transform: uppercase;
-        font-size: 13px;
-        font-weight: 600;
-        letter-spacing: 1px;
-    }
-    .navbar-expand-lg .navbar-nav .dropdown-menu{
-        padding: 0;
-    }
+.navbar .nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
 
-    .navbar .dropdown-menu .dropdown-item {
-        color: #c8c8c8;
-        font-family: 'Open Sans';
-        text-transform: uppercase;
-        font-size: 11px;
-        padding: 10px;
-    }
+.navbar-scrolled .nav-link {
+    color: black !important;
+}
 
-    .navbar .dropdown-menu .dropdown-item:hover {
-        background: transparent;
-        color: white;
-    }
+.navbar .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    padding: 0;
+}
 
-    .navbar .dropdown-menu {
-        background-color: rgba(0, 0, 0, 0.8);
-    }
 
-    .navbar-divider {
-        margin: 0;
-        background: rgba(255, 255, 255, .16);
-    }
+.navbar .dropdown-menu .dropdown-item {
+    color: #c8c8c8 ;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 10px;
+}
 
-    .navbar-scrolled {
-        background-color: #000 !important;
-    }
+.navbar .dropdown-menu .dropdown-item:hover {
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.navbar-scrolled .dropdown-menu .dropdown-item {
+    color: #c8c8c8;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.navbar-divider {
+    margin: 0;
+    background: rgba(255, 255, 255, 0.16);
+}
+
+.consultation-btn {
+    background: transparent !important;
+    outline: none !important;
+    border: 2px solid #72235c !important;
+    margin-left: 20px;
+    font-size: 15px;
+    border-radius: 0 !important;
+    font-weight: 600;
+    color: white;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.consultation-btn:hover {
+    background: #72235c !important;
+    border: 2px solid #72235c !important;
+}
+
+.consultation-btn:focus,
+.consultation-btn:active {
+    background-color: transparent !important;
+    border-color: #72235c !important;
+}
+
+.navbar-scrolled .consultation-btn {
+    color: black;
+}
+.navbar-scrolled .consultation-btn:hover{
+    color: white;
+}

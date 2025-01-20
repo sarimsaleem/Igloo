@@ -78,16 +78,16 @@ const Home = () => {
     return (
         <>
             <Banner />
-            {/* <DigitalMarketing />
+            <DigitalMarketing />
             <OurProcess />
             <LatestWork workItems={workItems} />
             <OurServices />
             <LeaderShip />
             <CaseStudy caseStudy={caseStudyData} />
-            <Bounce slides={bounceData} /> */}
+            <Bounce slides={bounceData} />
             <Clients />
-            {/* <Offers />
-            <BookConsultation /> */}
+            <Offers />
+            <BookConsultation />
         </>
     )
 }

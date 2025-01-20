@@ -4,6 +4,15 @@ import home2 from '/public/assets/images/webPortfolio2.jpg';
 import home3 from '/public/assets/images/webPortfolio3.jpg';
 import home4 from '/public/assets/images/webPortfolio4.jpg';
 import home5 from '/public/assets/images/webPortfolio5.jpg';
+
+import opti1 from '/public/assets/images/webOpti1.svg';
+import opti2 from '/public/assets/images/webOpti2.svg';
+import opti3 from '/public/assets/images/webOpti3.svg';
+import opti4 from '/public/assets/images/webOpti4.svg';
+import opti5 from '/public/assets/images/webOpti5.svg';
+import opti6 from '/public/assets/images/webOpti6.svg';
+
+
 import Carousel from '../../components/carousel/Carousel'
 import About from '../../components/about/About'
 import Portfolio from '../../components/portfolio/Portfolio';
@@ -71,14 +80,14 @@ const WebOptimization = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/webOpti5.svg",
+      image: opti5,
       title: "Web Vitals",
       description: [
         "What makes a healthy website? PageSpeed, interactivity, visual stability, and site navigation all determine how usable your website is. We implement tools like PageSpeed Insights and Search Console to check your website health and resolve issues promptly."]
     },
     {
       id: 2,
-      image: "/public/assets/images/webOpti6.svg",
+      image: opti6,
       title: "Mobile-First",
       description: ["Nowadays, over 50% of all web traffic originates from mobile phones. As such, incorporating habits like creating adaptive websites, scaling elements, avoiding pop-ups, and publishing bite-sized content can do wonders for your website’s performance.",]
     },
@@ -104,20 +113,20 @@ const WebOptimization = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/webOpti1.svg",
+      image: opti1,
       title: "Search Engine Optimization (SEO)",
       description: [
         "From keywords to semantics, your web page is full of SEO opportunities. We help you achieve higher rankings and more organic traffic through technical excellence and high-quality content."]
     },
     {
       id: 2,
-      image: "/public/assets/images/webOpti2.svg",
+      image: opti2,
       title: "Technical Website Performance",
       description: ["When we gather website data, we use this information to inform any on-site adjustments such as status code errors, site responsiveness, site indexing, website content, duplicate tags and broken links.",]
     },
     {
       id: 3,
-      image: "/public/assets/images/webOpti3.svg",
+      image: opti3,
       title: "Conversion Rate Optimization (CRO)",
       description: [
         "While SEO is an excellent way to get visitors onto your site, CRO is what gets them to stay, and transact. By keeping a close eye on visitor habits, crafting effective CTAs, and split testing website elements, we can determine the best practices for getting customers to convert."
@@ -125,7 +134,7 @@ const WebOptimization = () => {
     },
     {
       id: 4,
-      image: "/public/assets/images/webOpti4.svg",
+      image: opti4,
       title: "CONTENT OPTIMIZATION",
       description: ["Getting users to perform the actions you would like them to is no easy task, but with the right content it becomes much simpler. We take the time to go through your website’s main pages and subpages to enhance their content and create stronger calls-to-action."
       ]

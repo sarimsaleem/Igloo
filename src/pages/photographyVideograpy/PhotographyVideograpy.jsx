@@ -72,27 +72,27 @@ const PhotographyVideograpy = () => {
         },
         {
             id: 1,
-            image: "/assets/images/video1.svg",
+            image: "video1.svg",
             title: "Enhancing SEO",
             description: [
                 "Well-produced, original photos and videos can enhance your user experience and keep visitors on your site for longer, which can drastically improve your search engine rankings. When we produce photos and videos for your website, we incorporate eye-catching elements that make customers want to know your brand—the longer they linger, the better."]
         },
         {
             id: 2,
-            image: "/public/assets/images/video2.svg",
+            image: "video2.svg",
             title: "Powerful Social Media Impact",
             description: "Since the rise of Facebook Live and Instagram Stories, many businesses have been taking to social media platforms to show off their products and services—you don’t want to be one of the only ones left behind. By placing your products in front of billions of active social media users, you can quickly become a fan favorite on the biggest social media platforms.",
         },
         {
             id: 3,
-            image: "/public/assets/images/video3.svg",
+            image: "video3.svg",
             title: "Capturing Consumer Interest",
             description:
                 "To create content that grabs and retains customer attention, you need high-quality visual materials. We can help you make the impact you desire with photos and videos that speak volumes about your product.",
         },
         {
             id: 4,
-            image: "/public/assets/images/video4.svg",
+            image: "video4.svg",
             title: "Increasing ROI",
             description: "Want to double your click-through rates? Photo and video content can help you achieve that! While photography and videography can make for a sizable investment, we assure you it’ll pay off in your increased ROI.",
         },

@@ -34,7 +34,7 @@ const Guidence = ({ guidence }) => {
 
                 <Row className="brandGuideMatter-parent">
                     {otherItems.map((item, index) => {
-                        let imageSrc = window.location.origin + item.image;
+                        let imageSrc = `/assets/images/${item.image}`;
                         return <React.Fragment key={item.id}>
                             <Col md={1}>
                                 {item.image && <div className="brandingServices-icon-parent">

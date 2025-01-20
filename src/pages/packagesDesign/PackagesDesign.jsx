@@ -92,28 +92,28 @@ const PackagesDesign = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/designedpackaging-1.svg",
+      image: "designedpackaging-1.svg",
       title: "Protect Your Products",
       description:
         "Businesses often forget that product packaging exists to protect its contents. Well-designed packaging can keep your product safe from humidity, heat, light, and other external factors, especially while in transit.",
     },
     {
       id: 2,
-      image: "/public/assets/images/designedpackaging-2.svg",
+      image: "designedpackaging-2.svg",
       title: "Reinforce Your Brand",
       description:
         "We keep your most defining brand elements in mind when we design product packaging. Remember, your product’s packaging serves as its first impression, and we want to ensure you make a good one.",
     },
     {
       id: 3,
-      image: "/public/assets/images/designedpackaging-3.svg",
+      image: "designedpackaging-3.svg",
       title: "Reflect Product Quality",
       description:
         "Well-packaged products speak volumes about what’s inside. By taking the time to develop thoughtful, structurally-sound packaging, we help to reinforce your commitment to delivering high-quality items consumers will instantly fall in love with.",
     },
     {
       id: 4,
-      image: "/public/assets/images/designedpackaging-4.svg",
+      image: "designedpackaging-4.svg",
       title: "Incorporate Functionality",
       description:
         "An aesthetically pleasing design is just one of the factors we consider when developing product packaging. The second factor is functionality. At Igloo, we value sustainability and demonstrate this in our fit-for-purpose packaging design. We create packaging that is easy to reuse, store, and recycle.",
@@ -126,32 +126,32 @@ const PackagesDesign = () => {
       "If your product could use a brand boost and robust product packaging, you know who to turn to. At Igloo, we guarantee fast turnaround times and effective designs for cost-effective prices. We take a customer-centric design approach that ensures we meet both buyer and seller goals. Contact us today to find a solution that works for you."
     ],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/getnotice-bg.jpg",
+    backgroundImage: "getnotice-bg.jpg",
 
   };
 
   const servicesData = [
     {
       id: 1,
-      image: "/public/assets/images/ourPackageD-1.svg",
+      image: "ourPackageD-1.svg",
       heading: "2D/3D Packaging",
       description: "Innovative packaging is one of the best ways to stand out from your competition. At Igloo, our designers are well-versed in design software such as 3DS Max, InDesign, Illustrator, and other tools to create impressive custom packaging."
     },
     {
       id: 2,
-      image: "/public/assets/images/ourPackageD-2.svg",
+      image: "ourPackageD-2.svg",
       heading: "Food Packaging",
       description: "Do you sell snacks, fresh foods, or other consumables? We create attractive and practical packaging that meets industry standards and keep your products fresher for longer."
     },
     {
       id: 3,
-      image: "/public/assets/images/ourPackageD-3.svg",
+      image: "ourPackageD-3.svg",
       heading: "Health and Beauty Packaging",
       description: "Whether you stock skincare products, makeup, or hair care tools, we design eye-catching and functional packaging that will get your items to stand out in beauty marketplaces and drugstores."
     },
     {
       id: 4,
-      image: "/public/assets/images/ourPackageD-4.svg",
+      image: "ourPackageD-4.svg",
       heading: "Retail Packaging",
       description: "At Igloo, we pride ourselves on the ability to design for a wide variety retail products for cost-effective prices."
     },
@@ -161,37 +161,37 @@ const PackagesDesign = () => {
     heading: "Still Have Questions?",
     text: ["vBranding is a complex topic that we could discuss for hours on end. If there’s anything you need to know that wasn’t covered in this page, feel free to contact us."],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+    backgroundImage: "stillQuestion-banner.jpg",
   };
 
   const bounceData = [
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
       heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Our partnership with Igloo has revolutionized our marketing strategies.",
       heading: "John Doe | CEO of Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo’s personalized approach is unmatched in the industry.",
       heading: "Jane Smith | Marketing Lead at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "With Igloo, we achieved milestones we never thought possible.",
       heading: "Michael Brown | Operations Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo's creativity and execution are truly world-class.",
       heading: "Emily Davis | Brand Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Collaborating with Igloo was a game changer for our business.",
       heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
     },

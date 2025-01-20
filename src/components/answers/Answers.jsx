@@ -1,12 +1,15 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
-import "./answers.css"
+import "./answers.css";
+import { BASE_IMAGE_URL } from "../../utils/contant";
+
 const Answers = ({ heading, description, buttonText, onButtonClick, backgroundImage }) => {
 
-    const sectionStyle = {
-        backgroundImage: `url(${backgroundImage})`,
-    };
+    const imageSrc = BASE_IMAGE_URL + backgroundImage;
 
+    const sectionStyle = {
+        backgroundImage: `url(${imageSrc})`,
+    };
 
     return (
         <div className='questions' style={sectionStyle}>

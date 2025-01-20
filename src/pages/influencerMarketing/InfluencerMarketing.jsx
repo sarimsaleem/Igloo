@@ -65,27 +65,27 @@ const InfluencerMarketing = () => {
     const servicesData = [
         {
             id: 1,
-            image: "/public/assets/images/perk1.svg",
+            image: "perk1.svg",
             heading: "Brand Trust",
             description: ["Consumers are more likely to purchase an item online when it’s endorsed by an influencer. If your company is looking to increase profits—and fast—influencer marketing is your best bet."],
         },
         {
             id: 2,
-            image: "/public/assets/images/perk2.svg",
+            image: "perk2.svg",
             heading: "Increased Conversions and Sales",
             description: ["Did you know that word-of-mouth marketing generates twice as many sales as paid ads? That means every time an influencer talks about your brand, you dramatically increase the chances of garnering new leads and getting site visitors to convert.",
             ],
         },
         {
             id: 3,
-            image: "/public/assets/images/perk3.svg",
+            image: "perk3.svg",
             heading: "Impressive ROI",
             description: ["On average, companies that utilize influencer marketing strategies will earn back $6.50 for every $1 they spend—that’s an ROI of 650%. Considering the minimal investments you have to make to get the most out of influencer marketing, it’s a strategy you’ll want to consider—and that we can perform right."
             ]
         },
         {
             id: 4,
-            image: "/public/assets/images/perk4.svg",
+            image: "perk4.svg",
             heading: "Boost Brand Awareness",
             description: ["Naturally, the more consumers are aware of your brand, the higher your chances of increasing lead generation and sales. Influencers can directly impact your sales funnel by appealing to your audience and encouraging them to try out your products and services."
             ],
@@ -99,47 +99,47 @@ const InfluencerMarketing = () => {
             "Contact Igloo today to begin building a loyal fanbase that allows and empowers your brand to thrive."
         ],
         buttonText: "Book a Free Consultation",
-        backgroundImage: "/public/assets/images/cmpetetive-crousel.jpg",
+        backgroundImage: "cmpetetive-crousel.jpg",
     };
 
     const servicesData2 = [
         {
             id: 1,
-            image: "/public/assets/images/influencerservices1.svg",
+            image: "influencerservices1.svg",
             heading: "Our Influencer Marketing Services",
             description: ["We use your existing audience data to determine the best practices and social media platforms for your influencer marketing strategy. We also take a closer look at consumer needs and recurring pain points."],
         },
         {
             id: 2,
-            image: "/public/assets/images/influencerservices2.svg",
+            image: "influencerservices2.svg",
             heading: "Influencer Pitching and Matching",
             description: ["Every brand has an ideal influencer. Once we get to know your business, audience, and competitors, we link you up with the influencers we think can best represent your mission and vision.",
             ],
         },
         {
             id: 3,
-            image: "/public/assets/images/influencerservices3.svg",
+            image: "influencerservices3.svg",
             heading: "Content Strategies and Campaign Management",
             description: ["After matching you up with your perfect influencer, we create content according to your brand guidelines while allowing influencers to remain authentic. We develop strategies that consider consumer search patterns and wants while remaining true to your brand.  "
             ]
         },
         {
             id: 4,
-            image: "/public/assets/images/influencerservices4.svg",
+            image: "influencerservices4.svg",
             heading: "Social Media Advertising",
             description: ["To give your influencer marketing campaign an even bigger boost, we provide social media advertising services to increase your reach."
             ],
         },
         {
             id: 5,
-            image: "/public/assets/images/influencerservices5.svg",
+            image: "influencerservices5.svg",
             heading: "Legal and Compliance",
             description: ["Sometimes, partnerships can be tricky to navigate. As such, our team advises you on the relevant partnership disclosure regulations and influencer contracts."
             ]
         },
         {   
             id: 6,
-            image: "/public/assets/images/influencerservices6.svg",
+            image: "influencerservices6.svg",
             heading: "Results Tracking",
             description: ["Before we kick off your campaign, we set measurable goals and KPIs that we can use to identify successes and areas of improvement. We make sure to present these tangible insights in readable and actionable terms."
             ],
@@ -150,37 +150,37 @@ const InfluencerMarketing = () => {
         heading: "Still Have Questions?",
         text: [""],
         buttonText: "Book a Free Consultation",
-        backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+        backgroundImage: "stillQuestion-banner.jpg",
     };
 
     const bounceData = [
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
             heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Our partnership with Igloo has revolutionized our marketing strategies.",
             heading: "John Doe | CEO of Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Igloo’s personalized approach is unmatched in the industry.",
             heading: "Jane Smith | Marketing Lead at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "With Igloo, we achieved milestones we never thought possible.",
             heading: "Michael Brown | Operations Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Igloo's creativity and execution are truly world-class.",
             heading: "Emily Davis | Brand Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Collaborating with Igloo was a game changer for our business.",
             heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
         },

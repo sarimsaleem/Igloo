@@ -46,7 +46,7 @@ const DigitalMarketing = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/digitalMarketingQuidence1.svg",
+      image: "digitalMarketingQuidence1.svg",
       title: "Develop Lean Strategies with Fewer Objectives",
       description: [
         "Successful digital marketing is about knowing when and where (and when NOT and where NOT) to spend your advertising dollars.",
@@ -55,7 +55,7 @@ const DigitalMarketing = () => {
     },
     {
       id: 2,
-      image: "/public/assets/images/digitalMarketingQuidence2.svg",
+      image: "digitalMarketingQuidence2.svg",
       title: "Close Resource Gaps",
       description: [
         "Every client (regardless of size or budget) operates with finite resources.",
@@ -64,7 +64,7 @@ const DigitalMarketing = () => {
     },
     {
       id: 3,
-      image: "/public/assets/images/digitalMarketingQuidence3.svg",
+      image: "digitalMarketingQuidence3.svg",
       title: "Keep up with Marketing Trends",
       description: [
         "Managing your digital marketing is one thing. Keeping abreast with the latest marketing trends is quite another.",
@@ -74,7 +74,7 @@ const DigitalMarketing = () => {
     },
     {
       id: 4,
-      image: "/public/assets/images/digitalMarketingQuidence4.svg",
+      image: "digitalMarketingQuidence4.svg",
       title: "Gain Access to the Right Tools",
       description: [
         "Modern digital marketing requires a high level of technological expertise. Over the years, we’ve seen various tools become part and parcel of everyday digital marketing work, whether it’s CRM, SEO, email marketing, web analytics, and many more.",
@@ -91,24 +91,24 @@ const DigitalMarketing = () => {
       "If you’re unsure what kind of digital marketing agency your business needs, please reach out to our experts at Igloo today."
     ],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/getnotice-bg.jpg",
+    backgroundImage: "getnotice-bg.jpg",
   };
 
   const caseStudyData = [
     {
-      image: "/public/assets/images/section6-6.jpg",
+      image: "section6-6.jpg",
       heading: "Digital Marketing Case Study",
       subHead: "Leading University in Dubai | UAE",
       text: "To increase the number of students through online marketing.",
     },
     {
-      image: "/public/assets/images/section6-6.jpg",
+      image: "section6-6.jpg",
       heading: "Digital Marketing Case Study",
       subHead: "Largest Entertainment Park in the GCC  UAE/ KSA/ Qatar/ Lebanon",
       text: "To increase the number of customers through online marketing",
     },
     {
-      image: "/public/assets/images/section6-6.jpg",
+      image: "section6-6.jpg",
       heading: "Digital Marketing Case Study",
       subHead: "To increase revenues with online marketing.",
       text: "To increase revenues with online marketing.",
@@ -118,7 +118,7 @@ const DigitalMarketing = () => {
   const servicesData = [
     {
       id: 1,
-      image: "/public/assets/images/DigitalMarketingServices-1.svg",
+      image: "DigitalMarketingServices-1.svg",
       heading: "Increase brand trust and authority",
       description: ["Consumers resonate with brands they can trust and look to for advice.",
         "Our objective when building brands is to build trust and establish authority in the market. We believe that digital marketing extends far beyond sales outreach. Rather, it is about educating consumers and allowing them to make an informed purchasing decision.  "
@@ -126,14 +126,14 @@ const DigitalMarketing = () => {
     },
     {
       id: 2,
-      image: "/public/assets/images/DigitalMarketingServices-2.svg",
+      image: "DigitalMarketingServices-2.svg",
       heading: "Improve search presence",
       description: ["Everyday billions of searches happen on search engines like Google and Bing. We make sure your customers can find you on the front pages of search results.",
         " We have a proven track record helping brands establish a strong search presence on high-value keywords, whether it’s for pay-per-click advertising or organic search (i.e. SEO)."]
     },
     {
       id: 3,
-      image: "/public/assets/images/DigitalMarketingServices-3.png",
+      image: "DigitalMarketingServices-3.png",
       heading: "Build a social media following",
       description: ["If you’ve noticed, many of today’s iconic brands have invested heavily on social media and the network of influencers that help drive their social media presence.",
         "We’ve been working on social media for close to a decade and we have a strong track record running campaigns and building communities on various social media channels."
@@ -141,7 +141,7 @@ const DigitalMarketing = () => {
     },
     {
       id: 4,
-      image: "/public/assets/images/DigitalMarketingServices-4.svg",
+      image: "DigitalMarketingServices-4.svg",
       heading: "Increase website traffic",
       description: ["Your website is potentially your most powerful lead magnet.",
         "A well-designed website can engage and re-engage your customers. Moreover, it allows you to design experiences around your products and services.",
@@ -150,7 +150,7 @@ const DigitalMarketing = () => {
     },
     {
       id: 5,
-      image: "/public/assets/images/DigitalMarketingServices-5.svg",
+      image: "DigitalMarketingServices-5.svg",
       heading: "Use data to drive your digital marketing",
       description: ["We’re no strangers to the role data plays in digital marketing. Without data, brands fly blind, relying only on intuition and experience to fuel their ideas. With data, they can run campaigns based on facts and adjust their initiatives depending on facts.",
         "At Igloo, data dictates what we do. We constantly track important customer data points and conduct experiments to refine our strategies."
@@ -162,37 +162,37 @@ const DigitalMarketing = () => {
     heading: "Still Have Questions?",
     text: [""],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+    backgroundImage: "stillQuestion-banner.jpg",
   };
 
   const bounceData = [
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
       heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Our partnership with Igloo has revolutionized our marketing strategies.",
       heading: "John Doe | CEO of Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo’s personalized approach is unmatched in the industry.",
       heading: "Jane Smith | Marketing Lead at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "With Igloo, we achieved milestones we never thought possible.",
       heading: "Michael Brown | Operations Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo's creativity and execution are truly world-class.",
       heading: "Emily Davis | Brand Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Collaborating with Igloo was a game changer for our business.",
       heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
     },

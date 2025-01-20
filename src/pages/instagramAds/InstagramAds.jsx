@@ -65,14 +65,14 @@ const InstagramAds = () => {
   const servicesData = [
     {
       id: 1,
-      image: "/public/assets/images/instagram4.svg",
+      image: "instagram4.svg",
       heading: "Organic Audience Connections",
       description: ["Brands with significant followings won’t always have to pay for audience engagement. If you have a deep understanding of what your consumers respond to, you can build lasting organic connections.",
       ],
     },
     {
       id: 2,
-      image: "/public/assets/images/instagram5.svg",
+      image: "instagram5.svg",
       heading: "Measurable Results",
       description: ["One of the biggest advantages you’ll get with Instagram advertising is tracking your results in real-time. On the platform itself, you can view instant analytic reports that tell you how well your campaigns perform.",
 
@@ -81,7 +81,7 @@ const InstagramAds = () => {
     },
     {
       id: 3,
-      image: "/public/assets/images/instagram6.svg",
+      image: "instagram6.svg",
       heading: "Budget-Friendly",
       description: ["You don’t need to invest thousands of dollars for your Instagram advertising campaign to succeed. By carefully managing and optimizing your campaigns, we keep your ad costs low and click through rates high.",
       "The best part is, you can adjust your spending according to how your campaign performs and figure out a budget that works."
@@ -89,7 +89,7 @@ const InstagramAds = () => {
     },
     {
       id: 4,
-      image: "/public/assets/images/instagram7.svg",
+      image: "instagram7.svg",
       heading: "Increased Brand Awareness",
       description: ["Businesses that advertise on Instagram don’t just reap the benefits of higher profitability—you can also boost your brand awareness. Note that some 80% of all Instagram users follow at least one business account, so you’re likely to garner a handful of customers through the platform."
       ],
@@ -102,44 +102,44 @@ const InstagramAds = () => {
       "Ask yourself, are you ready to start generating impressive results on one of the biggest social media platforms? If the answer is yes, don’t hesitate. Book a consultation with our experienced specialists and get the results you want as quickly as possible."
     ],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/cmpetetive-crousel.jpg",
+    backgroundImage: "cmpetetive-crousel.jpg",
   };
 
   const questionData = {
     heading: "Still Have Questions?",
     text: [""],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+    backgroundImage: "stillQuestion-banner.jpg",
   };
 
   const bounceData = [
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
       heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Our partnership with Igloo has revolutionized our marketing strategies.",
       heading: "John Doe | CEO of Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo’s personalized approach is unmatched in the industry.",
       heading: "Jane Smith | Marketing Lead at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "With Igloo, we achieved milestones we never thought possible.",
       heading: "Michael Brown | Operations Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo's creativity and execution are truly world-class.",
       heading: "Emily Davis | Brand Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Collaborating with Igloo was a game changer for our business.",
       heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
     },

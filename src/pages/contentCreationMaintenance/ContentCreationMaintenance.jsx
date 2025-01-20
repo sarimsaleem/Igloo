@@ -44,27 +44,27 @@ const ContentCreationMaintenance = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/ccMaintainence1.svg",
+      image:"ccMaintainence1.svg",
       title: "Keyword Research",
       description:
         "If you want to start a blog or copy-forward content campaign, we help you optimize your pages by performing comprehensive keyword research. We consider multiple factors like user intent, search volume, competition, and trends to ensure your website gets maximum visibility.",
     },
     {
       id: 2,
-      image: "/public/assets/images/ccMaintainence2.svg",
+      image:"ccMaintainence2.svg",
       title: "Content Development",
       description: "To develop a strategy, we determine what content types best suit your brand, whether they be blog posts, infographics, videos, brochures, or otherwise. Then, we create a content calendar for your review and help you keep track of when you’re publishing materials.",
     },
     {
       id: 3,
-      image: "/public/assets/images/ccMaintainence3.svg",
+      image:"ccMaintainence3.svg",
       title: "Optimization and Promotion",
       description:
         "Even the most thoroughly crafted content only makes an impact when it’s placed in front of the right people. As such, we make sure to optimize your content so it ranks. We meticulously craft and implement meta tags and descriptions to ensure your content has the potential to show up on Google’s first page.",
     },
     {
       id: 4,
-      image: "/public/assets/images/ccMaintainence4.svg",
+      image:"ccMaintainence4.svg",
       title: "Reporting and Insights",
       description: "The best—and only—way to measure your campaign’s success is through tangible results. We study your content pages and track how many leads you’re garnering throughout the campaign. We also measure these results against your content goals and KPIs to determine what adjustments we need to make.",
     },
@@ -76,7 +76,7 @@ const ContentCreationMaintenance = () => {
       "If diversifying your content, connecting with consumers, driving results, and finding the perfect writer are on your list of things to do, don’t hesitate to reach out to our team at Igloo. We employ only the best and most experienced writers to breathe life into your content strategies—so don’t let your competitors get ahead of the game!"
     ],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/getnotice-bg.jpg",
+    backgroundImage: "getnotice-bg.jpg",
   };
 
   const guidence2 = [
@@ -89,41 +89,41 @@ const ContentCreationMaintenance = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/ccMaintenance5.svg",
+      image:"ccMaintenance5.svg",
       title: "Blog and Website Content",
       description:
         "Establish your brand voice with our carefully researched and thoughtfully written blog posts. We make sure to expand your content footprint as your audience widens with fresh content that is always on-trend.",
     },
     {
       id: 2,
-      image: "/public/assets/images/ccMaintenance6.svg",
+      image:"ccMaintenance6.svg",
       title: "eBooks and White Papers",
       description: "There is no better way to demonstrate your knowledge and professionalism than through a white paper or eBook. Our skilled writers can capture your brand essence and the message you want to communicate in a way that truly sells.",
     },
     {
       id: 3,
-      image: "/public/assets/images/ccMaintenance7.svg",
+      image:"ccMaintenance7.svg",
       title: "Social Media Content",
       description:
         "Looking for something quick, snappy, and most importantly effective? Our writers can provide dozens of options for social media copy that captures, engages and converts your audience while maintaining consistent brand tonality and guidelines!",
     },
     {
       id: 4,
-      image: "/public/assets/images/ccMaintenance8.svg",
+      image:"ccMaintenance8.svg",
       title: "Video Production",
       description: "If you have a big vision and a little wiggle room in your budget, we recommend investing in video production services. Thanks to video-forward platforms like YouTube and Instagram, video has become the premier method of communicating with users.",
     },
     
     {
       id: 5,
-      image: "/public/assets/images/ccMaintenance9.svg",
+      image:"ccMaintenance9.svg",
       title: "Infographics",
       description: "Most online consumers are visual learners. We help you take advantage of this by creating compelling and eye-catching infographics with your brand elements.",
     },
     
     {
       id: 6,
-      image: "/public/assets/images/ccMaintenance10.svg",
+      image:"ccMaintenance10.svg",
       title: "Newsletters",
       description: "Email marketing isn’t dead! If you run a weekly or monthly newsletter, we can help you speed up output and automate the processes involved.",
     },
@@ -133,37 +133,37 @@ const ContentCreationMaintenance = () => {
     heading: "Still Have Questions?",
     text: [""],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+    backgroundImage:"stillQuestion-banner.jpg",
   };
 
   const bounceData = [
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
       heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Our partnership with Igloo has revolutionized our marketing strategies.",
       heading: "John Doe | CEO of Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo’s personalized approach is unmatched in the industry.",
       heading: "Jane Smith | Marketing Lead at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "With Igloo, we achieved milestones we never thought possible.",
       heading: "Michael Brown | Operations Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo's creativity and execution are truly world-class.",
       heading: "Emily Davis | Brand Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Collaborating with Igloo was a game changer for our business.",
       heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
     },

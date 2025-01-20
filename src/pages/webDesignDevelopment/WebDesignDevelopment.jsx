@@ -42,20 +42,20 @@ const WebDesignDevelopment = () => {
         },
         {
             id: 1,
-            image: "/public/assets/images/web1.svg",
+            image: "web1.svg",
             title: "Better Discovery on Search Engines",
             description: [
                 "Thoughtfully developed web applications can improve your UAE business visibility on search engines. At Igloo, we fully optimize your website, making it easier for users to find your tools online."]
         },
         {
             id: 2,
-            image: "/public/assets/images/web2.svg",
+            image: "web2.svg",
             title: "Always-On Accessibility",
             description: "Anyone with a powerful internet connection can access a web application. Not to mention, they function on nearly every browser—from laptops to mobile phones. We ensure that your web applications are responsive and cater to as many people as possible.",
         },
         {
             id: 3,
-            image: "/public/assets/images/web3.svg",
+            image: "web3.svg",
             title: "HIGHLY SECURE DIGITAL ECOSYSTEMS",
             description: [
                 "Nowadays, end-users prioritize Dubai based agencies that underscore safe online environments. After all, when a consumer makes a purchase, they entrust your business with sensitive details like their home address and credit card numbers.",
@@ -65,7 +65,7 @@ const WebDesignDevelopment = () => {
         },
         {
             id: 4,
-            image: "/public/assets/images/web4.svg",
+            image: "web4.svg",
             title: "Customizable, Scalable, and Easy to Maintain",
             description: ["While ready-made web app solutions can save time and money, they are often generic and can’t scale alongside your existing systems. We curate everything according to your specific business goals, giving you the option to decide what kind of framework you want to apply.",
                 "We apply features and functions that are relevant to your business, shrinking or expanding according to your needs. As market dynamics change, so does the way we approach your web application. We can incorporate new processes and technologies quickly, allowing you to stay ahead of competitors.",
@@ -74,14 +74,14 @@ const WebDesignDevelopment = () => {
         },
         {
             id: 5,
-            image: "/public/assets/images/web5.svg",
+            image: "web5.svg",
             title: "Cross-Platform Compatibility",
             description:
                 "Compared to traditional installed software, which functions locally, web-based applications are compatible with all internet browsers and operating systems.",
         },
         {
             id: 6,
-            image: "/public/assets/images/web6.svg",
+            image: "web6.svg",
             title: "Robust Analytics",
             description: "We can easily determine your web application’s success through comprehensive insights and built-in analytics. We then translate these metrics into readable and actionable reports that can help direct future business decisions.",
         },
@@ -93,7 +93,7 @@ const WebDesignDevelopment = () => {
             "Our web app development services encompass every step of the process; from planning to building to deployment. If you want to develop an impactful and easy-to-use web app that engages consumers, reach out to our specialists to find out what our Dubai based agency can create."
         ],
         buttonText: "Book a Free Consultation",
-        backgroundImage: "/public/assets/images/cmpetetive-crousel.jpg",
+        backgroundImage: "cmpetetive-crousel.jpg",
     };
 
     const portfolioColumns = [
@@ -120,20 +120,20 @@ const WebDesignDevelopment = () => {
     const servicesData = [
         {
             id: 1,
-            image: "/public/assets/images/webApp1.svg",
+            image: "webApp1.svg",
             heading: "Client-Side Web Applications",
             description: ["When developing client-side web applications, we focus on user interfaces, delivering high-performance levels that provide a seamless user experience. These web apps prioritize speed and responsiveness."],
         },
         {
             id: 2,
-            image: "/public/assets/images/webApp2.svg",
+            image: "webApp2.svg",
             heading: "Single-Page Applications",
             description: ["Compared to our traditional multi-page applications, our single-page web apps deploy infinite scroll mechanisms to display content. We incorporate dynamic routing that doesn’t require the entire page to reload when fetching new data or executing an action.",
             ],
         },
         {
             id: 3,
-            image: "/public/assets/images/webApp3.svg",
+            image: "webApp3.svg",
             heading: "Server-Side Applications",
             description: ["We deploy server-side applications as part of our back-end solutions, focusing on the background processes that occur within your web app. These applications might involve servers, databases, and application programming interfaces (API).",
                 "We recommend server-side applications to businesses deploying static content, as these apps can take more time to load and buffer.",
@@ -142,7 +142,7 @@ const WebDesignDevelopment = () => {
         },
         {
             id: 4,
-            image: "/public/assets/images/webApp4.svg",
+            image: "webApp4.svg",
             heading: "Front-End Services",
             description: ["Depending on your needs, we provide the following frameworks for front-end solutions."
             ],
@@ -152,7 +152,7 @@ const WebDesignDevelopment = () => {
         },
         {
             id: 5,
-            image: "/public/assets/images/webApp5.svg",
+            image: "webApp5.svg",
             heading: "Back-End Services",
             description: ["Compared to front-end deployments, our back-end services involve more technologies, some of which include the following."
             ],
@@ -163,7 +163,7 @@ const WebDesignDevelopment = () => {
         },
         {
             id: 6,
-            image: "/public/assets/images/webApp6.svg",
+            image: "webApp6.svg",
             heading: "Planning, Prototyping, Validation, and Testing",
             description: ["As with any well-defined procedure, we take ample time to understand your business goals and plan a workflow for prototyping. Once we establish what you want to create, we develop a minimum viable product (MVP) and present it to potential users for feedback.",
                 "Once we validate your web app, we determine which front-end and back-end frameworks will best fulfill the project requirements. After the development stage, we administer multiple tests to identify weak points.",
@@ -177,37 +177,37 @@ const WebDesignDevelopment = () => {
         heading: "Still Have Questions?",
         text: [""],
         buttonText: "Book a Free Consultation",
-        backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+        backgroundImage: "stillQuestion-banner.jpg",
     };
 
     const bounceData = [
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
             heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Our partnership with Igloo has revolutionized our marketing strategies.",
             heading: "John Doe | CEO of Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Igloo’s personalized approach is unmatched in the industry.",
             heading: "Jane Smith | Marketing Lead at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "With Igloo, we achieved milestones we never thought possible.",
             heading: "Michael Brown | Operations Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Igloo's creativity and execution are truly world-class.",
             heading: "Emily Davis | Brand Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Collaborating with Igloo was a game changer for our business.",
             heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
         },

@@ -35,7 +35,7 @@ const InsightsAnalytics = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/insight1.svg",
+      image: "insight1.svg",
       title: "Better Engage Customers",
       description: [
         "The key to better consumer engagement is providing value. Big data can help you identify weak points in your sales journey and create more realistic targets.",
@@ -43,7 +43,7 @@ const InsightsAnalytics = () => {
     },
     {
       id: 2,
-      image: "/public/assets/images/insight2.svg",
+      image: "insight2.svg",
       title: "Make Clear Product Improvements",
       description: ["Product development doesn’t stop as soon as your offers hit the market. Consumer needs constantly change, so even the most effective products are at risk of becoming obsolete.",
         "At Igloo, we develop a log of customer suggestions and feedback that we can use to inform product improvements. We don’t just consider what customers want to change about your product; we also take an in-depth look at why your existing product isn’t meeting their needs."
@@ -52,7 +52,7 @@ const InsightsAnalytics = () => {
     },
     {
       id: 3,
-      image: "/public/assets/images/insight3.svg",
+      image: "insight3.svg",
       title: "Improve Support Resources",
       description: [
         "Contrary to popular belief, you don’t lose a customer when they become dissatisfied with your business. By determining which customer interactions are causing dissatisfaction, we can determine how best to address specific issues.",
@@ -61,7 +61,7 @@ const InsightsAnalytics = () => {
     },
     {
       id: 4,
-      image: "/public/assets/images/insight4.svg",
+      image: "insight4.svg",
       title: "Mitigate Risks and Setbacks",
       description: ["Business risks are inevitable, no matter how much you prepare for them. However, data analytics can help you better understand these vulnerabilities and implement the appropriate prevention strategies.",
         "For instance, if your business has previously experienced uncollected receivables, we can develop a system for identifying unpaid invoices, lost checks, and other related materials.",
@@ -70,7 +70,7 @@ const InsightsAnalytics = () => {
     },
     {
       id: 5,
-      image: "/public/assets/images/insight5.svg",
+      image: "insight5.svg",
       title: "Enhance Data Security",
       description: [
         "Many businesses will experience data breaches at least once in their lifetime. However, by processing and visualizing relevant data, we can determine the cause of specific attacks and what measures to take to prevent them from reoccurring.",
@@ -78,7 +78,7 @@ const InsightsAnalytics = () => {
     },
     {
       id: 6,
-      image: "/public/assets/images/insight6.svg",
+      image: "insight6.svg",
       title: "Increase Sales",
       description: ["Data analytics can flag negative experiences within your sales funnel that keep customers from following through with a purchase. By running predictive models on transaction data, we can determine the best methods for sales closing, ultimately increasing your profits and returns.",]
     },
@@ -91,13 +91,13 @@ const InsightsAnalytics = () => {
       "If you’re ready to start growing your Dubai-based business, reach out to us today to book a consultation."
     ],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/marketingAutomation-carousel.jpg",
+    backgroundImage: "marketingAutomation-carousel.jpg",
   };
 
   const servicesData = [
     {
       id: 1,
-      image: "/public/assets/images/googleAna1.svg",
+      image: "googleAna1.svg",
       heading: "Google Analytics",
       description: ["One of the best ways to make sense of your numbers is Google Analytics. This tool encompasses all of your online marketing efforts and can help us inform your campaigns and strategies more effectively.",
         "Through our Google Analytics consulting services, we can help customize goals, segment your audiences, and create custom monthly reports that reflect campaign performance.",
@@ -106,7 +106,7 @@ const InsightsAnalytics = () => {
     },
     {
       id: 2,
-      image: "/public/assets/images/googleAna2.svg",
+      image: "googleAna2.svg",
       heading: "Conversion Rate Optimization",
       description: ["An integral part of your business success is how well your marketing materials encourage consumers to convert. We can determine your website’s usability through conversion rate optimization, audit existing conversion efforts, develop raw heatmap data, and review aesthetic elements.",
 
@@ -115,21 +115,21 @@ const InsightsAnalytics = () => {
     },
     {
       id: 3,
-      image: "/public/assets/images/googleAna3.svg",
+      image: "googleAna3.svg",
       heading: "Customer Experience Optimization",
       description: ["A positive customer experience is what gets consumers to convert. We use business data to make recommendations tailored to your customer journey, reviewing touch points across all channels.",
       ]
     },
     {
       id: 4,
-      image: "/public/assets/images/googleAna4.svg",
+      image: "googleAna4.svg",
       heading: "Social Media Management",
       description: ["If you regularly run social media campaigns, measuring their success is imperative to driving sales and returns. We ensure that your campaigns are reaching the right audiences and determine the most appropriate ad spend to maximize returns."
       ],
     },
     {
       id: 5,
-      image: "/public/assets/images/googleAna5.svg",
+      image: "googleAna5.svg",
       heading: "Pay Per Click Management",
       description: ["If running a PPC campaign for your business, we can oversee performance and provide follow-up reports regarding any observations or recommendations.",
         "With our PPC management services, you can make more deliberate choices regarding keyword selection, ad remarketing, ad copy, and visual elements. Throughout the duration of your campaign, we will provide a renewed and tailored strategy that informs your custom ad copy, bid optimization strategy, and keywords."
@@ -138,14 +138,14 @@ const InsightsAnalytics = () => {
 
     {
       id: 6,
-      image: "/public/assets/images/googleAna6.svg",
+      image: "googleAna6.svg",
       heading: "Prescriptive and Predictive Analytics",
       description: ["For your business to evolve, you should have a general idea of what to expect as the industry changes. We perform prescriptive and predictive analytics tracking to make decisions based on past, proven trends and drive the future results you want."
       ],
     },
     {
       id: 7,
-      image: "/public/assets/images/googleAna7.svg",
+      image: "googleAna7.svg",
       heading: "Bespoke Industry Solutions",
       description: ["We tailor our data-driven solutions to your business and can deliver industry-specific services. We have specialties in providing actionable insight plans for those in retail, telco, health, technology, and other backgrounds."
       ],
@@ -156,37 +156,37 @@ const InsightsAnalytics = () => {
     heading: "Still Have Questions?",
     text: [""],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+    backgroundImage: "stillQuestion-banner.jpg",
   };
 
   const bounceData = [
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
       heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Our partnership with Igloo has revolutionized our marketing strategies.",
       heading: "John Doe | CEO of Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo’s personalized approach is unmatched in the industry.",
       heading: "Jane Smith | Marketing Lead at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "With Igloo, we achieved milestones we never thought possible.",
       heading: "Michael Brown | Operations Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo's creativity and execution are truly world-class.",
       heading: "Emily Davis | Brand Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Collaborating with Igloo was a game changer for our business.",
       heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
     },

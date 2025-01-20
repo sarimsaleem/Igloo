@@ -89,28 +89,28 @@ const LogoAndBrand = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/brandGuideMatter-11.svg",
+      image: "brandGuideMatter-11.svg",
       title: "Strong Brand Identity",
       description:
         "Strong brand identities rely on consistency. It clarifies what your business represents through visual elements like color palettes and your tone of voice. At Igloo, we have ample experience developing brand personas for startups and businesses looking to revamp.",
     },
     {
       id: 2,
-      image: "/public/assets/images/brandGuideMatter-12.svg",
+      image: "brandGuideMatter-12.svg",
       title: "Customer Loyalty",
       description:
         "High-quality products and services are not enough to keep customers happy—most of them also seek positive customer experiences. You can expect repeat business and steadier profits by creating guidelines that help retain these experiences.",
     },
     {
       id: 3,
-      image: "/public/assets/images/brandGuideMatter-3.svg",
+      image: "brandGuideMatter-3.svg",
       title: "Increased Revenue",
       description:
         "Brand consistency has the potential to increase revenue by 23%. By outsourcing a singular team that works with a deep knowledge of your brand, you can significantly improve your bottom line.",
     },
     {
       id: 4,
-      image: "/public/assets/images/brandGuideMatter-4.svg",
+      image: "brandGuideMatter-4.svg",
       title: "Streamlined Processes",
       description:
         "Brand guidelines aren’t just useful for consumers—they’re also helpful for your native design team as they carry out your communications and marketing plans.",
@@ -124,26 +124,26 @@ const LogoAndBrand = () => {
       "If you’re struggling to bring your brand concept to life, consult with our experts today to put the pieces together."
     ],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/getnotice-bg.jpg",
+    backgroundImage: "getnotice-bg.jpg",
 
   };
 
   const servicesData = [
     {
       id: 1,
-      image: "/public/assets/images/brandguidelines-1.svg",
+      image: "brandguidelines-1.svg",
       heading: "Brand Messaging",
       description: "Are you unsatisfied with your brand’s value propositions, messaging pillars, or overall direction? We can guide you through developing every aspect of your brand: from taglines to unique selling points that make your brand shine."
     },
     {
       id: 2,
-      image: "/public/assets/images/brandguidelines-2.svg",
+      image: "brandguidelines-2.svg",
       heading: "Brand Essence",
       description: "Your company’s core identity will not only influence its tone and personality, but how consumers perceive it. We help piece together the parts of your brand that make it complete and recognizable."
     },
     {
       id: 3,
-      image: "/public/assets/images/brandguidelines-3.svg",
+      image: "brandguidelines-3.svg",
       heading: "Visual Elements",
       description: "From your logo and color palette to your typography and iconography, we thread together all aspects of your brand guide to create one cohesive look."
     },
@@ -153,37 +153,37 @@ const LogoAndBrand = () => {
     heading: "Still Have Questions?",
     text: ["Branding is a complex topic that we could discuss for hours on end. If there’s anything you need to know that wasn’t covered on this page, feel free to contact us."],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+    backgroundImage: "stillQuestion-banner.jpg",
   };
 
   const bounceData = [
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
       heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Our partnership with Igloo has revolutionized our marketing strategies.",
       heading: "John Doe | CEO of Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo’s personalized approach is unmatched in the industry.",
       heading: "Jane Smith | Marketing Lead at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "With Igloo, we achieved milestones we never thought possible.",
       heading: "Michael Brown | Operations Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo's creativity and execution are truly world-class.",
       heading: "Emily Davis | Brand Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Collaborating with Igloo was a game changer for our business.",
       heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
     },

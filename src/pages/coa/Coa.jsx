@@ -71,7 +71,7 @@ const Coa = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/coa1.svg",
+      image: "coa1.svg",
       title: "Know Your Site Objectives",
       description: [
         "For a conversion audit to make sense, you’ll have to set clear, measurable goals. For instance, you might ask yourself whether you want to lower your cart abandonment rate or increase your average order value.",
@@ -79,14 +79,14 @@ const Coa = () => {
     },
     {
       id: 2,
-      image: "/public/assets/images/coa2.svg",
+      image: "coa2.svg",
       title: "Define Your Target Audience",
       description: ["Target audiences change, and it may not be your ideal customer transacting on your website. As such, we take the time to define who your target customers are—not who you want them to be.",
         "By diving deep into your business’ insights and research, we identify your perfect customer.",]
     },
     {
       id: 3,
-      image: "/public/assets/images/coa3.svg",
+      image: "coa3.svg",
       title: "QUALITATIVE AND QUANTITATIVE RESEARCH",
       description: [
         "A combination of qualitative and quantitative research is the key to successful findings. First, we’ll perform a technical review that enumerates:",
@@ -97,7 +97,7 @@ const Coa = () => {
     },
     {
       id: 4,
-      image: "/public/assets/images/coa4.svg",
+      image: "coa4.svg",
       title: "START THE TESTING PROCESS",
       description: ["With your identified qualitative and quantitative research, we can begin testing new elements on your website, paying particular attention to:",
         "What increases the flow of visitors",
@@ -116,44 +116,44 @@ const Coa = () => {
       "Book a free consultation with Igloo today if you think your website could use a diagnosis and much-needed makeover."
     ],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/cmpetetive-crousel.jpg",
+    backgroundImage: "cmpetetive-crousel.jpg",
   };
 
   const questionData = {
     heading: "Still Have Questions?",
     text: [""],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+    backgroundImage: "stillQuestion-banner.jpg",
   };
 
   const bounceData = [
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
       heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Our partnership with Igloo has revolutionized our marketing strategies.",
       heading: "John Doe | CEO of Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo’s personalized approach is unmatched in the industry.",
       heading: "Jane Smith | Marketing Lead at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "With Igloo, we achieved milestones we never thought possible.",
       heading: "Michael Brown | Operations Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo's creativity and execution are truly world-class.",
       heading: "Emily Davis | Brand Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Collaborating with Igloo was a game changer for our business.",
       heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
     },

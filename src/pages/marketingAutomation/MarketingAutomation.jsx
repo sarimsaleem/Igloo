@@ -43,28 +43,28 @@ const MarketingAutomation = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/marketingAutomation1.svg",
+      image: "marketingAutomation1.svg",
       title: "Improved Efficiency",
       description:
         "By reducing staffing costs through automation, we can help you develop a more efficient and productive internal process. With our help, your team can focus more on its creative output and make bigger decisions.",
     },
     {
       id: 2,
-      image: "/public/assets/images/marketingAutomation2.svg",
+      image: "marketingAutomation2.svg",
       title: "Scalability",
       description:
         "Did we mention that our marketing automation systems are highly scalable? We develop our automation strategies using scalable tools that, more often than not, price by demand so you only ever pay for features you use.",
     },
     {
       id: 3,
-      image: "/public/assets/images/marketingAutomation3.svg",
+      image: "marketingAutomation3.svg",
       title: "Personalized Marketing Strategy",
       description:
         "The beauty of marketing automation is its ability to make your buyer communications feel more personal. We help you craft meaningful messages to targeted audiences, segmenting them according to behavior and preferences. Then, we use this information to track your most engaged leads and win their business.",
     },
     {
       id: 4,
-      image: "/public/assets/images/marketingAutomation4.svg",
+      image: "marketingAutomation4.svg",
       title: "Accurate Insights",
       description:
         "Speaking of tracking, part of our marketing automation scheme is more accurate reporting. We can reduce human error and simplify your more cumbersome tasks through automation software. Overall, you’ll get a more detailed look at your marketing strategy’s friction points and learn how to improve them.",
@@ -78,44 +78,44 @@ const MarketingAutomation = () => {
       "If you’re struggling to find a way to make your marketing more effective and cost-efficient, our experts at Igloo can help. Book a consultation with us today to find out how we can transform your marketing strategy into a hyper-effective lead-builder!"
     ],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/getnotice-bg.jpg",
+    backgroundImage: "getnotice-bg.jpg",
   };
 
   const questionData = {
     heading: "Still Have Questions?",
     text: [""],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+    backgroundImage: "stillQuestion-banner.jpg",
   };
 
   const bounceData = [
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
       heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Our partnership with Igloo has revolutionized our marketing strategies.",
       heading: "John Doe | CEO of Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo’s personalized approach is unmatched in the industry.",
       heading: "Jane Smith | Marketing Lead at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "With Igloo, we achieved milestones we never thought possible.",
       heading: "Michael Brown | Operations Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo's creativity and execution are truly world-class.",
       heading: "Emily Davis | Brand Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Collaborating with Igloo was a game changer for our business.",
       heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
     },

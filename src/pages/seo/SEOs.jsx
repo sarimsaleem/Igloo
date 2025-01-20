@@ -37,7 +37,7 @@ const SEOs = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/ppc1.svg",
+      image: "ppc1.svg",
       title: "Generate Higher-Quality Leads",
       description: [
         "Compared to other marketing strategies, SEO is proven to generate the most high-quality leads in a short period. Not to mention, SEO guarantees a significantly higher conversion rate than outbound methods.",
@@ -46,14 +46,14 @@ const SEOs = () => {
     },
     {
       id: 2,
-      image: "/public/assets/images/ppc2.svg",
+      image: "ppc2.svg",
       title: "Focus on User Experience",
       description: ["While only implemented recently, Google considers a positive user experience as a ranking factor on search engines. By focusing on customer needs, your website ranks higher. A positive customer experience also significantly increases conversions.",
         "Factors like technical SEO (backlinks, page speed, site navigation, etc.) also improve site health and make site experiences seamless for visitors, while simultaneously improving your SEO rankings.",]
     },
     {
       id: 3,
-      image: "/public/assets/images/ppc3.svg",
+      image: "ppc3.svg",
       title: "Improve Brand Awareness",
       description: [
         "Simply put, ranking on Google’s first page tangentially increases your brand awareness. Even if potential customers don’t click through to your website, they will associate your brand with specific search terms and solutions.",
@@ -62,7 +62,7 @@ const SEOs = () => {
     },
     {
       id: 4,
-      image: "/public/assets/images/ppc4.svg",
+      image: "ppc4.svg",
       title: "Get Measurable Results",
       description: ["SEO metrics are easy to track. While not as straightforward as paid ads, you can easily make sense of metrics like page views, ad clicks, and order completions to determine how well your campaigns perform",
         "At Igloo, we use tools like Google Search Console to determine how people are discovering your business, what topics and keywords you’re ranking for, and where your campaign could use improvement."
@@ -70,7 +70,7 @@ const SEOs = () => {
     },
     {
       id: 5,
-      image: "/public/assets/images/ppc5.svg",
+      image: "ppc5.svg",
       title: "Achieve Long-Term Success",
       description: [
         "While your website may take a few months to achieve an optimal ranking, SEO provides long-term results that can far outweigh the upfront investments of time and money.",
@@ -79,7 +79,7 @@ const SEOs = () => {
     },
     {
       id: 6,
-      image: "/public/assets/images/ppc6.svg",
+      image: "ppc6.svg",
       title: "Shrink Your Marketing Budget",
       description: ["SEO is inexpensive to implement and can even improve cost management. If your website ranks well, you won’t have to invest in costly pay-per-click campaigns—as long as people click through your links, you can maintain your position as a thought leader.",
         "The marketing tasks involved in an SEO strategy are also relatively inexpensive. These include blogs, social media posts, and referrals.",]
@@ -93,24 +93,24 @@ const SEOs = () => {
       "If you’re experimenting with Google Ads for the first time or at a loss for how to improve your existing campaigns, we at Igloo have the tools to help. Book a consultation with one of our specialists today and get your paid search management campaign rolling."
     ],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/increaseTraffic.jpg",
+    backgroundImage: "increaseTraffic.jpg",
   };
 
   const caseStudyData = [
     {
-      image: "/public/assets/images/section6-6.jpg",
+      image: "section6-6.jpg",
       heading: "Google Ads Case Study",
       subHead: "International School in Dubai | UAE",
       text: "To increase the number of students through Google Ads",
     },
     {
-      image: "/public/assets/images/caseStudy10.jpg",
+      image: "caseStudy10.jpg",
       heading: "Google Ads Case Study",
       subHead: "Leading Waterpark in Dubai | UAE",
       text: "To increase the ROI on the Ad Spend",
     },
     {
-      image: "/public/assets/images/caseStudy11.jpg",
+      image: "caseStudy11.jpg",
       heading: "Google Ads Case Study",
       subHead: "Tech Industry | XYZ Corp",
       text: "XYZ Corp aimed to enhance their customer engagement and increase conversions through PPC campaigns.",
@@ -120,7 +120,7 @@ const SEOs = () => {
   const servicesData = [
     {
       id: 1,
-      image: "/public/assets/images/ppcService1.svg",
+      image: "ppcService1.svg",
       heading: "SEO Audits",
       list: ["On-Page SEO: We ensure that all aspects of your website are running efficiently. We optimize title tags, content, site navigation, site speed, and other technical elements. Additional responsibilities include picking the correct keyword tags, developing visual elements, and incorporating responsive design.",
         "Off-Page SEO: Elements relating to your online presence can also influence how you rank. As such, we pay close attention to backlinks, published content, social media shares, and more. Some of our off-page duties include developing and promoting shareable content, optimizing your Google My Business Profile, and monitoring social media mentions.",
@@ -130,7 +130,7 @@ const SEOs = () => {
     },
     {
       id: 2,
-      image: "/public/assets/images/ppcService2.svg",
+      image: "ppcService2.svg",
       heading: "Local SEO",
       description: ["Any SEO company will tell you the importance of local SEO to your success, but not every agency     will know how to help you improve it.",
         "Especially if you run a brick-and-mortar shop, improving your local SEO efforts can capture a more significant portion of your nearby market. We focus on developing a robust Google My Business profile that ensures your company appears in Google’s local SEO 3-pack.",
@@ -139,7 +139,7 @@ const SEOs = () => {
     },
     {
       id: 3,
-      image: "/public/assets/images/ppcService3.svg",
+      image: "ppcService3.svg",
       heading: "eCommerce SEO",
       description: ["When it comes to eCommerce SEO, qualified leads are the foundation of your success. At Igloo, we optimize your entire product line and improve online visibility to achieve more sales. We can ensure your business shows up in search results through product markups, turning clicks into conversions.",
         "No other SEO agency in Dubai  possesses the tools and unique skillsets we have that help us take an analytical and growth-driven approach to growing your eCommerce business"
@@ -147,7 +147,7 @@ const SEOs = () => {
     },
     {
       id: 4,
-      image: "/public/assets/images/ppcService4.svg",
+      image: "ppcService4.svg",
       heading: "Voice SEO",
       description: ["Accessibility is an SEO factor many businesses tend to overlook. If you want to reach as many customers as possible, you can’t ignore specific demographics. By optimizing your conversational search results, we can tap into shoppers who may prefer to use voice tools over traditional shopping methods.",
         "In focusing on your voice SEO, we simultaneously improve your online visibility, increase website visits, boost conversions, and drive revenue."
@@ -159,37 +159,37 @@ const SEOs = () => {
     heading: "Still Have Questions?",
     text: [""],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+    backgroundImage: "stillQuestion-banner.jpg",
   };
 
   const bounceData = [
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: ".section6-7.jpg",
       text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
       heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Our partnership with Igloo has revolutionized our marketing strategies.",
       heading: "John Doe | CEO of Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo’s personalized approach is unmatched in the industry.",
       heading: "Jane Smith | Marketing Lead at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "With Igloo, we achieved milestones we never thought possible.",
       heading: "Michael Brown | Operations Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo's creativity and execution are truly world-class.",
       heading: "Emily Davis | Brand Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Collaborating with Igloo was a game changer for our business.",
       heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
     },

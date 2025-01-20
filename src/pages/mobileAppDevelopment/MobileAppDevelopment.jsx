@@ -71,20 +71,20 @@ const MobileAppDevelopment = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/mobileApp1.svg",
+      image: "mobileApp1.svg",
       title: "Telehealth",
       description: [
         "We integrate hospital information systems into manageable telehealth apps accessible to healthcare providers and patients. We also deploy inventory management systems and AI engines for medical treatment."]
     },
     {
       id: 2,
-      image: "/public/assets/images/mobileApp2.svg",
+      image: "mobileApp2.svg",
       title: "Ecommerce",
       description: "Modern retailers can take advantage of our specialized solutions to create seamless shopping experiences for customers. Engage online users with custom features and in-store navigation.",
     },
     {
       id: 3,
-      image: "/public/assets/images/mobileApp3.svg",
+      image: "mobileApp3.svg",
       title: "FinTech",
       description: [
         "Our scalable online banking, cryptocurrency, and digital wallet technologies are second to none. We provide unbeatable security services, help financial institutions and end-users to reduce transaction fees, and cater to modern consumer demands."
@@ -92,21 +92,21 @@ const MobileAppDevelopment = () => {
     },
     {
       id: 4,
-      image: "/public/assets/images/mobileApp4.svg",
+      image: "mobileApp4.svg",
       title: "Travel and Hospitality",
       description: ["Whether you’re in the hotel, entertainment, restaurant, or event industry, we have a solution for you. Create anything from booking systems to loyalty and reward programs with help from our experienced developers."
       ]
     },
     {
       id: 5,
-      image: "/public/assets/images/mobileApp5.svg",
+      image: "mobileApp5.svg",
       title: "Insurance",
       description:
         "Insurance companies can improve organizational efficiencies while reducing costs through our bespoke app solutions. Take advantage of custom portals and policy management software to streamline administrative processes that may be taking up your time.",
     },
     {
       id: 6,
-      image: "/public/assets/images/mobileApp6.svg",
+      image: "mobileApp6.svg",
       title: "Food Delivery",
       description: "One of the most important keys to a successful food delivery app is its UX/UI design, and we pride ourselves in being able to provide designs that are simple, seamless, and that can be flexible to support the wide variety of features that you aim to offer to your users.",
     },
@@ -119,7 +119,7 @@ const MobileAppDevelopment = () => {
       "If you want to get on top of the latest app technologies, contact our experts today and book an in-depth consultation."
     ],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/cmpetetive-crousel.jpg",
+    backgroundImage: "cmpetetive-crousel.jpg",
   };
 
   const guidence2 = [
@@ -132,20 +132,20 @@ const MobileAppDevelopment = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/mobileApp7.svg",
+      image: "mobileApp7.svg",
       title: "Native Mobile Apps",
       description: [
         "We develop hyper-fast and bug-free native apps that function on both iOS and Android systems. Rest assured we make every effort to align with your business model and security requirements."]
     },
     {
       id: 2,
-      image: "/public/assets/images/mobileApp8.svg",
+      image: "mobileApp8.svg",
       title: "Hybrid Mobile Apps",
       description: "Want to launch a cross-platform app? We develop solutions that function seamlessly in different environments, combining native and web technologies for a unique online experience.",
     },
     {
       id: 3,
-      image: "/public/assets/images/mobileApp9.svg",
+      image: "mobileApp9.svg",
       title: "Integration and Testing",
       description: [
         "Thanks to a library of knowledge in APIs, we can guarantee effortless integration with back ends and third-party software. To ensure full functionality, we also perform functionality, UI/UX, performance, security, and accessibility testing."
@@ -153,7 +153,7 @@ const MobileAppDevelopment = () => {
     },
     {
       id: 4,
-      image: "/public/assets/images/mobileApp10.svg",
+      image: "mobileApp10.svg",
       title: "Mobile Consulting",
       description: ["Do you have your in-house developers but want a second opinion on your concept? We are available for mobile consulting 24/7 and can assist in concept finalization, platform or device compatibility, and cost estimations."
       ]
@@ -164,37 +164,37 @@ const MobileAppDevelopment = () => {
     heading: "Still Have Questions?",
     text: [""],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+    backgroundImage: "stillQuestion-banner.jpg",
   };
 
   const bounceData = [
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
       heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Our partnership with Igloo has revolutionized our marketing strategies.",
       heading: "John Doe | CEO of Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo’s personalized approach is unmatched in the industry.",
       heading: "Jane Smith | Marketing Lead at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "With Igloo, we achieved milestones we never thought possible.",
       heading: "Michael Brown | Operations Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo's creativity and execution are truly world-class.",
       heading: "Emily Davis | Brand Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Collaborating with Igloo was a game changer for our business.",
       heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
     },

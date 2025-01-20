@@ -31,7 +31,7 @@ const CompetetiveAnalysis = () => {
     const servicesData = [
         {
             id: 1,
-            image: "/public/assets/images/performcompetitiveAnalysis1.svg",
+            image: "performcompetitiveAnalysis1.svg",
             heading: "Step 1: Determine Who Your Competitors Are and What They Do",
             description: ["First, we determine who your competitors are by listing businesses that satisfy the same customer needs. Then, we evaluate their value proposition and consider their market share, consumers behavior, pricing strategies, and distribution methods. "
             ],
@@ -39,7 +39,7 @@ const CompetetiveAnalysis = () => {
         },
         {
             id: 2,
-            image: "/public/assets/images/performcompetitiveAnalysis2.svg",
+            image: "performcompetitiveAnalysis2.svg",
             heading: "Step 2: Research Competitor Tactics",
             description: ["Then, we analyze your competitors’ sales process by taking a closer look at their:",
             ],
@@ -52,24 +52,24 @@ const CompetetiveAnalysis = () => {
         },
         {
             id: 3,  
-            image: "/public/assets/images/performcompetitiveAnalysis3.svg",
+            image: "performcompetitiveAnalysis3.svg",
             heading: "Step 3: Study Technology Stacks",
             description: ["Knowing what kind of technology your competitors are utilizing can put you at a significant advantage. For instance, your competitors may be taking advantage of a CRM that you previously had on your radar. If so, leveraging it can thrust your success forward."
             ]
         },
         {
             id: 4,
-            image: "/public/assets/images/performcompetitiveAnalysis4.svg",
+            image: "performcompetitiveAnalysis4.svg",
             heading: "Step 4: Review Their Social Media Platform",
             description: ["When it comes to digital marketing, social media is the place to be. Thus, evaluating how your competitors are engaging with consumers online can give you an idea of what to do and what not to do."
             ],
             list:[
                 "Facebook", "Twitter", "Instagram","LinkedIn", "Snapchat", "YouTube","TikTok"   
             ]
-        },
+        },  
         {
             id: 5,
-            image: "/public/assets/images/performcompetitiveAnalysis5.svg",
+            image: "performcompetitiveAnalysis5.svg",
             heading: "Step 5: Perform a SWOT Analysis",
             description: ["As we study your competitors, we use the information we obtain to create a SWOT analysis. Throughout the process, we ask:"
             ],
@@ -88,44 +88,44 @@ const CompetetiveAnalysis = () => {
             "Running a successful business is not easy, but with the right help, you can always stay ahead of the curve. If you want to give your competitors a run for their money, contact our experts at Igloo today and book a free consultation."
         ],
         buttonText: "Book a Free Consultation",
-        backgroundImage: "/public/assets/images/getnotice-bg.jpg",
+        backgroundImage: "getnotice-bg.jpg",
     };
 
     const questionData = {
         heading: "Still Have Questions?",
         text: [""],
         buttonText: "Book a Free Consultation",
-        backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+        backgroundImage: "stillQuestion-banner.jpg",
     };
 
     const bounceData = [
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
             heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Our partnership with Igloo has revolutionized our marketing strategies.",
             heading: "John Doe | CEO of Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Igloo’s personalized approach is unmatched in the industry.",
             heading: "Jane Smith | Marketing Lead at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "With Igloo, we achieved milestones we never thought possible.",
             heading: "Michael Brown | Operations Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Igloo's creativity and execution are truly world-class.",
             heading: "Emily Davis | Brand Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Collaborating with Igloo was a game changer for our business.",
             heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
         },

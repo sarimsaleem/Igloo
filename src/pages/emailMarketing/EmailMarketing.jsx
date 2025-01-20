@@ -49,27 +49,27 @@ const EmailMarketing = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/emailMarketing1.svg",
+      image: "emailMarketing1.svg",
       title: "Customer Loyalty",
       description:
         "Customers develop lasting relationships with brands when they interact regularly. Thanks to the cost-effectiveness of email marketing, many prefer to correspond through this medium. Not to mention, our clever email strategies can help save you the time and money you’d exert on a medium like paid advertising.",
     },
     {
       id: 2,
-      image: "/public/assets/images/emailMarketing2.svg",
+      image: "emailMarketing2.svg",
       title: "Easy-to-Track Analytics",
       description: "Open and click-through rates can say a lot about how your email marketing campaign performs. Because email metrics are so easy to track, your campaign can be just as easy to adjust according to user behaviors. Depending on your marketing goals, we align our chosen metrics to best reflect your performance indicators.",
     },
     {
       id: 3,
-      image: "/public/assets/images/emailMarketing3.svg",
+      image: "emailMarketing3.svg",
       title: "Expanded Business Reach",
       description:
         "Did you know that email users check their inbox multiple times a day? That statistic alone should put into perspective your chances of being seen. We have experience crafting thoughtful, anti-spam messages that make their way into consumer inboxes at exactly the right time.",
     },
     {
       id: 4,
-      image: "/public/assets/images/emailMarketing4.svg",
+      image: "emailMarketing4.svg",
       title: "Hyper-personalization",
       description: "At Igloo, we zero in on data-driven campaigns, focusing on delivering hyper-specific messages to the right audiences instead of broad, impersonal messaging. By reaching out to multiple audience segments, we can put a personal spin on our efforts and drive more attractive results.",
     },
@@ -81,7 +81,7 @@ const EmailMarketing = () => {
       "For some businesses, tried and tested marketing strategies are the way to go, so if your email campaign could use a facelift, we at Igloo can provide you with everything you need. Just give us a call to learn more about our full-service email marketing campaign offerings."
     ],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/getnotice-bg.jpg",
+    backgroundImage: "getnotice-bg.jpg",
   };
 
   const guidence2 = [
@@ -94,27 +94,27 @@ const EmailMarketing = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/emailServices1.svg",
+      image: "emailServices1.svg",
       title: "Performance Audit",
       description:
         "The way trends come and go, your email marketing strategy has to adapt to an ever-changing environment. But first, we need to familiarize ourselves with what needs changing. We perform comprehensive marketing audits and technical reviews to make recommendations for your future campaigns.",
     },
     {
       id: 2,
-      image: "/public/assets/images/emailServices2.svg",
+      image: "emailServices2.svg",
       title: "Marketing Management",
       description: "Are you having trouble staying on top of your monthly email services? We can take care of that for you by regularly reviewing your marketing goals and ensuring that your efforts align. We develop new campaigns according to your brand guidelines, creating monthly content that interests, engages and delights users.",
     },
     {
       id: 3,
-      image: "/public/assets/images/emailServices3.svg",
+      image: "emailServices3.svg",
       title: "Email Automation",
       description:
         "Instead of losing time over manual processes, we can help streamline your efforts through email marketing automation. Automation involves designing drip sequences that best help you achieve your marketing objectives as efficiently as possible.",
     },
     {
       id: 4,
-      image: "/public/assets/images/emailServices4.svg",
+      image: "emailServices4.svg",
       title: "List Hygiene",
       description: "Without maintaining list hygiene, you run the risk of your email marketing campaigns being filtered out by email service providers such as Gmail and Outlook. We help you ensure that your messages reach as many of your target users as possible.",
     },
@@ -124,37 +124,37 @@ const EmailMarketing = () => {
     heading: "Still Have Questions?",
     text: [""],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+    backgroundImage: "stillQuestion-banner.jpg",
   };
 
   const bounceData = [
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
       heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Our partnership with Igloo has revolutionized our marketing strategies.",
       heading: "John Doe | CEO of Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo’s personalized approach is unmatched in the industry.",
       heading: "Jane Smith | Marketing Lead at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "With Igloo, we achieved milestones we never thought possible.",
       heading: "Michael Brown | Operations Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo's creativity and execution are truly world-class.",
       heading: "Emily Davis | Brand Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Collaborating with Igloo was a game changer for our business.",
       heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
     },

@@ -65,7 +65,7 @@ const Youtube = () => {
     const servicesData = [
         {
             id: 1,
-            image: "/public/assets/images/youtube1.svg",
+            image:"youtube1.svg",
             heading: "Hyper-specific Targeting",
             description: ["Believe it or not, YouTube ad targeting is just as specific as on platforms like Facebook and Instagram. You can target your audience according to:",
             ],
@@ -73,28 +73,28 @@ const Youtube = () => {
         },
         {
             id: 2,
-            image: "/public/assets/images/youtube2.svg",
+            image:"youtube2.svg",
             heading: "Cost-Effective",
             description: ["If you already employ pay-per-click (PPC) as part of your advertising strategy, you’ll be pleased to know that YouTube adheres to the same model. With YouTube ads, you can determine how much you’re willing to pay every time someone clicks through your video, making it incredibly cost-effective.",
             ],
         },
         {
             id: 3,
-            image: "/public/assets/images/youtube3.svg",
+            image:"youtube3.svg",
             heading: "High Reach",
             description: ["As we previously mentioned, YouTube is one of the most sizable search engines on the internet, second only to Google. So unless you happen to have two million email subscribers, you’re not going to get access to a wider audience anywhere else!"
             ]
         },
         {
             id: 4,
-            image: "/public/assets/images/youtube4.svg",
+            image:"youtube4.svg",
             heading: "Enhanced Engagements",
             description: ["Most consumers feel disconnected when they see a television advert or hear one over the radio. Fortunately, YouTube provides many opportunities to engage with audiences on a deeper level. YouTube ads allow viewers to put a face to your brand and better understand company attitudes."
             ],
         },
         {
             id: 5,
-            image: "/public/assets/images/youtube5.svg",
+            image:"youtube5.svg",
             heading: "Measurable Insights",
             description: ["Like other social media platforms, YouTube comes equipped with built-in analytics that are easy to put into action. Through the Analytics tab, you can study how well your videos are engaging users and gain key insights to create even better content in the future."
             ],
@@ -107,13 +107,13 @@ const Youtube = () => {
             "YouTube is a hotbed for valuable leads that you can hook with the right advertising strategy. If success is on your list of to-dos, trust that our experts at Igloo can deliver. Book a consultation today to kick-start your video advertising campaign—we’ll let our years of experience do the talking!"
         ],
         buttonText: "Book a Free Consultation",
-        backgroundImage: "/public/assets/images/cmpetetive-crousel.jpg",
+        backgroundImage:"cmpetetive-crousel.jpg",
     };
 
     const servicesData2 = [
         {
             id: 1,
-            image: "/public/assets/images/youtube6.svg",
+            image:"youtube6.svg",
             heading: "Audience Research",
             description: ["We maximize your YouTube ads by performing highly detailed audience research. After all, even the most creative and engaging ads don’t get the attention they deserve when placed in front of the wrong people.",
                 "To get the most out of your reach, we match the right target audience to your key objectives, whether it be to re-target previous followers or get ahead of your competitors.  "
@@ -121,14 +121,14 @@ const Youtube = () => {
         },
         {
             id: 2,
-            image: "/public/assets/images/youtube7.svg",
+            image:"youtube7.svg",
             heading: "Campaign Audit",
             description: ["Whether you already run a YouTube advertising campaign or are starting from scratch, we regularly analyze performance data to determine areas of improvement. We take a close look at clicks, impressions, engagements, purchases, CPC, and CTR.",
             ],
         },
         {
             id: 3,
-            image: "/public/assets/images/youtube8.svg",
+            image:"youtube8.svg",
             heading: "Campaign Parameters",
             description: ["Even the most ambitious campaigns can benefit from strong parameters. When developing your YouTube ad campaign, we consider factors like:"
             ],
@@ -136,7 +136,7 @@ const Youtube = () => {
         },
         {
             id: 4,
-            image: "/public/assets/images/youtube9.svg",
+            image:"youtube9.svg",
             heading: "Insights and Analytics",
             description: ["As with any social media advertising campaign, your numbers will tell you how well your efforts perform. As your advertising expert, we are fully versed in YouTube metrics and put these numbers into writing for your easy reference."
             ],
@@ -147,37 +147,37 @@ const Youtube = () => {
         heading: "Still Have Questions?",
         text: [""],
         buttonText: "Book a Free Consultation",
-        backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+        backgroundImage:"stillQuestion-banner.jpg",
     };
 
     const bounceData = [
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
             heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Our partnership with Igloo has revolutionized our marketing strategies.",
             heading: "John Doe | CEO of Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Igloo’s personalized approach is unmatched in the industry.",
             heading: "Jane Smith | Marketing Lead at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "With Igloo, we achieved milestones we never thought possible.",
             heading: "Michael Brown | Operations Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Igloo's creativity and execution are truly world-class.",
             heading: "Emily Davis | Brand Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Collaborating with Igloo was a game changer for our business.",
             heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
         },

@@ -36,7 +36,7 @@ const LeadGeneration = () => {
     },
     {
       id: 1,
-      image: "/public/assets/images/leadGen1.svg",
+      image: "leadGen1.svg",
       title: "Market Expansion and Growth",
       description: [
         "While you may already have a collection of targeted customers in your back pocket, you may be missing opportunities to expand into other sectors.",
@@ -44,7 +44,7 @@ const LeadGeneration = () => {
     },
     {
       id: 2,
-      image: "/public/assets/images/leadGen2.svg",
+      image: "leadGen2.svg",
       title: "Enhanced Lead Quality",
       description: ["Leads are only as valuable as their ability to convert. If you’re funneling thousands of leads but only converting several hundred, it may be time to revisit your strategy.",
         "Lead generation can tell you when your efforts need to become more targeted. If you’re garnering high traffic but not converting, you’ll know how to skew copy and visuals better to suit your target audience."
@@ -52,7 +52,7 @@ const LeadGeneration = () => {
     },
     {
       id: 3,
-      image: "/public/assets/images/leadGen3.svg",
+      image: "leadGen3.svg",
       title: "Improved Cash Flow",
       description: [
         "With the right messaging and a clear-cut lead generation strategy, you can maximize returns and profits.",
@@ -60,7 +60,7 @@ const LeadGeneration = () => {
     },
     {
       id: 4,
-      image: "/public/assets/images/leadGen4.svg",
+      image: "leadGen4.svg",
       title: "Visibility and Awareness",
       description: ["If you’re a startup struggling to gain traction or an established business becoming stagnant, focusing on lead generation can significantly boost your brand visibility and awareness.",
         "Garner leads by focusing on where your target customers spend the most time, whether it be on social media channels or specific forums."
@@ -69,14 +69,14 @@ const LeadGeneration = () => {
     ,
     {
       id: 5,
-      image: "/public/assets/images/leadGen5.svg",
+      image: "leadGen5.svg",
       title: "Valuable Insights",
       description: [
         "Lead generation isn’t just about guaranteeing sales and increasing profits—it’s also an effective way to gather information about your customers. Depending on where most of your leads come from, you can learn more about their interests, where they prefer to shop, and the factors that keep them from converting.",]
     },
     {
       id: 6,
-      image: "/public/assets/images/leadGen6.svg",
+      image: "leadGen6.svg",
       title: "EMPOWERED SALES TEAMS ",
       description: ["Cold calling and email outreach have notoriously low success rates, so if your sales team doesn’t have a steady stream of sufficiently qualified leads, it’s going to be difficult for them to achieve their sales targets. Focusing on lead generation allows you to provide them with the right client, making their job much easier.",]
     },
@@ -89,27 +89,27 @@ const LeadGeneration = () => {
       "If you’re experimenting with Google Ads for the first time or at a loss for how to improve your existing campaigns, we at Igloo have the tools to help. Book a consultation with one of our specialists today and get your paid search management campaign rolling."
     ],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/getnotice-bg.jpg",
+    backgroundImage: "getnotice-bg.jpg",
   };
 
   const servicesData = [
     {
       id: 1,
-      image: "/public/assets/images/GenerationServices1.svg",
+      image: "GenerationServices1.svg",
       heading: "Digital Lead Generation",
       description: ["Our digital lead generation services encompass various mediums, including your website and paid search tactics. These services are most appropriate for businesses with a presence on multiple platforms and channels."
       ],
     },
     {
       id: 2,
-      image: "/public/assets/images/GenerationServices2.svg",
+      image: "GenerationServices2.svg",
       heading: "B2B Lead Generation",
       description: ["Contrary to popular belief, B2C and B2B applications are more opposite than you might expect. We use various techniques to capture business leads, including organic SEO campaigning, email marketing, and social media campaigns. The more we skew your campaigns towards organic efforts, the more we can reduce your PPC spending.",
       ],
     },
     {
       id: 3,
-      image: "/public/assets/images/GenerationServices3.svg",
+      image: "GenerationServices3.svg",
       heading: "PPC Lead Generation",
       description: ["If you have room in your budget for paid efforts, our PPC lead generation services place your brand and products in front of the right people. We direct your audience toward your website by enticing visitors with irresistible offers and focused landing pages.",
         "We evaluate your results by zeroing in on specific metrics like cost-per-lead, conversion rate, and cost-per-click."
@@ -117,7 +117,7 @@ const LeadGeneration = () => {
     },
     {
       id: 4,
-      image: "/public/assets/images/GenerationServices4.svg",
+      image: "GenerationServices4.svg",
       heading: "Social Media Lead Generation",
       description: ["Social media campaigns are an excellent way to communicate with potential buyers and provide instant gratification to common queries. When it comes to leveraging platforms like Facebook, Twitter, and Instagram, we aim to develop a desire for your products and services through effective messaging."
       ],
@@ -128,37 +128,37 @@ const LeadGeneration = () => {
     heading: "Still Have Questions?",
     text: [""],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+    backgroundImage: "stillQuestion-banner.jpg",
   };
 
   const bounceData = [
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
       heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Our partnership with Igloo has revolutionized our marketing strategies.",
       heading: "John Doe | CEO of Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo’s personalized approach is unmatched in the industry.",
       heading: "Jane Smith | Marketing Lead at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "With Igloo, we achieved milestones we never thought possible.",
       heading: "Michael Brown | Operations Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo's creativity and execution are truly world-class.",
       heading: "Emily Davis | Brand Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Collaborating with Igloo was a game changer for our business.",
       heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
     },

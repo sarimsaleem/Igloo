@@ -4,18 +4,6 @@ import home2 from '/public/assets/images/webPortfolio2.jpg';
 import home3 from '/public/assets/images/webPortfolio3.jpg';
 import home4 from '/public/assets/images/webPortfolio4.jpg';
 import home5 from '/public/assets/images/webPortfolio5.jpg';
-
-import uiux1 from '/public/assets/images/uiux1.svg';
-import uiux2 from '/public/assets/images/uiux2.svg';
-import uiux3 from '/public/assets/images/uiux3.svg';
-import uiux4 from '/public/assets/images/uiux4.svg';
-import uiux5 from '/public/assets/images/uiux5.svg';
-import uiux6 from '/public/assets/images/uiux6.svg';
-import uiux7 from '/public/assets/images/uiux7.svg';
-import uiux8 from '/public/assets/images/uiux8.svg';
-import answer from "/public/assets/images/cmpetetive-crousel.jpg";
-import question from "/public/assets/images/stillQuestion-banner.jpg";
-import carousel from "/public/assets/images/cmpetetive-crousel.jpg";
 import Carousel from '../../components/carousel/Carousel'
 import About from '../../components/about/About'
 import Portfolio from '../../components/portfolio/Portfolio';
@@ -82,20 +70,20 @@ const UserInterfaceDesign = () => {
     },
     {
       id: 1,
-      image: uiux1,
+      image: "uiux1.svg",
       title: "Customer Satisfaction",
       description: [
         "As we mentioned, bad UX/UI will quickly drive visitors away from your website. The easier your application is to use, the more customers stay hooked on your content and become likely to convert."]
     },
     {
       id: 2,
-      image: uiux2,
+      image: "uiux2.svg",
       title: "Increased Traffic",
       description: ["On top of an aesthetically pleasing website, efficiency and ease of use are responsible for bringing more traffic to your business. Brilliantly designed web applications are what get users to stay and convert.",]
     },
     {
       id: 3,
-      image: uiux3,
+      image: "uiux3.svg",
       title: "Positive Brand Reputation",
       description: [
         "Much like judging a book by its cover, internet users are likely to decide whether to do business with a brand depending on how useful, appealing, and professional their websites are. In the case of UX/UI, less is more—keep things simple and users will take to it."
@@ -103,7 +91,7 @@ const UserInterfaceDesign = () => {
     },
     {
       id: 4,
-      image: uiux4,
+      image: "uiux4.svg",
       title: "MORE REVENUE",
       description: ["When users have a positive experience on your website or app, more of them will convert, remain loyal customers, and refer their friends and colleagues. Nailing your UX/UI can help you significantly when it comes to boosting your revenues and key digital metrics."
       ]
@@ -116,7 +104,7 @@ const UserInterfaceDesign = () => {
       "When creating a multi-platform digital application, taking a customer-first approach can do wonders for your bottom line. With the help of our UX/UI design expert, you can promise a seamless end-to-end experience every time someone clicks through to your site. Contact us today to provide unbeatable UX/UI to customers who can help your business grow.  "
     ],
     buttonText: "Book a Free Consultation",
-    backgroundImage: answer,
+    backgroundImage: "cmpetetive-crousel.jpg",
   };
 
   const guidence2 = [
@@ -129,20 +117,20 @@ const UserInterfaceDesign = () => {
     },
     {
       id: 1,
-      image: uiux5,
+      image: "uiux5.svg",
       title: "User Research",
       description: [
         "To define user goals for your web application, you’ll first have to get to know your site visitors. We gather deeper insight into your customer needs through surveys and questionnaires, direct feedback, usability testing and analytics reviews to give you actionable information on what your target customers want."]
     },
     {
       id: 2,
-      image: uiux6,
+      image: "uiux6.svg",
       title: "Consumer Journey Mapping",
       description: ["By visualizing the different brand experiences a customer can have on your website, we determine points of improvement through various stages of the buyer journey. This mapping method clearly pinpoints where your customers might experience difficulties and how we can alleviate these issues.",]
     },
     {
       id: 3,
-      image: uiux7,
+      image: "uiux7.svg",
       title: "Responsive UX/UI",
       description: [
         "User experiences have to be favorable no matter what device you’re browsing from. We ensure that your website is optimized for laptop, tablet, and mobile device viewing, keeping usability, compatibility and accessibility in mind."
@@ -150,7 +138,7 @@ const UserInterfaceDesign = () => {
     },
     {
       id: 4,
-      image: uiux8,
+      image: "uiux8.svg",
       title: "Wireframes and Prototypes",
       description: ["By creating prototypes of your web application, we can align your vision with our execution. Furthermore, prototypes allow us to test customer satisfaction and garner valuable feedback that can improve the final product."
       ]
@@ -161,7 +149,7 @@ const UserInterfaceDesign = () => {
     heading: "Still Have Questions?",
     text: [""],
     buttonText: "Book a Free Consultation",
-    backgroundImage: question,
+    backgroundImage: "stillQuestion-banner.jpg",
   };
 
   const faqData = [
@@ -198,14 +186,13 @@ const UserInterfaceDesign = () => {
     },
   ];
 
-  const carouselImg = carousel;
 
   return (
     <>
       <Carousel
         heading="UX/UI Design"
         breadcrumb="Home | UX/UI Design"
-        imageUrl={carouselImg}
+        imageUrl="cmpetetive-crousel.jpg"
       />
       <About data={data} />
       <Portfolio

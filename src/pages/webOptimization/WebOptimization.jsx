@@ -4,15 +4,6 @@ import home2 from '/public/assets/images/webPortfolio2.jpg';
 import home3 from '/public/assets/images/webPortfolio3.jpg';
 import home4 from '/public/assets/images/webPortfolio4.jpg';
 import home5 from '/public/assets/images/webPortfolio5.jpg';
-
-import opti1 from '/public/assets/images/webOpti1.svg';
-import opti2 from '/public/assets/images/webOpti2.svg';
-import opti3 from '/public/assets/images/webOpti3.svg';
-import opti4 from '/public/assets/images/webOpti4.svg';
-import opti5 from '/public/assets/images/webOpti5.svg';
-import opti6 from '/public/assets/images/webOpti6.svg';
-
-
 import Carousel from '../../components/carousel/Carousel'
 import About from '../../components/about/About'
 import Portfolio from '../../components/portfolio/Portfolio';
@@ -145,37 +136,37 @@ const WebOptimization = () => {
     heading: "Still Have Questions?",
     text: [""],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+    backgroundImage: "stillQuestion-banner.jpg",
   };
 
   const bounceData = [
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
       heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Our partnership with Igloo has revolutionized our marketing strategies.",
       heading: "John Doe | CEO of Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo’s personalized approach is unmatched in the industry.",
       heading: "Jane Smith | Marketing Lead at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "With Igloo, we achieved milestones we never thought possible.",
       heading: "Michael Brown | Operations Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Igloo's creativity and execution are truly world-class.",
       heading: "Emily Davis | Brand Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image:  "section6-7.jpg",
       text: "Collaborating with Igloo was a game changer for our business.",
       heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
     },

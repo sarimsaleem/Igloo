@@ -5,7 +5,7 @@ const Carousel = ({ heading, breadcrumb, imageUrl }) => {
   return (
     <div 
       className='carousel' 
-      style={{ backgroundImage: `url(${imageUrl})` }}
+      style={{ backgroundImage: `url(/public/assets/images/${imageUrl})` }}
     >
       <div className='carousel-overlay'>
         <h1 className='branding-carousel-heading'>{heading}</h1>

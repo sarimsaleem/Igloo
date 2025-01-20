@@ -1,10 +1,14 @@
 import React from 'react';
 import { Button, Container } from "react-bootstrap";
 import "./questions.css";
+import { BASE_IMAGE_URL } from "../../utils/contant";  
 
 const Questions = ({ heading, text, buttonText, backgroundImage }) => {
+
+    const imageSrc = BASE_IMAGE_URL + backgroundImage;
+
     const sectionStyle = {
-        backgroundImage: `url(${backgroundImage})`,
+        backgroundImage: `url(${imageSrc})`,
     };
 
     return (
@@ -14,7 +18,7 @@ const Questions = ({ heading, text, buttonText, backgroundImage }) => {
                     <h1 className="question-heading">{heading}</h1>
                     <div className="question-seperator"></div>
                     {text.map((desc, index) => (
-                    <p key={index} className="question-text">{desc}</p>
+                        <p key={index} className="question-text">{desc}</p>
                     ))}
                     <div className="question-btn-parent">
                         <Button className="question-btn">{buttonText}</Button>

@@ -64,27 +64,27 @@ const CommunityManagement = () => {
     const servicesData = [
         {
             id: 1,
-            image: "/public/assets/images/communityManage1.svg",
+            image: "communityManage1.svg",
             heading: "Engaging",
             description: ["Positive comments make for a strong brand. With that in mind, expect to garner negative comments every once in a while. While an automated response might suffice, human responses do a better job of engaging audiences. Every time you acquire a complaint on one of your channels, it is our responsibility to address them personally and with an active solution."],
         },
         {
             id: 2,
-            image: "/public/assets/images/communityManage2.svg",
+            image: "communityManage2.svg",
             heading: "Monitoring",
             description: ["At the crux of community management is social listening. By monitoring upcoming trends, your brand can take part in conversations that matter. We use keyword monitoring tools and Google Alerts to keep track of brand mentions.",
             ],
         },
         {
             id: 3,
-            image: "/public/assets/images/communityManage3.svg",
+            image: "communityManage3.svg",
             heading: "Moderating",
             description: ["Social media moderation is a combination of engaging and monitoring—we manage your online reputation by keeping an ear out for negative feedback and addressing it promptly. We also hide spam that detracts from the quality of your content and curate your livestream chat channels to ensure you only ever earn goodwill from the people who encounter your community from the outside."
             ]
         },
         {
             id: 4,
-            image: "/public/assets/images/communityManage4.svg",
+            image: "communityManage4.svg",
             heading: "Measuring",
             description: ["To get the best sense of how an audience perceives your brand, you have to garner feedback from your community. To do this, we determine where your followers are most active and use social monitoring tools to listen in on important conversations. Then, we use this information to pinpoint areas of improvement."
             ],
@@ -98,33 +98,33 @@ const CommunityManagement = () => {
             "Contact Igloo today to begin building a loyal fanbase that allows and empowers your brand to thrive."
         ],
         buttonText: "Book a Free Consultation",
-        backgroundImage: "/public/assets/images/cmpetetive-crousel.jpg",
+        backgroundImage: "cmpetetive-crousel.jpg",
     };
 
     const servicesData2 = [
         {
             id: 1,
-            image: "/public/assets/images/communityServices1.svg",
+            image: "communityServices1.svg",
             heading: "Acquisition",
             description: ["Contrary to popular belief, community management plays a significant role in your acquisition model. As early as the brand awareness stage, you’ll want to make sure consumers actually convert.During this stage, we make sure to address pressing customer queries that reflect every portion of your business funnel."],
         },
         {
             id: 2,
-            image: "/public/assets/images/communityServices2.svg",
+            image: "communityServices2.svg",
             heading: "Crisis Management",
             description: ["For any brand journey, crisis management is inevitable. Once an issue arises, it can become challenging to overcome—that’s where we step in. Through team coordination and leadership skills, we address complaints as efficiently as possible while monitoring brand sentiment.",
             ],
         },
         {
             id: 3,
-            image: "/public/assets/images/communityServices3.svg",
+            image: "communityServices3.svg",
             heading: "Customer Care",
             description: ["A critical part of community management is consumer-brand interaction. By listening to and monitoring consumer behaviors, we can use this information to improve relationships. We achieve top care by keeping up with ever-changing consumer expectations and monitoring every stage of the buyer journey."
             ]
         },
         {
             id: 4,
-            image: "/public/assets/images/communityServices4.svg",
+            image: "communityServices4.svg",
             heading: "Retention",
             description: ["Acquiring customers is one thing—retaining them is another. To keep your audience engaged, we make sure you aren’t being repetitive through trend monitoring. We also take your most successful pieces of content and use them for remarketing purposes."
             ],
@@ -135,37 +135,37 @@ const CommunityManagement = () => {
         heading: "Still Have Questions?",
         text: [""],
         buttonText: "Book a Free Consultation",
-        backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+        backgroundImage: "stillQuestion-banner.jpg",
     };
 
     const bounceData = [
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
             heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Our partnership with Igloo has revolutionized our marketing strategies.",
             heading: "John Doe | CEO of Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Igloo’s personalized approach is unmatched in the industry.",
             heading: "Jane Smith | Marketing Lead at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "With Igloo, we achieved milestones we never thought possible.",
             heading: "Michael Brown | Operations Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Igloo's creativity and execution are truly world-class.",
             heading: "Emily Davis | Brand Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Collaborating with Igloo was a game changer for our business.",
             heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
         },

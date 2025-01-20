@@ -54,21 +54,18 @@ const SocialMediaManegement = () => {
         },
         {
             id: 3,
-            // image: "/public/assets/images/ppc3.svg",
             title: "KPI Setting",
             description:
                 "Setting clear Key Performance Indicators (KPIs) is essential to measure social media success. We help you define specific, measurable, achievable, relevant, and time-bound (SMART) KPIs aligned with business objectives.",
         },
         {
             id: 4,
-            // image: "/public/assets/images/ppc4.svg",
             title: "Photography and Videography",
             description: "Visual content is king in the digital age. Our skilled photographers and videographers create stunning visuals that capture your brand’s essence and deeply engage your audience.",
         },
         ,
         {
             id: 5,
-            // image: "/public/assets/images/ppc5.svg",
             title: "Posting and Community Management",
             description: [
                 "Consistency is key to maintaining an active social media presence. We handle your postings, ensuring timely and relevant content. Our community management team engages with followers, fostering a loyal, interactive community.",]
@@ -87,37 +84,37 @@ const SocialMediaManegement = () => {
             "Over the past 15 years, we have amassed a wealth of testimonials and case studies that showcase our ability to deliver exceptional results. We are proud to be recognized as a leading social media agency in Dubai, with a track record of helping businesses thrive in the digital space. Our success is built on a foundation of proven results and satisfied clients."
         ],
         buttonText: "Book a Free Consultation",
-        backgroundImage: "/public/assets/images/marketingAutomation-carousel.jpg",
+        backgroundImage: "marketingAutomation-carousel.jpg",
     };
 
     const bounceData = [
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
             heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Our partnership with Igloo has revolutionized our marketing strategies.",
             heading: "John Doe | CEO of Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Igloo’s personalized approach is unmatched in the industry.",
             heading: "Jane Smith | Marketing Lead at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "With Igloo, we achieved milestones we never thought possible.",
             heading: "Michael Brown | Operations Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Igloo's creativity and execution are truly world-class.",
             heading: "Emily Davis | Brand Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image:  "section6-7.jpg",
             text: "Collaborating with Igloo was a game changer for our business.",
             heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
         },
@@ -129,7 +126,7 @@ const SocialMediaManegement = () => {
             "In the ever-evolving world of social media, expertise across multiple platforms is essential. We specialize in Instagram, TikTok, and other popular social media channels. Our team stays ahead of the latest trends and algorithms to ensure your brand remains relevant and engaging."
         ],
         // buttonText: "Book a Free Consultation",
-        backgroundImage: "/public/assets/images/marketingAutomation-carousel.jpg",
+        backgroundImage: "marketingAutomation-carousel.jpg",
     };
 
     const portfolioColumns = [
@@ -157,7 +154,7 @@ const SocialMediaManegement = () => {
         heading: "Still Have Questions?",
         text: [""],
         buttonText: "Book a Free Consultation",
-        backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+        backgroundImage: "stillQuestion-banner.jpg",
     };
 
     const faqData = [

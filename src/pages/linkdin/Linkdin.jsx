@@ -65,28 +65,28 @@ const Linkdin = () => {
   const servicesData = [
     {
       id: 1,
-      image: "/public/assets/images/linkedin1.svg",
+      image:"linkedin1.svg",
       heading: "Hyper Targeting",
       description: ["With LinkedIn ads, you can narrow your demographics beyond location, age, and gender. You can also filter through audiences according to job title, industry, degree, and more.",
       ],
     },
     {
       id: 2,
-      image: "/public/assets/images/linkedin2.svg",
+      image:"linkedin2.svg",
       heading: "Higher Conversions",
       description: ["Because LinkedIn is a platform for professionals, your ads and marketing materials are more likely to reach decision-makers who are equipped to choose your products and services.",
       ],
     },
     {
       id: 3,
-      image: "/public/assets/images/linkedin3.svg",
+      image:"linkedin3.svg",
       heading: "Networking Opportunities",
       description: ["Perhaps LinkedIn’s greatest strength is networking. By publishing quality content, you can just as easily garner quality leads and traffic."
       ]
     },
     {
       id: 4,
-      image: "/public/assets/images/linkedin4.svg",
+      image:"linkedin4.svg",
       heading: "Partnership and Event Promotion",
       description: ["Known for its professional user base, LinkedIn is one of the best places for recruiting new employees. You can also network through event and conference promotion, especially if you’re looking to expand your company."
       ],
@@ -100,13 +100,13 @@ const Linkdin = () => {
       "Want to get started on your LinkedIn campaign? Contact us today to find out how we can launch your brand into a B2B success."
     ],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/cmpetetive-crousel.jpg",
+    backgroundImage:"cmpetetive-crousel.jpg",
   };
 
   const servicesData2 = [
     {
       id: 1,
-      image: "/public/assets/images/linkedin5.svg",
+      image:"linkedin5.svg",
       heading: "Ad Strategies and Development",
       description: ["To create winning ad strategies, we first take the time to study your business and how it stacks up against competitors. Then, we decide what type of LinkedIn ads are best to run according to your previous campaigns and specific business goals.",
         "We then craft compelling copy that aligns with your brand, compile eye-catching visuals, and provide a content calendar for your review."
@@ -114,14 +114,14 @@ const Linkdin = () => {
     },
     {
       id: 2,
-      image: "/public/assets/images/linkedin6.svg",
+      image:"linkedin6.svg",
       heading: "Content Creation",
       description: ["Since growing into a fully-fledged content platform, LinkedIn has become a more diverse digital space for consumption. Our team takes full advantage of this development, creating content that rides on industry trends—from blogs to social posts. We also generate long-form and evergreen content that gets you to rank in the long run.",
       ],
     },
     {
       id: 3,
-      image: "/public/assets/images/linkedin7.svg",
+      image:"linkedin7.svg",
       heading: "InMail Support",
       description: ["Sponsored InMail is an excellent way to push sign-ups on your website. To improve your click-through rates even further, we target only active LinkedIn prospects who are more likely to respond.",
         "We guarantee results by crafting emails that are engaging, mobile responsive, and relevant to your target audiences."
@@ -129,7 +129,7 @@ const Linkdin = () => {
     },
     {
       id: 4,
-      image: "/public/assets/images/linkedin8.svg",
+      image:"linkedin8.svg",
       heading: "Insights and Analytics",
       description: ["Now that you can study results in real-time, you can quickly measure the return of investment on your LinkedIn ads. We make these reports digestible for your team, allowing you to pinpoint where to make precise adjustments."
       ],
@@ -140,37 +140,37 @@ const Linkdin = () => {
     heading: "Still Have Questions?",
     text: [""],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+    backgroundImage:"stillQuestion-banner.jpg",
   };
 
   const bounceData = [
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
       heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Our partnership with Igloo has revolutionized our marketing strategies.",
       heading: "John Doe | CEO of Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo’s personalized approach is unmatched in the industry.",
       heading: "Jane Smith | Marketing Lead at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "With Igloo, we achieved milestones we never thought possible.",
       heading: "Michael Brown | Operations Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo's creativity and execution are truly world-class.",
       heading: "Emily Davis | Brand Manager at Bounce Middle East",
     },
     {
-      image: "./public/assets/images/section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Collaborating with Igloo was a game changer for our business.",
       heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
     },

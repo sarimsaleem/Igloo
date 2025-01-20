@@ -42,40 +42,40 @@ const ChatBot = () => {
         },
         {
             id: 1,
-            image: "/public/assets/images/chatbot1.svg",
+            image:"chatbot1.svg",
             title: "Streamline the Sales Process",
             description:
                 "Abandoned carts are a big problem for many businesses. However, our chatbots can help engage indecisive shoppers and encourage them to follow through with their purchases by asking questions and making recommendations according to their shopping habits, enabling us to directly impact your bottom line.",
         },
         {
             id: 2,
-            image: "/public/assets/images/chatbot2.svg",
+            image:"chatbot2.svg",
             title: "Answer Questions",
             description: "Nobody likes to wait around for a customer service agent to become available before getting an answer to their question. With our chatbots, you can quickly resolve common issues and settle popular inquiries. If a query is too complex, we can program your chatbot to ask for a customer’s contact information or redirect them to a live chat agent.",
         },
         {
             id: 3,
-            image: "/public/assets/images/chatbot3.svg",
+            image:"chatbot3.svg",
             title: "Automate Repetitive Tasks",
             description:
                 "Non-value-adding tasks like booking an appointment or reservation can quickly become time-consuming for human employees. As such, we build chatbots that can handle repetitive and administrative duties and even make suggestions according to a customer’s availability.",
         },
         {
             id: 4,
-            image: "/public/assets/images/chatbot4.svg",
+            image:"chatbot4.svg",
             title: "Multi-language Support",
             description: "If you do business in multiple countries, dedicating an agent to answer questions in various languages may not be efficient. Instead, we deploy chatbots to support and satisfy queries in multiple languages, ensuring that all of your users get instant answers to their questions, no matter where they are from.",
         },
         {
             id: 5,
-            image: "/public/assets/images/chatbot5.svg",
+            image:"chatbot5.svg",
             title: "24/7 Support",
             description:
                 "Perhaps the most significant disadvantage of human support is the inability to be available round-the-clock. Fortunately, our chatbots stay active throughout the day and can be particularly helpful for businesses with a presence in multiple countries.",
         },
         {
             id: 6,
-            image: "/public/assets/images/chatbot6.svg",
+            image:"chatbot6.svg",
             title: "REDUCED COSTS",
             description: "Implementing chatbots can help you reduce your need for human customer support and streamline your processes. Both factors will enable you to significantly reduce your business’ operating costs without compromising on customer experience.",
         },
@@ -87,44 +87,44 @@ const ChatBot = () => {
             "Chatbots are a significant benefit for both businesses and consumers. While you spend more time on vital decision-making processes, your customers can still get the high-quality help they deserve. If you’re looking for a way to enhance user experience on your website, contact Igloo today to learn more about how we can create the right chatbot for your business."
         ],
         buttonText: "Book a Free Consultation",
-        backgroundImage: "/public/assets/images/getnotice-bg.jpg",
+        backgroundImage:"getnotice-bg.jpg",
     };
 
     const questionData = {
         heading: "Still Have Questions?",
         text: [""],
         buttonText: "Book a Free Consultation",
-        backgroundImage: "/public/assets/images/stillQuestion-banner.jpg",
+        backgroundImage:"stillQuestion-banner.jpg",
     };
 
     const bounceData = [
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
             heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Our partnership with Igloo has revolutionized our marketing strategies.",
             heading: "John Doe | CEO of Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Igloo’s personalized approach is unmatched in the industry.",
             heading: "Jane Smith | Marketing Lead at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "With Igloo, we achieved milestones we never thought possible.",
             heading: "Michael Brown | Operations Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Igloo's creativity and execution are truly world-class.",
             heading: "Emily Davis | Brand Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Collaborating with Igloo was a game changer for our business.",
             heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
         },

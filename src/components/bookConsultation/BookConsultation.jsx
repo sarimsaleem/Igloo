@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
-import "./BookConsultation.css"
+import "./bookConsultation.css"
 const BookConsultation = () => {
     return (
         <div className="bookcolsultation-subparent">

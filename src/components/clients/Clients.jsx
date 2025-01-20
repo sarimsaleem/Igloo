@@ -41,7 +41,7 @@ const Clients = () => {
         }
       },
       {
-        threshold: 0.2, 
+        threshold: 0.2,
       }
     );
 
@@ -61,7 +61,7 @@ const Clients = () => {
       <div ref={sectionRef} className="brandingAgency-subParent">
         <Row style={{ '--bs-gutter-x': '0px' }}>
           {['STRATEGY', 'PLANNING', 'DEVELOPMENT', 'LAUNCH'].map((step, index) => (
-            <Col sm={6} md={3} key={index} style={{paddingBlock: "40px"}}>
+            <Col sm={6} md={3} key={index} style={{ paddingBlock: "40px" }}>
               <div
                 className={`brandingAgency-subParent-container ${isVisible ? 'animate' : ''
                   }`}

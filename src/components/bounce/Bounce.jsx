@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { Container } from "react-bootstrap";
 import "./bounce.css";
-import { BASE_IMAGE_URL } from "../../utils/contant";
+import { BASE_IMAGE_URL } from "../../util/contant";
 
 const Bounce = ({ slides }) => {
     const settings = {

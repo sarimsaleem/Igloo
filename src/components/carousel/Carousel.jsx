@@ -1,6 +1,6 @@
 import React from 'react';
 import "./carousel.css";
-import { BASE_IMAGE_URL } from "../../utils/contant"; // Ensure correct import
+import { BASE_IMAGE_URL } from "../../util/contant"; // Ensure correct import
 
 const Carousel = ({ heading, breadcrumb, imageUrl }) => {
   // Construct the full image URL

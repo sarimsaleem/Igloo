@@ -6,7 +6,6 @@ import home4 from '/public/assets/images/homesec4-4.webp';
 import home5 from '/public/assets/images/homesec4-5.jpg';
 import DigitalMarketing from '../../components/digitalMarketing/DigitalMarketing'
 import OurProcess from '../../components/ourProcess/OurProcess'
-// import LatestWork from '../../components/latestWork/LatestWork'
 import OurServices from '../../components/ourServices/OurServices'
 import LeaderShip from '../../components/leadership/LeaderShip'
 import Bounce from '../../components/bounce/Bounce'
@@ -51,14 +50,6 @@ const Home = () => {
             heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
         },
     ];
-
-    // const workItems = [
-    //     { image: '/public/assets/images/homesec4-1.jpg', alt: 'Work 1' },
-    //     { image: '/public/assets/images/homesec4-2.jpg', alt: 'Work 2' },
-    //     { image: '/public/assets/images/homesec4-3.jpg', alt: 'Work 3' },
-    //     { image: '/public/assets/images/homesec4-4.webp', alt: 'Work 4' },
-    //     { image: '/public/assets/images/homesec4-5.jpg', alt: 'Work 5' },
-    // ];
 
     const portfolioColumns = [
         {

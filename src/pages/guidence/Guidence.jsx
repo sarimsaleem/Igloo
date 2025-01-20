@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import "./guidence.css";
-import { BASE_IMAGE_URL } from '../../utils/contant';
+import { BASE_IMAGE_URL } from '../../util/contant';
 
 const Guidence = ({ guidence }) => {
     const introSection = guidence.find(item => item.id === 0);

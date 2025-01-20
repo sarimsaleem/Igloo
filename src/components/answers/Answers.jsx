@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import "./answers.css";
-import { BASE_IMAGE_URL } from "../../utils/contant";
+import { BASE_IMAGE_URL } from "../../util/contant";
 
 const Answers = ({ heading, description, buttonText, onButtonClick, backgroundImage }) => {
 

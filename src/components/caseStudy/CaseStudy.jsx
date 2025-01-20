@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import './caseStudy.css';
 import { Button, Container } from 'react-bootstrap';
-import { BASE_IMAGE_URL } from '../../utils/contant'; // Ensure correct import
+import { BASE_IMAGE_URL } from '../../util/contant'; // Ensure correct import
 
 const CaseStudy = ({ caseStudy }) => {
     const sliderSettings = {

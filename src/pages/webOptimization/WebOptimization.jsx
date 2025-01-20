@@ -71,14 +71,14 @@ const WebOptimization = () => {
     },
     {
       id: 1,
-      image: "opti5.svg",
+      image: "webOpti5.svg",
       title: "Web Vitals",
       description: [
         "What makes a healthy website? PageSpeed, interactivity, visual stability, and site navigation all determine how usable your website is. We implement tools like PageSpeed Insights and Search Console to check your website health and resolve issues promptly."]
     },
     {
       id: 2,
-      image: "opti6..svg",
+      image: "webOpti6.svg",
       title: "Mobile-First",
       description: ["Nowadays, over 50% of all web traffic originates from mobile phones. As such, incorporating habits like creating adaptive websites, scaling elements, avoiding pop-ups, and publishing bite-sized content can do wonders for your website’s performance.",]
     },
@@ -91,7 +91,7 @@ const WebOptimization = () => {
       "So don’t wait—contact our website optimization specialists at Igloo to take your business to the top"
     ],
     buttonText: "Book a Free Consultation",
-    backgroundImage: "/public/assets/images/cmpetetive-crousel.jpg",
+    backgroundImage: "cmpetetive-crousel.jpg",
   };
 
   const guidence2 = [
@@ -104,20 +104,20 @@ const WebOptimization = () => {
     },
     {
       id: 1,
-      image: "opti1.svg",
+      image: "webOpti1.svg",
       title: "Search Engine Optimization (SEO)",
       description: [
         "From keywords to semantics, your web page is full of SEO opportunities. We help you achieve higher rankings and more organic traffic through technical excellence and high-quality content."]
     },
     {
       id: 2,
-      image: "opti2.svg",
+      image: "webOpti2.svg",
       title: "Technical Website Performance",
       description: ["When we gather website data, we use this information to inform any on-site adjustments such as status code errors, site responsiveness, site indexing, website content, duplicate tags and broken links.",]
     },
     {
       id: 3,
-      image: "opti3.svg",
+      image: "webOpti3.svg",
       title: "Conversion Rate Optimization (CRO)",
       description: [
         "While SEO is an excellent way to get visitors onto your site, CRO is what gets them to stay, and transact. By keeping a close eye on visitor habits, crafting effective CTAs, and split testing website elements, we can determine the best practices for getting customers to convert."
@@ -125,7 +125,7 @@ const WebOptimization = () => {
     },
     {
       id: 4,
-      image: "opti4.svg",
+      image: "webOpti4.svg",
       title: "CONTENT OPTIMIZATION",
       description: ["Getting users to perform the actions you would like them to is no easy task, but with the right content it becomes much simpler. We take the time to go through your website’s main pages and subpages to enhance their content and create stronger calls-to-action."
       ]
@@ -141,32 +141,32 @@ const WebOptimization = () => {
 
   const bounceData = [
     {
-      image:  "section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
       heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
     },
     {
-      image:  "section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Our partnership with Igloo has revolutionized our marketing strategies.",
       heading: "John Doe | CEO of Bounce Middle East",
     },
     {
-      image:  "section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo’s personalized approach is unmatched in the industry.",
       heading: "Jane Smith | Marketing Lead at Bounce Middle East",
     },
     {
-      image:  "section6-7.jpg",
+      image: "section6-7.jpg",
       text: "With Igloo, we achieved milestones we never thought possible.",
       heading: "Michael Brown | Operations Manager at Bounce Middle East",
     },
     {
-      image:  "section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Igloo's creativity and execution are truly world-class.",
       heading: "Emily Davis | Brand Manager at Bounce Middle East",
     },
     {
-      image:  "section6-7.jpg",
+      image: "section6-7.jpg",
       text: "Collaborating with Igloo was a game changer for our business.",
       heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
     },

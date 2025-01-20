@@ -186,6 +186,38 @@ const UserInterfaceDesign = () => {
     },
   ];
 
+  const bounceData = [
+    {
+      image:  "section6-7.jpg",
+      text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
+      heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
+    },
+    {
+      image:  "section6-7.jpg",
+      text: "Our partnership with Igloo has revolutionized our marketing strategies.",
+      heading: "John Doe | CEO of Bounce Middle East",
+    },
+    {
+      image:  "section6-7.jpg",
+      text: "Igloo’s personalized approach is unmatched in the industry.",
+      heading: "Jane Smith | Marketing Lead at Bounce Middle East",
+    },
+    {
+      image:  "section6-7.jpg",
+      text: "With Igloo, we achieved milestones we never thought possible.",
+      heading: "Michael Brown | Operations Manager at Bounce Middle East",
+    },
+    {
+      image:  "section6-7.jpg",
+      text: "Igloo's creativity and execution are truly world-class.",
+      heading: "Emily Davis | Brand Manager at Bounce Middle East",
+    },
+    {
+      image:  "section6-7.jpg",
+      text: "Collaborating with Igloo was a game changer for our business.",
+      heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
+    },
+  ];
 
   return (
     <>
@@ -216,7 +248,7 @@ const UserInterfaceDesign = () => {
         buttonText={questionData.buttonText}
         backgroundImage={questionData.backgroundImage}
       />
-      <Bounce />
+      <Bounce slides={bounceData} />
       <Offers />
       <Faqs faqData={faqData} />
       <LatestInsight />

@@ -1,33 +1,36 @@
-    import React from 'react';
-    import Slider from 'react-slick';
-    import './caseStudy.css';
-    import { Button, Container } from 'react-bootstrap';
+import React from 'react';
+import Slider from 'react-slick';
+import './caseStudy.css';
+import { Button, Container } from 'react-bootstrap';
+import { BASE_IMAGE_URL } from '../../utils/contant'; // Ensure correct import
 
-    const CaseStudy = ({ caseStudy }) => {
+const CaseStudy = ({ caseStudy }) => {
+    const sliderSettings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        centerMode: false,
+        variableWidth: false,
+    };
 
-        const sliderSettings = {
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 3000,
-            centerMode: false,
-            variableWidth: false,
-        };
+    return (
+        <div className="case-study-container" style={{ paddingBlock: '50px' }}>
+            <div style={{ maxWidth: '100%', width: '100%', margin: '0 auto' }}>
+                <Slider {...sliderSettings}>
+                    {caseStudy.map((slide, index) => {
+                        const imageSrc = BASE_IMAGE_URL + slide.image; // Fix variable declaration
 
-        return (
-            <div className="case-study-container" style={{ paddingBlock: "50px" }}>
-                <div style={{ maxWidth: '100%', width: '100%', margin: '0 auto' }}>
-                    <Slider {...sliderSettings}>
-                        {caseStudy.map((slide, index) => (
+                        return (
                             <div key={index}>
                                 <div className="case-study-slide">
                                     <div className='case-study-content'>
                                         <div style={{ flex: 1 }}>
                                             <div className="case-study-image-wrapper">
-                                                <img src={slide.image} alt={slide.heading} />
+                                                <img src={imageSrc} alt={slide.heading} />
                                             </div>
                                         </div>
                                         <div
@@ -50,11 +53,12 @@
                                     </div>
                                 </div>
                             </div>
-                        ))}
-                    </Slider>
-                </div>
+                        );
+                    })}
+                </Slider>
             </div>
-        );
-    };
+        </div>
+    );
+};
 
-    export default CaseStudy;
+export default CaseStudy;

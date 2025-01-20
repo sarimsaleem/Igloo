@@ -71,14 +71,14 @@ const WebOptimization = () => {
     },
     {
       id: 1,
-      image: opti5,
+      image: "opti5.svg",
       title: "Web Vitals",
       description: [
         "What makes a healthy website? PageSpeed, interactivity, visual stability, and site navigation all determine how usable your website is. We implement tools like PageSpeed Insights and Search Console to check your website health and resolve issues promptly."]
     },
     {
       id: 2,
-      image: opti6,
+      image: "opti6..svg",
       title: "Mobile-First",
       description: ["Nowadays, over 50% of all web traffic originates from mobile phones. As such, incorporating habits like creating adaptive websites, scaling elements, avoiding pop-ups, and publishing bite-sized content can do wonders for your website’s performance.",]
     },
@@ -104,20 +104,20 @@ const WebOptimization = () => {
     },
     {
       id: 1,
-      image: opti1,
+      image: "opti1.svg",
       title: "Search Engine Optimization (SEO)",
       description: [
         "From keywords to semantics, your web page is full of SEO opportunities. We help you achieve higher rankings and more organic traffic through technical excellence and high-quality content."]
     },
     {
       id: 2,
-      image: opti2,
+      image: "opti2.svg",
       title: "Technical Website Performance",
       description: ["When we gather website data, we use this information to inform any on-site adjustments such as status code errors, site responsiveness, site indexing, website content, duplicate tags and broken links.",]
     },
     {
       id: 3,
-      image: opti3,
+      image: "opti3.svg",
       title: "Conversion Rate Optimization (CRO)",
       description: [
         "While SEO is an excellent way to get visitors onto your site, CRO is what gets them to stay, and transact. By keeping a close eye on visitor habits, crafting effective CTAs, and split testing website elements, we can determine the best practices for getting customers to convert."
@@ -125,7 +125,7 @@ const WebOptimization = () => {
     },
     {
       id: 4,
-      image: opti4,
+      image: "opti4.svg",
       title: "CONTENT OPTIMIZATION",
       description: ["Getting users to perform the actions you would like them to is no easy task, but with the right content it becomes much simpler. We take the time to go through your website’s main pages and subpages to enhance their content and create stronger calls-to-action."
       ]

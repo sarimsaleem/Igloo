@@ -3,6 +3,7 @@ import { Button, Col, Row } from 'react-bootstrap';
 import './portfolio.css';
 
 const Portfolio = ({ columns, heading, buttonText, onButtonClick }) => {
+
   return (
     <div>
       <div className="homesection4">
@@ -14,11 +15,12 @@ const Portfolio = ({ columns, heading, buttonText, onButtonClick }) => {
         <Row style={{ padding: 0, margin: 0 }}>
           {columns.map((column, colIndex) => (
             <Col md={4} key={colIndex} className="image-column">
-              {column.images.map((image, imgIndex) => (
-                <div className="image-container" key={imgIndex}>
-                  <img src={image.src} alt={image.alt || `Work ${imgIndex + 1}`} />
+              {column?.images.map((image, imgIndex) => {
+                let imageSrc = window.location.origin + image.src;
+                return <div className="image-container" key={imgIndex}>
+                  <img src={imageSrc} alt={image.alt || `Work ${imgIndex + 1}`} />
                 </div>
-              ))}
+              })}
             </Col>
           ))}
         </Row>

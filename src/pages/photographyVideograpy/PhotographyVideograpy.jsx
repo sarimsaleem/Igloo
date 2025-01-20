@@ -57,7 +57,7 @@ const PhotographyVideograpy = () => {
         {
             images: [
                 { src: home5, alt: 'Work 3' },
-                { src: home6, alt: 'Work 6' },
+                { src: '/assets/images/fbAdsPort6.jpg', alt: 'Work 6' },
             ],
         },
     ];
@@ -72,7 +72,7 @@ const PhotographyVideograpy = () => {
         },
         {
             id: 1,
-            image: "/public/assets/images/video1.svg",
+            image: "/assets/images/video1.svg",
             title: "Enhancing SEO",
             description: [
                 "Well-produced, original photos and videos can enhance your user experience and keep visitors on your site for longer, which can drastically improve your search engine rankings. When we produce photos and videos for your website, we incorporate eye-catching elements that make customers want to know your brand—the longer they linger, the better."]

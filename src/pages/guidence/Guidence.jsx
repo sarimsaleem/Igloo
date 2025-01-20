@@ -33,14 +33,14 @@ const Guidence = ({ guidence }) => {
                 </div>
 
                 <Row className="brandGuideMatter-parent">
-                    {otherItems.map((item, index) => (
-                        <React.Fragment key={item.id}>
+                    {otherItems.map((item, index) => {
+                        let imageSrc = window.location.origin + item.image;
+                        return <React.Fragment key={item.id}>
                             <Col md={1}>
-                                {item.image && (
-                                    <div className="brandingServices-icon-parent">
-                                        <img src={item.image} alt={item.title || "Image"} className="brandingServices-icon" />
-                                    </div>
-                                )}
+                                {item.image && <div className="brandingServices-icon-parent">
+                                    <img src={imageSrc} alt={item.title || "Image"} className="brandingServices-icon" />
+                                </div>
+                                }
                             </Col>
                             <Col md={5}>
                                 <div className="brandingServices-text-parent2">
@@ -59,7 +59,7 @@ const Guidence = ({ guidence }) => {
                             </Col>
                             {index % 2 === 1 && index !== otherItems.length - 1 && <div className="w-100 my-4"></div>}
                         </React.Fragment>
-                    ))}
+                    })}
                 </Row>
             </Container>
         </div>

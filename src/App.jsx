@@ -32,6 +32,9 @@ import Contact from './components/contact/Contact';
 import WebDesignDevelopment from './pages/webDesignDevelopment/WebDesignDevelopment';
 import MobileAppDevelopment from './pages/mobileAppDevelopment/MobileAppDevelopment';
 import Cro from './pages/cro/Cro';
+import Coa from './pages/coa/Coa';
+import UserInterfaceDesign from './pages/userInterfaceDesign/UserInterfaceDesign';
+import WebOptimization from './pages/webOptimization/WebOptimization';
 
 const App = () => {
     return (
@@ -64,8 +67,10 @@ const App = () => {
                     <Route path='/web-design-agency-in-dubai' element={<WebDesignDevelopment />} />
                     <Route path='/mobile-app-design' element={<MobileAppDevelopment />} />
                     <Route path='/conversion-rate-optimization' element={<Cro />} />
+                    <Route path='/conversion-optimization-audit' element={<Coa />} />
+                    <Route path='/ux-ui-design' element={<UserInterfaceDesign />} />
+                    <Route path='/website-optimization' element={<WebOptimization />} />
                     <Route path='/contact' element={<Contact />} />
-
                 </Routes>
                 <Footer />
             </Router>

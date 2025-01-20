@@ -3,47 +3,82 @@
 }
 
 .homesection6-heading {
-    font-size: 20px !important;
-    padding-bottom: 0;
-    font-weight: 700 !important;
+    font-size: 24px;
+    font-weight: 700;
     letter-spacing: 1px;
     text-align: center;
     font-family: "Open Sans";
 }
 
 .homesection6-text {
-    padding-top: 25px;
-    letter-spacing: 0;
+    padding-top: 20px;
     color: #7f7f7f;
-    margin: 0 0 22px;
+    margin: 0 0 20px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.homesection6-row {
+    justify-content: center;
     text-align: center;
 }
 
-.homesection6-column-Parent {
+.homesection6-column {
     display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 .section6-text {
-    font-size: 11px;
-    letter-spacing: 2px;
+    font-size: 14px;
+    letter-spacing: 1px;
     text-transform: uppercase;
-    display: block;
     font-weight: 600;
     color: #000;
-    text-align: center;
     margin-top: 10px;
     font-family: "Open Sans";
 }
 
 .section6-text2 {
-    font-size: 11px;
+    font-size: 12px;
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: 1px;
-    display: block;
-    text-align: center;
-    margin-bottom: 0px;
+    color: #555;
+    margin-bottom: 0;
     font-family: "Open Sans";
+}
+
+/* Responsive Image Styling */
+.responsive-image {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    /* border-radius: 50%; */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .homesection6-heading {
+        font-size: 20px;
+    }
+    .homesection6-text {
+        font-size: 14px;
+    }
+    .responsive-image {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .homesection6-heading {
+        font-size: 18px;
+    }
+    .homesection6-text {
+        font-size: 13px;
+    }
+    .responsive-image {
+        max-width: 90%;
+    }
 }

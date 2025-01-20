@@ -84,7 +84,7 @@ const Clients = () => {
             {rows.map((row, rowIndex) => (
               <Row key={rowIndex}>
                 {row.map((client, colIndex) => (
-                  <Col md={3} key={colIndex}>
+                  <Col sm={6} md={6} lg={3} key={colIndex}>
                     <div className="image-box">
                       <img src={client} alt={`Client ${rowIndex * 4 + colIndex + 1}`} />
                     </div>

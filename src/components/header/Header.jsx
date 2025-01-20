@@ -91,11 +91,11 @@ const Header = () => {
                             <Divider className='navbar-divider' />
                             <NavDropdown.Item onClick={() => navigate("/conversion-rate-optimization")}>CRO</NavDropdown.Item>
                             <Divider className='navbar-divider' />
-                            <NavDropdown.Item onClick={() => navigate("/content-creation-and-maintenance")}>COA</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/conversion-optimization-audit")}>COA</NavDropdown.Item>
                             <Divider className='navbar-divider' />
-                            <NavDropdown.Item onClick={() => navigate("/content-creation-and-maintenance")}>UX/UI Design</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/ux-ui-design")}>UX/UI Design</NavDropdown.Item>
                             <Divider className='navbar-divider' />
-                            <NavDropdown.Item onClick={() => navigate("/content-creation-and-maintenance")}>Website Optimization</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/website-optimization")}>Website Optimization</NavDropdown.Item>
                         </NavDropdown>
                         <Button className='consultation-btn'>Free Consultation</Button>
                     </Nav>

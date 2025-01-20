@@ -1,99 +1,139 @@
-.homesection5{
-    padding-bottom: 40px;
-}
-.homesection5-heading{
-    font-size: 20px !important;
-    padding-bottom: 0;
-    font-weight: 700 !important;
-    letter-spacing: 1px;
-    font-family: "Open Sans";
-    padding: 50px 0 30px;
-    text-align: center;
-}
+    .homesection5 {
+        padding-bottom: 40px;
+    }
 
-.homesection5-icons-parent{
-    display: flex;
-}
-.homesection5-icon-parent{
-    margin: 0;
-    border-right: 1px solid #d7d7d7;
-    float: left;
-    height: 122px;
-    text-align: center;
-    padding: 0 46px;
-    width: 194px;
-}
-.homesection5-icons{
-    font-size: 42px;
-    color: #d7d7d7;
-}
+    .homesection5-heading {
+        font-size: 20px !important;
+        padding-bottom: 0;
+        font-weight: 700 !important;
+        letter-spacing: 1px;
+        font-family: "Open Sans";
+        padding: 50px 0 30px;
+        text-align: center;
+    }
 
-.homesection5-text{
-    letter-spacing: 1px;
-    font-family: "Open Sans";
-    color: #7f7f7f;
-    text-transform: uppercase;
-    margin-top: 30px;
-    font-size: 13px;
-    font-weight: 600;
-}
-/* ///////////////////////////// */
-.homesection5-subParent{
-    padding-block:30px ;
-    background: linear-gradient(30deg,rgba(114,35,92,1) 0%,rgba(162,24,90,1) 28%,rgba(114,35,92,1) 100%);
-    margin: 40px 0;
-}
+    .homesection5-icons-parent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* gap: 20px; */
+    }
 
-.homesection5-subParents{
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    flex-wrap: wrap;
-}
-.homesection5-subParent-icon{
-    color: white;
-    font-size: 60px;
-}
-.homesection5-subParent-text{
-    color: white;
-    font-weight: 600;
-}
-.homesection5-btn-parent{
-    /* margin: 0 20px; */
-}
+    .homesection5-icon-parent {
+        border-right: 1px solid #d7d7d7;
+        text-align: center;
+        padding: 20px;
+        width: 180px;
+    }
 
-.homesection5-btn{
-    margin: 0 10px;
-    border-radius: 0px;
-    letter-spacing: 1px;
-    font-weight: 600;
-}
+    .homesection5-icons {
+        font-size: 42px;
+        color: #d7d7d7;
+    }
 
-.contact-btn{
-    background: transparent;
-    border: 2px solid white;
-}
+    .homesection5-text {
+        letter-spacing: 1px;
+        font-family: "Open Sans";
+        color: #7f7f7f;
+        text-transform: uppercase;
+        margin-top: 20px;
+        font-size: 13px;
+        font-weight: 600;
+    }
 
-.view-btn{
-    background: #000;
-    border: 2px solid #000;
-}
+    .homesection5-icons-parent .homesection5-icon-parent:last-child {
+        border-right: none;
+    }
 
-.view-btn:active{
-    background: #000 !important;
-    border: 2px solid #000 !important;
-}
+    @media (max-width: 992px) {
+        .homesection5-icon-parent {
+            border-right: none;
+            /* width: 50%; */
+        }
+        .homesection5-subParents {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
 
-.contact-btn:active{
-    background: transparent !important;
-    border: 2px solid white !important;
-}
-.view-btn:hover{
-    background: #000;
-    border: 2px solid #000;
-}
+    @media (max-width: 576px) {
+        .homesection5-icon-parent {
+            width: 100%;
+        }
+    }
 
-.contact-btn:hover{
-    background: transparent !important;
-    border: 2px solid white !important;
-}
+    /* Sub section styles */
+    .homesection5-subParent {
+        padding-block: 30px;
+        background: linear-gradient(30deg, rgba(114,35,92,1) 0%, rgba(162,24,90,1) 28%, rgba(114,35,92,1) 100%);
+        margin: 40px 0;
+    }
+
+    .homesection5-subParents {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .homesection5-subParent-icon {
+        color: white;
+        font-size: 60px;
+    }
+
+    .homesection5-subParent-text {
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .homesection5-btn-parent {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .homesection5-btn {
+        margin: 0;
+        border-radius: 0;
+        letter-spacing: 1px;
+        font-weight: 600;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .contact-btn {
+        background: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+
+    .view-btn {
+        background: #000;
+        border: 2px solid #000;
+        color: white;
+    }
+
+    .view-btn:hover,
+    .view-btn:active {
+        background: #000;
+        border: 2px solid #000;
+    }
+
+    .contact-btn:hover,
+    .contact-btn:active {
+        background: transparent;
+        border: 2px solid white;
+    }
+
+    /* Responsive button alignment */
+    @media (max-width: 768px) {
+        .homesection5-subParents {
+            flex-direction: column;
+            text-align: center;
+        }
+    }

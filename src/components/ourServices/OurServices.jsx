@@ -16,37 +16,37 @@ const OurServices = () => {
                 </h1>
                 <Row>
                     <div className="homesection5-icons-parent">
-                        <Col md={2}>
+                        <Col xs={12} sm={4} md={4} lg={2} xl={2}>
                             <div className="homesection5-icon-parent">
                                 <GiAirBalloon className="homesection5-icons" />
                                 <p className='homesection5-text'>Branding</p>
                             </div>
                         </Col>
-                        <Col md={2}>
+                        <Col xs={12} sm={4} md={4} lg={2} xl={2}>
                             <div className="homesection5-icon-parent">
                                 <PiRecycleThin className="homesection5-icons" />
                                 <p className='homesection5-text'>Social Media</p>
                             </div>
                         </Col>
-                        <Col md={2}>
+                        <Col xs={12} sm={4} md={4} lg={2} xl={2}>
                             <div className="homesection5-icon-parent">
                                 <AiOutlineGlobal className="homesection5-icons" />
                                 <p className='homesection5-text'>Web design</p>
                             </div>
                         </Col>
-                        <Col md={2}>
+                        <Col xs={12} sm={4} md={4} lg={2} xl={2}>
                             <div className="homesection5-icon-parent">
                                 <BsFileBarGraph className="homesection5-icons" />
                                 <p className='homesection5-text'>SEO</p>
                             </div>
                         </Col>
-                        <Col md={2}>
+                        <Col xs={12} sm={4} md={4} lg={2} xl={2}>
                             <div className="homesection5-icon-parent">
                                 <IoMegaphoneOutline className="homesection5-icons" />
                                 <p className='homesection5-text'>Google Ads</p>
                             </div>
                         </Col>
-                        <Col md={2}>
+                        <Col xs={12} sm={4} md={4} lg={2} xl={2}>
                             <div className="homesection5-icon-parent">
                                 <GiOnTarget className="homesection5-icons" />
                                 <p className='homesection5-text'>Marketing consultancy</p>

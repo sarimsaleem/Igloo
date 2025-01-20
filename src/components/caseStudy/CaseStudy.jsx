@@ -1,60 +1,60 @@
-import React from 'react';
-import Slider from 'react-slick';
-import './caseStudy.css';
-import { Button, Container } from 'react-bootstrap';
+    import React from 'react';
+    import Slider from 'react-slick';
+    import './caseStudy.css';
+    import { Button, Container } from 'react-bootstrap';
 
-const CaseStudy = ({ caseStudy }) => {
+    const CaseStudy = ({ caseStudy }) => {
 
-    const sliderSettings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        centerMode: false,
-        variableWidth: false,
-    };
+        const sliderSettings = {
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            centerMode: false,
+            variableWidth: false,
+        };
 
-    return (
-        <div className="section6-subparent" style={{ paddingBlock: "50px" }}>
-            <div style={{ maxWidth: '100%', width: '100%', margin: '0 auto' }}>
-                <Slider {...sliderSettings}>
-                    {caseStudy.map((slide, index) => (
-                        <div key={index}>
-                            <div className="section6-slide-content">
-                                <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                    <div style={{ flex: 1 }}>
-                                        <div className="section6-image-parent">
-                                            <img src={slide.image} alt={slide.heading} />
+        return (
+            <div className="case-study-container" style={{ paddingBlock: "50px" }}>
+                <div style={{ maxWidth: '100%', width: '100%', margin: '0 auto' }}>
+                    <Slider {...sliderSettings}>
+                        {caseStudy.map((slide, index) => (
+                            <div key={index}>
+                                <div className="case-study-slide">
+                                    <div className='case-study-content'>
+                                        <div style={{ flex: 1 }}>
+                                            <div className="case-study-image-wrapper">
+                                                <img src={slide.image} alt={slide.heading} />
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div
-                                        className="section6-text-second-container"
-                                        style={{ flex: 1 }}
-                                    >
-                                        <div className="section6-subparent-text-parent">
-                                            <h1 className="section6-subparent-text-heading">
-                                                {slide.heading}
-                                            </h1>
-                                            <h4 className="section6-subparent-text-subHead">
-                                                {slide.subHead}
-                                            </h4>
-                                            <p className="section6-subparent-text">{slide.text}</p>
-                                            <Button className="section6-subparent-btn">
-                                                View Case Study
-                                            </Button>
+                                        <div
+                                            className="section6-text-second-container case-study-text-wrapper"
+                                            style={{ flex: 1 }}
+                                        >
+                                            <div className="case-study-text-content">
+                                                <h1 className="case-study-heading">
+                                                    {slide.heading}
+                                                </h1>
+                                                <h4 className="case-study-subheading">
+                                                    {slide.subHead}
+                                                </h4>
+                                                <p className="case-study-description">{slide.text}</p>
+                                                <Button className="case-study-button">
+                                                    View Case Study
+                                                </Button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    ))}
-                </Slider>
+                        ))}
+                    </Slider>
+                </div>
             </div>
-        </div>
-    );
-};
+        );
+    };
 
-export default CaseStudy;
+    export default CaseStudy;

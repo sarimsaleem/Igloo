@@ -164,14 +164,14 @@ const FacebookAds = () => {
 
       <Container>
         <Row>
-          <Col md={6}>
+          <Col md={6} style={{display:"flex", justifyContent:"center"}}>
             <ul class="CompetetiveDetail-ul">
               <li>Reaching a broader, more engaged audience</li>
               <li>Remarketing opportunities</li>
               <li>Driving traffic directly to your website</li>
             </ul>
           </Col>
-          <Col md={6}>
+          <Col md={6} style={{display:"flex", justifyContent:"center"}}>
             <ul class="CompetetiveDetail-ul">
               <li>Full-funnel targeting for higher conversions</li>
               <li>Multiple effective ad formats</li>

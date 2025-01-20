@@ -215,7 +215,6 @@ const CommunityManagement = () => {
             <About data={data} />
             <Portfolio
                 columns={portfolioColumns}
-                // heading="PORTFOLIO"
                 buttonText="View All Portfolio"
             />
             <Services heading="Key Components of Community Management" text="At Igloo, we define your community management strategy according to these five key components." servicesData={servicesData} />

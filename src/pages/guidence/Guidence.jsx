@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import "./guidence.css";
+import { BASE_IMAGE_URL } from '../../utils/contant';
 
 const Guidence = ({ guidence }) => {
     const introSection = guidence.find(item => item.id === 0);
@@ -34,7 +35,7 @@ const Guidence = ({ guidence }) => {
 
                 <Row className="brandGuideMatter-parent">
                     {otherItems.map((item, index) => {
-                        let imageSrc = `/assets/images/${item.image}`;
+                        let imageSrc = BASE_IMAGE_URL + item.image;
                         return <React.Fragment key={item.id}>
                             <Col md={1}>
                                 {item.image && <div className="brandingServices-icon-parent">

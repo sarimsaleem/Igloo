@@ -117,27 +117,27 @@ const PhotographyVideograpy = () => {
         },
         {
             id: 1,
-            image: "/public/assets/images/video5.svg",
+            image: "video5.svg",
             title: "Product Photography & Videography",
             description: [
                 "When advertising your product, how you present it can make all the difference. We provide professional product photography services to shine the best possible light on what you sell. Our team has experience photographing products from various industries with the best studio equipment."]
         },
         {
             id: 2,
-            image: "/public/assets/images/video6.svg",
+            image: "video6.svg",
             title: "SALES AND MARKETING MATERIALS Production",
             description: "Are you ready to start closing more deals? Through our sales and marketing-centric photo and video efforts, we can produce versatile content that pushes new leads into your sales funnel. We also take extra care to train your marketers to sell using newly developed materials.",
         },
         {
             id: 3,
-            image: "/public/assets/images/video7.svg",
+            image: "video7.svg",
             title: "Social Media Photography",
             description:
                 "If your creative team struggles with a lack of recent, high-quality photographed content and is often forced to resort to using stock photos and videos to create content, our photography and videography services will empower them with the materials they need to produce their best work.",
         },
         {
             id: 4,
-            image: "/public/assets/images/video8.svg",
+            image: "video8.svg",
             title: "VIDEOGRAPHY FOR REELS & TIKTOK",
             description: "It’s no surprise that more brands are investing in creating specialized content for video platforms such as Facebook & Instagram Reels, TikTok and YouTube Shorts; these platforms have transitioned to vertical videos as the main incentivized content format, and your business would be wise to use it!",
         },
@@ -152,32 +152,32 @@ const PhotographyVideograpy = () => {
 
     const bounceData = [
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
             heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Our partnership with Igloo has revolutionized our marketing strategies.",
             heading: "John Doe | CEO of Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Igloo’s personalized approach is unmatched in the industry.",
             heading: "Jane Smith | Marketing Lead at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "With Igloo, we achieved milestones we never thought possible.",
             heading: "Michael Brown | Operations Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Igloo's creativity and execution are truly world-class.",
             heading: "Emily Davis | Brand Manager at Bounce Middle East",
         },
         {
-            image: "./public/assets/images/section6-7.jpg",
+            image: "section6-7.jpg",
             text: "Collaborating with Igloo was a game changer for our business.",
             heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
         },

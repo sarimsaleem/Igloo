@@ -1,7 +1,60 @@
 .section-contact {
-    background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
+  background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+.contact-parent {
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-subparent {
+  display: flex; 
+  justify-content: center;
+  width: 100%;
+  max-width: 650px; 
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-control {
+  padding: 7px 10px;
+  width: 100%; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-control:active,
+.form-control:focus {
+  outline: none;
+  border: 1px solid rgba(114, 35, 92, 1);
+}
+
+.contactUs-btn {
+  color: white;
+  background: linear-gradient(
+    30deg,
+    rgba(114, 35, 92, 1) 0%,
+    rgba(162, 24, 90, 1) 28%,
+    rgba(114, 35, 92, 1) 100%
+  );
+  border: none;
+  padding: 12px 40px;
+  margin: 26px auto;
+  display: block; /* Center the button */
+  width: fit-content;
+  border-radius: 4px;
+}
+
+@media (max-width: 767px) {
+  .contact-subparent {
+    max-width: 90%; /* Adjust width for smaller screens */
   }
-  
+
+  .contactUs-btn {
+    padding: 10px 30px; /* Adjust button size */
+  }
+}

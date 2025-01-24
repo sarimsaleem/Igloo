@@ -58,7 +58,9 @@ const Guidence = ({ guidence }) => {
                                     )}
                                 </div>
                             </Col>
-                            {index % 2 === 1 && index !== otherItems.length - 1 && <div className="w-100 my-4"></div>}
+                            {index % 2 === 1 && index !== otherItems.length - 1 && (
+                                <div className="guidance-row-width w-100 my-lg-4 my-0"></div>
+                            )}
                         </React.Fragment>
                     })}
                 </Row>

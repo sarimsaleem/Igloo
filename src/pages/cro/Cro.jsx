@@ -243,8 +243,8 @@ const Cro = () => {
                                 <Col md={1}>
                                 </Col>
                                 <Col md={5}>
-                                    <div className="brandingServices-text-parent2">
-                                        <h1 className="brandingServices-text-heading">{item.title}</h1>
+                                    <div className="brandingServices-text-parent2" style={{marginTop:"40px"}} >
+                                        <h1 className="brandingServices-text-heading" >{item.title}</h1>
                                         <div className="brandingServices-head-text-separator"></div>
                                         {Array.isArray(item.description) ? (
                                             item.description.map((text, textIndex) => (
@@ -257,7 +257,9 @@ const Cro = () => {
                                         )}
                                     </div>
                                 </Col>
-                                {index % 2 === 1 && index !== otherItems.length - 1 && <div className="w-100 my-4"></div>}
+                                {index % 2 === 1 && index !== otherItems.length - 1 && (
+                                    <div className="guidance-row-width w-100 my-lg-4 my-0"></div>
+                                )}
                             </React.Fragment>
                         ))}
                     </Row>

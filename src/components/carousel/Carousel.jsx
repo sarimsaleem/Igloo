@@ -7,13 +7,15 @@ const Carousel = ({ heading, breadcrumb, imageUrl }) => {
   const imageSrc = BASE_IMAGE_URL + imageUrl;
 
   return (
-    <div 
-      className='carousel' 
+    <div
+      className='carousel'
       style={{ backgroundImage: `url(${imageSrc})` }}
     >
-      <div className='carousel-overlay'>
-        <h1 className='branding-carousel-heading'>{heading}</h1>
-        <p className='breadcrumb'>{breadcrumb}</p>
+      <div className="container">
+        <div className='carousel-overlay'>
+          <h1 className='branding-carousel-heading'>{heading}</h1>
+          <p className='branding-carousel-sub-heading'>{breadcrumb}</p>
+        </div>
       </div>
     </div>
   );

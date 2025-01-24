@@ -14,7 +14,7 @@
 }
 
 .getnotice-btn:hover {
-    background: transparent  !important;
+    background: transparent !important;
     border: 2px solid white !important;
     color: white;
 }
@@ -22,4 +22,14 @@
 .question-btn-parent {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width:767px) {
+    .question-heading {
+        font-size: 27px;
+        padding-bottom: 17px;
+    }
+    .question-text{
+        font-size: 14px;
+    }
 }

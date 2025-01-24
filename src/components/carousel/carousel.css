@@ -7,28 +7,68 @@
     align-items: center;
     color: white;
     background-size: cover;
-    background-position: center;  
+    background-position: center;
 }
 
 
 .carousel-overlay {
-    text-align: center;
-    margin: 70px 0 0 0;
+    padding: 70px 0 0;
 }
 
 .branding-carousel-heading {
-    font-size: 2.5rem;
+    font-size: 45px;
     font-weight: bold;
     margin: 0;
     text-transform: uppercase;
+    text-align: start;
+    width: 60%;
 }
 
-.breadcrumb {
+.branding-carousel-sub-heading {
     margin-top: 10px;
     font-size: 1rem;
     color: #aaa;
+    text-align: end;
 }
 
-.breadcrumb span {
+.branding-carousel-sub-heading span {
     margin: 0 5px;
+}
+
+@media (max-width:556px) {
+
+    .carousel {
+        height: 250px;
+    }
+
+    .carousel-overlay {
+        padding: 60px 0 0 0;
+    }
+
+    .branding-carousel-heading {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .branding-carousel-sub-heading {
+        text-align: center;
+    }
+}
+
+@media (min-width:557px) and (max-width:991px) {
+    .branding-carousel-heading {
+        font-size: 30px;
+        text-align: start;
+        width: 80%;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1200px) {
+    .branding-carousel-heading {
+        font-size: 40px;
+        text-align: start;
+        width: 70%;
+    }
 }

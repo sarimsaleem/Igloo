@@ -97,7 +97,7 @@ const Header = () => {
                             <Divider className='navbar-divider' />
                             <NavDropdown.Item onClick={() => navigate("/website-optimization")}>Website Optimization</NavDropdown.Item>
                         </NavDropdown>
-                        <Button className='consultation-btn'>Free Consultation</Button>
+                        <Button className='consultation-btn' onClick={() => navigate("/contact")} >Free Consultation</Button>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

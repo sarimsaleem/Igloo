@@ -62,3 +62,7 @@
 .insight-image-container:hover img {
   transform: scale(1.1);
 }
+
+@media (max-width: 576px) {
+  
+}

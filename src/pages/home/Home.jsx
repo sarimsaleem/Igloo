@@ -97,7 +97,6 @@ const Home = () => {
             <Banner />
             <DigitalMarketing />
             <OurProcess />
-            {/* <LatestWork workItems={workItems} /> */}
             <Portfolio
                 columns={portfolioColumns}
                 heading="Latest Work"

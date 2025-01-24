@@ -118,7 +118,7 @@ const LogoAndBrand = () => {
   ];
 
   const answers = {
-    heading: "Still Have Questions?",
+    heading: "Get Noticed and Drive Real Results",
     description: [
       "Establishing your brand guidelines isn’t just about avoiding confusion and giving your marketing team something to work with—it’s about developing a foundation that consumers want to stay loyal to.",
       "If you’re struggling to bring your brand concept to life, consult with our experts today to put the pieces together."
@@ -225,7 +225,7 @@ const LogoAndBrand = () => {
       answer: "Yes we do. We will share our offering when we are in contact with you.",
     },
   ];
-  
+
   return (
     <>
       <Carousel

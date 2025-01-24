@@ -47,7 +47,7 @@
 
 
 .navbar .dropdown-menu .dropdown-item {
-    color: #c8c8c8 ;
+    color: #c8c8c8;
     font-family: 'Open Sans';
     text-transform: uppercase;
     font-size: 11px;
@@ -93,11 +93,52 @@
 }
 
 .navbar-scrolled .consultation-btn {
-    color: black ;
+    color: black;
 }
-.navbar-scrolled .consultation-btn:hover{
-    color: white ;
+
+.navbar-scrolled .consultation-btn:hover {
+    color: white;
 }
-.navbar-scrolled .consultation-btn:hover:active{
-    color:black;
+
+.navbar-scrolled .consultation-btn:hover:active {
+    color: black;
+}
+
+@media (max-width:991px) {
+    .navbar-brand {
+        margin: 0 0 10px;
+    }
+
+    .navbar{
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid white;
+        padding: 0;
+    }
+
+    .consultation-btn {
+        margin: 10px 0 0;
+    }
+
+    .navbar-toggler {
+        color: transparent;
+        outline: none;
+        border: 1px solid white;
+    }
+
+    .navbar-scrolled .navbar-toggler {
+        border: 1px solid black;
+        color: transparent;
+    }
+
+    .navbar-toggler-icon {
+        filter: brightness(0) invert(1);
+    }
+
+    .navbar-scrolled .navbar-toggler-icon{
+        filter: none;
+    }
+
 }

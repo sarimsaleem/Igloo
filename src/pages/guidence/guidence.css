@@ -36,3 +36,31 @@
     padding: 10px;
 
 }
+
+
+@media (max-width:767px) {
+    .brandGuideMatter-heading {
+        font-size: 20px;
+    }
+
+    .brandGuideMatter-parent {
+        margin: 0;
+    }
+
+    .brandingServices-icon-parent {
+        margin: 25px 0;
+    }
+
+    .brandingServices-text {
+        margin: 0;
+    }
+
+    .brandingServices-text-heading {
+        text-align: center;
+    }
+
+    .brandingServices-head-text-separator {
+        margin:24px auto 20px auto;;
+        
+    } 
+}

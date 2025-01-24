@@ -193,12 +193,11 @@ const FacebookAds = () => {
       />
       <Services heading="Our Facebook Ad Management Services" text="All businesses can benefit from our Facebook ad management services. In particular, below are the ways we can help your ad campaigns thrive." servicesData={servicesData} />
       
-
       <Container style={{paddingBottom:"40px"}} >
         <Row className="brandingServices-parent">
           <Col md={12}>
             <div className="brandingServices-text-parent">
-              <h1 className="brandingServices-text-heading">Strategy Development</h1>
+              <h1 className="brandingServices-text-heading" style={{paddingTop:"15px"}}>Strategy Development</h1>
               <div className="brandingServices-head-text-separator"></div>
               <p className="brandingServices-text">
                 The first step in developing a robust, unbeatable advertising strategy is getting to know your brand. Our specialists first study your past campaigns, identifying successful tactics and building upon ones with potential.</p>
@@ -211,8 +210,8 @@ const FacebookAds = () => {
 
         <Row className="brandingServices-parent">
           <Col md={12}>
-            <div className="brandingServices-text-parent">
-              <h1 className="brandingServices-text-heading">Content Creation</h1>
+            <div className="brandingServices-text-parent" style={{paddingTop:"15px"}}>
+              <h1 className="brandingServices-text-heading" >Content Creation</h1>
               <div className="brandingServices-head-text-separator"></div>
               <p className="brandingServices-text">
                 Our ad content is always engaging—we create original copy and stunning visuals that make your brand stand out from the rest. We maintain a regular posting schedule and provide clients with editorial calendars that best suit their campaign timelines.</p>
@@ -281,7 +280,7 @@ const FacebookAds = () => {
 
         <Row className="brandingServices-parent">
           <Col md={12}>
-            <div className="brandingServices-text-parent">
+            <div className="brandingServices-text-parent" style={{paddingTop:"15px"}}>
               <h1 className="brandingServices-text-heading">Ad Testing</h1>
               <div className="brandingServices-head-text-separator"></div>
               <p className="brandingServices-text">
@@ -291,7 +290,7 @@ const FacebookAds = () => {
         </Row>
         <Row className="brandingServices-parent">
           <Col md={12}>
-            <div className="brandingServices-text-parent">
+            <div className="brandingServices-text-parent" style={{paddingTop:"15px"}} >
               <h1 className="brandingServices-text-heading">Monitoring & Reporting</h1>
               <div className="brandingServices-head-text-separator"></div>
               <p className="brandingServices-text">
@@ -302,7 +301,6 @@ const FacebookAds = () => {
           </Col>
         </Row>
       </Container>
-
 
       <Answers
         heading={answers.heading}

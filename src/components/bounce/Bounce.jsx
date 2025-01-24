@@ -5,6 +5,29 @@ import "./bounce.css";
 import { BASE_IMAGE_URL } from "../../util/contant";
 
 const Bounce = ({ slides }) => {
+
+    const CustomNextArrow = (props) => {
+        const { className, style, onClick } = props;
+        return (
+            <div
+                className={className}
+                style={{ ...style, right: "10px", zIndex: 10 }}
+                onClick={onClick}
+            />
+        );
+    };
+    
+    const CustomPrevArrow = (props) => {
+        const { className, style, onClick } = props;
+        return (
+            <div
+                className={className}
+                style={{ ...style, left: "10px", zIndex: 10 }}
+                onClick={onClick}
+            />
+        );
+    };  
+
     const settings = {
         dots: true,
         infinite: true,
@@ -12,8 +35,13 @@ const Bounce = ({ slides }) => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 5000,
+        // nextArrow: <CustomNextArrow />,
+        // prevArrow: <CustomPrevArrow />,
+        arrow: false
     };
+
+   
 
     return (
         <div className="bounce">

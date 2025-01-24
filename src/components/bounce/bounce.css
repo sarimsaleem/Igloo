@@ -1,5 +1,5 @@
-.bounce{
-    padding-block:70px ;
+.bounce {
+    padding-block: 70px;
 }
 
 .bounceImg img {
@@ -11,7 +11,7 @@
     display: flex;
 }
 
-.bounce-text-p{
+.bounce-text-p {
     color: #7f7f7f;
     letter-spacing: 0;
     font-weight: 400;
@@ -22,7 +22,8 @@
     text-align: center;
     font-family: "Open Sans";
 }
-.bounce-text-heading{
+
+.bounce-text-heading {
     font-size: 16px;
     display: block;
     width: 100%;
@@ -31,4 +32,44 @@
     letter-spacing: 2px;
     text-align: center;
     color: #828282;
+}
+
+.slick-prev,
+.slick-next {
+    /* width: 40px;
+    height: 40px;
+    z-index: 10; */
+    display: none;
+    background: transparent;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.slick-next:before {
+    color: transparent;
+}
+
+.slick-prev:before{
+    color: transparent;
+}
+@media (max-width: 768px) {
+    /* .slick-prev,
+    .slick-next {
+        width: 30px;
+        height: 30px;
+    }
+
+    .slick-prev {
+        left: 5px;
+    }
+
+    .slick-next {
+        right: 5px;
+    } */
 }

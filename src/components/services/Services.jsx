@@ -1,7 +1,7 @@
 import React from 'react';
 import './services.css';
 import { Col, Container, Row } from 'react-bootstrap';
-import { BASE_IMAGE_URL } from "../../util/contant";  // Import BASE_IMAGE_URL
+import { BASE_IMAGE_URL } from "../../util/contant"; 
 
 const Services = ({ heading, servicesData, text }) => {
     return (

@@ -26,7 +26,7 @@ const Header = () => {
     }, []);
     const navigate = useNavigate()
     return (
-        <Navbar expand="lg" className={scrolled ? "navbar navbar-scrolled" : "navbar"}>
+        <Navbar expand="md" className={scrolled ? "navbar navbar-scrolled" : "navbar"}>
             <Container>
                 <Navbar.Brand onClick={() => navigate("/")}>
                     <img

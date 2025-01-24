@@ -14,8 +14,7 @@ import home2 from '/public/assets/images/portfolio2.jpg';
 import home3 from '/public/assets/images/portfolio3.jpg';
 import home4 from '/public/assets/images/portfolio4.jpg';
 import home5 from '/public/assets/images/portfolio5.jpg';
-import Faqs from '../../components/faqs/Faqs'
-import LatestInsight from '../../components/latestInsight/LatestInsight'
+
 const Branding = () => {
 
     const data = [

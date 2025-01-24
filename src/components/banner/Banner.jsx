@@ -7,6 +7,7 @@ const Banner = () => {
   return (
     <div className="banner-container">
       <video className="carousel-video" src={CrouselVideo} autoPlay loop muted />
+      {/* we belive in innovation ,we belive in communication , we belive in creativity , we belive in marketing  */}
     </div>
   );
 };

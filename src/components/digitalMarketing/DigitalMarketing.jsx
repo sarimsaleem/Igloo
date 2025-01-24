@@ -19,11 +19,17 @@ const DigitalMarketing = () => {
                 <Row className="g-0">
                     <div className="keywords-row">
                         <span>BRANDING</span>
+                        <span>/</span>
                         <span>DIGITAL MARKETING</span>
+                        <span>/</span>
                         <span>LEAD GENERATION</span>
+                        <span>/</span>
                         <span>SOCIAL MEDIA</span>
+                        <span>/</span>
                         <span>WEB APP</span>
+                        <span>/</span>
                         <span>SEO</span>
+                        <span>/</span>
                         <span>GOOGLE ADS</span>
                     </div>
                 </Row>

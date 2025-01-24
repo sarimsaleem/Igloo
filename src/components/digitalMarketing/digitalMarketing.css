@@ -42,11 +42,17 @@
 }
 
 .keywords-row span {
-    padding: 0 20px;
+    padding: 0 10px;
     color: #FFF;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 11px;
+    font-size: 13px;
     font-family: "Open Sans";
     letter-spacing: 1px;
+}
+
+@media (max-width:991px) {
+    .keywords-row span {
+        padding: 0 0px;
+    }
 }

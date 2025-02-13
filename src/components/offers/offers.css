@@ -14,13 +14,13 @@
 }
 
 .bookcolsultation-icon {
-    color: white;
+    color: var(----white);
     font-size: 36px;
 }
 
 .bookcolsultation-parent-text {
     text-align: center;
-    color: white;
+    color: var(----white);
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
 }
@@ -34,7 +34,7 @@
 
 .bookcolsultation-parent-text p {
     font-size: 14px;
-    color: #828282;
+    color: #7f7f7f;
     margin: 0;
     line-height: 1.5;
 }

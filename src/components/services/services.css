@@ -130,7 +130,7 @@
 .heading-border {
     width: 50px;
     height: 2px;
-    background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
+    background: var(--gradient);
     margin: 20px auto 20px auto;
 }
 

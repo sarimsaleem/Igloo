@@ -61,7 +61,7 @@
     letter-spacing: 1px;
     font-family: "Open Sans";
     padding: 0px 0 30px;
-    color: white;
+    color: var(--white);
     text-align: center;
 }
 

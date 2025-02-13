@@ -12,7 +12,7 @@
 .brandGuideMatter-seperator {
     width: 40px;
     height: 2px;
-    background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
+    background: var(--gradient);
     margin: 24px auto 20px auto;
 }
 
@@ -21,7 +21,7 @@
     color: #494646;
     font-size: 16px;
     text-align: center;
-    background-color: #fff;
+    background-color: var(--white);
     margin: 0;
     padding: 0;
     letter-spacing: .3px;

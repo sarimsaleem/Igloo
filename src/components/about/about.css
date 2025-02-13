@@ -15,7 +15,7 @@
 .heading-underline {
   width: 40px;
   height: 2px;
-  background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
+  background: var(--gradient);
   margin: 24px auto 20px auto;
 }
 
@@ -36,11 +36,8 @@
 
 .about-btn {
   font-family: "Open Sans";
-  background: linear-gradient(30deg,
-          rgba(114, 35, 92, 1) 0%,
-          rgba(162, 24, 90, 1) 28%,
-          rgba(114, 35, 92, 1) 100%);
-  color: #fff;
+  background: var(--gradient);
+  color: var(--white);
   border: none;
   font-size: 14px;
   padding: 12px 22px;

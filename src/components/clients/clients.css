@@ -11,13 +11,13 @@
 }
 
 .brandingAgency-subParent {
-  background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
+  background: var(--gradient);
   /* padding-block: 39px; */
 }
 
 .brandingAgency-subParent-container {
   text-align: center;
-  color: white;
+  color: var(----white);
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.6s ease, transform 0.6s ease;
@@ -47,7 +47,7 @@
 }
 
 .brandingAgency-process-seperater {
-  background: #fff;
+  background: var(--white);
   height: 4px;
   width: 30px;
   margin: 5px auto;
@@ -82,7 +82,7 @@
   border: 2px solid #000;
   background-color: #000;
   font-size: 22px;
-  color: white;
+  color: var(----white);
   font-weight: 700;
   font-size: 11px;
   padding: 7px 16px;
@@ -95,7 +95,7 @@
 .ourclients-btn:hover {
   color: #000 !important;
   border: 2px solid #000;
-  background: white !important;
+  background: var(----white) !important;
 }
 
 .ourclients-btn:active {
@@ -124,6 +124,6 @@
 .heading-underline {
   width: 40px;
   height: 2px;
-  background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
+  background: var(--gradient);
   margin: 24px auto 20px auto;
 }

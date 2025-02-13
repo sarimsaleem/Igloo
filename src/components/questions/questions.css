@@ -22,11 +22,11 @@
     letter-spacing: 2px;
     padding-bottom: 39px;
     font-size: 36px;
-    color: #fff;
+    color: var(--white);
 }
 
 .question-text {
-    color: white;
+    color: var(----white);
 }
 
 .question-btn-parent {
@@ -40,7 +40,7 @@
             rgba(114, 35, 92, 1) 0%,
             rgba(162, 24, 90, 1) 28%,
             rgba(114, 35, 92, 1) 100%);
-    color: #fff;
+    color: var(--white);
     border: none;
     font-size: 14px;
     padding: 12px 22px;
@@ -63,6 +63,6 @@
 .question-seperator {
     width: 30px;
     height: 2px;
-    background: white;
+    background: var(----white);
     margin: 0px auto 20px;
 }

@@ -25,14 +25,14 @@
   .brandingagencychoose-description {
     font-size: 1rem;
     line-height: 1.8;
-    color: #626262;
+    color: #494646;
     margin-bottom: 20px;
     font-family: "Open Sans";
   }
   
   .brandingagencychoose-button {
-    background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
-    color: #fff;
+    background: var(--gradient);
+    color: var(--white);
     font-size: 1rem;
     font-weight: bold;
     padding: 12px 20px;

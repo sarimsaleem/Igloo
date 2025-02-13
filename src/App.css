@@ -19,7 +19,7 @@ li {
     font-family: var(--font-family);
 }
 
-@media (max-width: 990px) {
+@media (max-width: 990px) { 
     .consultation-btn {
         margin-left: 0;
         margin-top: 10px;

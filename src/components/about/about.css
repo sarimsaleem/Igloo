@@ -24,7 +24,7 @@
   line-height: 1.8;
   margin-bottom: 22px;
   text-align: center;
-  color: #000;
+  color: var(--black);
   font-family: "Open Sans";
 }
 

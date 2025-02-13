@@ -286,7 +286,7 @@ const DigitalMarketing = () => {
         <div className='digitalMarketingServices'>
           <h1 className='brandingServices-heading'>WHAT DIGITAL CHANNELS IGLOO OFFERS AS A DIGITAL MARKETING AGENCY?</h1>
           <div className='heading-underline'></div>
-          <p className='digitalmarketing-discription' style={{ color: "#494646" }}>
+          <p className='digitalmarketing-discription' style={{ color: "var(--sub-text)" }}>
             We are an award-winning digital marketing agency that proves 360-degree solutions through multiple services including pay per click advertising, SEO, social media marketing, web development, branding, influencer marketing, marketing automation, and more.
           </p>
           <h4 className='digitalMarketingServices-subheading'>CLICK THE LINKS BELOW TO FIND OUT MORE ABOUT OUR SERVICES.</h4>

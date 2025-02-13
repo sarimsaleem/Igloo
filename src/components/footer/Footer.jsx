@@ -14,11 +14,11 @@ const { Title, Text } = Typography;
 const Footer = () => {
     return (
         <>
-            <Layout.Footer className="footer" style={{ backgroundColor: 'var(--white)', color: '#494646', padding: '40px 0 0 0' }}>
+            <Layout.Footer className="footer" style={{ backgroundColor: 'var(--white)', color: 'var(--sub-text)', padding: '40px 0 0 0' }}>
                 <Container>
                     <Row gutter={[16, 16]} style={{ paddingBottom: "30px" }}>
                         <Col xs={24} sm={12} md={12} lg={7}>
-                            <Title level={4} style={{ color: '#000' }}>CERTIFICATIONS</Title>
+                            <Title level={4} style={{ color: 'var(--black)' }}>CERTIFICATIONS</Title>
                             <Row gutter={[16, 16]}>
                                 <Col xs={12} sm={12} md={12}>
                                     <img src={footerimg4} className='footerImg' alt="Logo" />
@@ -37,37 +37,37 @@ const Footer = () => {
 
                         {/* Certifications & Specialties Section */}
                         <Col xs={24} sm={12} md={12} lg={5}>
-                            <Title level={4} style={{ color: '#000' }}>SPECIALTIES</Title>
-                            <Text style={{ display: 'block', color: '#494646' }}>Education</Text>
-                            <Text style={{ display: 'block', color: '#494646' }}>E-commerce</Text>
-                            <Text style={{ display: 'block', color: '#494646' }}>Healthcare</Text>
+                            <Title level={4} style={{ color: 'var(--black)' }}>SPECIALTIES</Title>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>Education</Text>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>E-commerce</Text>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>Healthcare</Text>
                         </Col>
 
                         {/* Services Section */}
                         <Col xs={24} sm={12} md={12} lg={6}>
-                            <Title level={4} style={{ color: '#000' }}>SERVICES</Title>
-                            <Text style={{ display: 'block', color: '#494646' }}>CRO</Text>
-                            <Text style={{ display: 'block', color: '#494646' }}>PPC</Text>
-                            <Text style={{ display: 'block', color: '#494646' }}>SEO</Text>
-                            <Text style={{ display: 'block', color: '#494646' }}>SMM</Text>
-                            <Text style={{ display: 'block', color: '#494646' }}>Digital Marketing</Text>
-                            <Text style={{ display: 'block', color: '#494646' }}>WEB/APP</Text>
-                            <Text style={{ display: 'block', color: '#494646' }}>BRANDING</Text>
-                            <Text style={{ display: 'block', color: '#494646' }}>Lead Generation</Text>
-                            <Text style={{ display: 'block', color: '#494646' }}>Insights and Analytics</Text>
+                            <Title level={4} style={{ color: 'var(--black)' }}>SERVICES</Title>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>CRO</Text>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>PPC</Text>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>SEO</Text>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>SMM</Text>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>Digital Marketing</Text>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>WEB/APP</Text>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>BRANDING</Text>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>Lead Generation</Text>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>Insights and Analytics</Text>
                         </Col>
 
                         <Col xs={24} sm={12} md={12} lg={6}>
-                            <Title level={4} style={{ color: '#000' }}>OUR OFFICES</Title>
-                            <Title level={5} style={{ color: '#000', marginBlock: "5px" }}>DUBAI</Title>
-                            <Text style={{ display: 'block', color: '#494646' }}>Fortune Executive Tower, Suite 1204, JLT, DUBAI 336101</Text>
-                            <Text style={{ display: 'block', color: '#494646' }}>T: +97144310831</Text>
-                            <Text style={{ display: 'block', color: '#494646' }}>E: info@weareigloo.com</Text>
+                            <Title level={4} style={{ color: 'var(--black)' }}>OUR OFFICES</Title>
+                            <Title level={5} style={{ color: 'var(--black)', marginBlock: "5px" }}>DUBAI</Title>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>Fortune Executive Tower, Suite 1204, JLT, DUBAI 336101</Text>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>T: +97144310831</Text>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>E: info@weareigloo.com</Text>
 
-                            <Title level={5} style={{ color: '#000' }}>Miami</Title>
-                            <Text style={{ display: 'block', color: '#494646' }}>11900 Biscayne Blvd, Suite 105, Miami, FL 33181</Text>
-                            <Text style={{ display: 'block', color: '#494646' }}>T: +1 (305) 497-3267</Text>
-                            <Text style={{ display: 'block', color: '#494646' }}>E: info@weareigloo.com</Text>
+                            <Title level={5} style={{ color: 'var(--black)' }}>Miami</Title>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>11900 Biscayne Blvd, Suite 105, Miami, FL 33181</Text>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>T: +1 (305) 497-3267</Text>
+                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>E: info@weareigloo.com</Text>
 
 
                         </Col>
@@ -96,7 +96,7 @@ const Footer = () => {
                 <Container >
                     <div className="sub-footer-content">
                         <div className="footer-text">
-                            <Text style={{ color: '#494646' }}>
+                            <Text style={{ color: 'var(--sub-text)' }}>
                                 © {new Date().getFullYear()} We Are Igloo. All Rights Reserved.
                             </Text>
                         </div>

@@ -30,14 +30,14 @@ h1, h2,h3,h4, h5, h6, p, li{
     line-height: 1.8;
     margin-bottom: 22px;
     /* text-align: center; */
-    color: #000;
+    color: var(--black);
     font-family: "Open Sans";
   }
   .main-description-bold {
     font-size: 16px;
     line-height: 1.8;
     margin-bottom: 22px;
-    color: #000;
+    color: var(--black);
     font-family: "Open Sans";
     font-weight: 600;
   }

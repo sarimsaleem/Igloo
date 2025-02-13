@@ -31,7 +31,7 @@
 .brandingServices-detail {
     text-align: center;
     margin-bottom: 20px;
-    color: #494646;
+    color: var(--sub-text);
     line-height: 23px;
     margin: 0;
     padding: 0;

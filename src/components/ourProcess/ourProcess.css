@@ -15,7 +15,7 @@
 }
 .card-text{
     font-size: 13px;
-    color: #494646;
+    color: var(--sub-text);
     letter-spacing: 0.6px;
     font-family: "Open Sans";
 }

@@ -79,8 +79,8 @@
 }
 
 .ourclients-btn {
-  border: 2px solid #000;
-  background-color: #000;
+  border: 2px solid var(--black);
+  background-color: var(--black);
   font-size: 22px;
   color: var(----white);
   font-weight: 700;
@@ -93,13 +93,13 @@
 }
 
 .ourclients-btn:hover {
-  color: #000 !important;
-  border: 2px solid #000;
+  color: var(--black) !important;
+  border: 2px solid var(--black);
   background: var(----white) !important;
 }
 
 .ourclients-btn:active {
-  border: 2px solid #000 !important;
+  border: 2px solid var(--black) !important;
 }
 
 

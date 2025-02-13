@@ -182,7 +182,7 @@ const MarketingAutomation = () => {
         <h1 className='agency-heading' style={{ textAlign: "center" }}>Our Marketing Automation Services
         </h1>
         <div className='heading-underline'></div>
-        <p className='agency-description' style={{ color: "#494646" }}>
+        <p className='agency-description' style={{ color: "var(--sub-text)" }}>
           If you’re looking for the right marketing automation solution to help scale your business, here are the ways we can help.</p>
         <Row className="brandGuideMatter-parent">
           <Col md={1}>

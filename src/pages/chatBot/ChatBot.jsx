@@ -187,7 +187,7 @@ const ChatBot = () => {
             <Container >
                 <h1 className='agency-heading' style={{ textAlign: "center", marginTop: "40px" }}>Our Chatbot Services</h1>
                 <div className='heading-underline'></div>
-                <p className='agency-description' style={{ color: "#494646" }}>
+                <p className='agency-description' style={{ color: "var(--sub-text)" }}>
                     At Igloo, we deploy the latest machine learning and natural language processing technology to create advanced and helpful chatbots. Here are a few of the applications we provide.</p>
 
                 <Row className="brandGuideMatter-parent">

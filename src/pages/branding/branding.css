@@ -25,7 +25,7 @@
   .brandingagencychoose-description {
     font-size: 1rem;
     line-height: 1.8;
-    color: #494646;
+    color: var(--sub-text);
     margin-bottom: 20px;
     font-family: "Open Sans";
   }

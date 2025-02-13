@@ -6,13 +6,13 @@
     text-align: center;
     font-family: "Open Sans";
     margin-bottom: 5%;
-    color: #494646;
+    color: var(--sub-text);
 }
 .homesection1-sub-heading{
     font-family: "Open Sans";       
     font-weight: 700;
     letter-spacing: 1px;
-    color: #000;
+    color: var(--black);
     text-transform: uppercase;
     margin: 0;
     padding: 0;
@@ -23,7 +23,7 @@
 .homesection1-text{    
     text-align: center;
     font-family: "Open Sans";   
-    color: #494646;
+    color: var(--sub-text);
     margin-top: 56px;
     margin-bottom: 22px;
 }

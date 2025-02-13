@@ -7,7 +7,7 @@
         padding-bottom: 0;
         font-weight: 700 !important;
         letter-spacing: 1px;
-        font-family: "Open Sans";
+        font-family: var(--font-family);
         padding: 50px 0 30px;
         text-align: center;
     }
@@ -33,7 +33,7 @@
 
     .homesection5-text {
         letter-spacing: 1px;
-        font-family: "Open Sans";
+        font-family: var(--font-family);
         color: #7f7f7f;
         text-transform: uppercase;
         margin-top: 20px;

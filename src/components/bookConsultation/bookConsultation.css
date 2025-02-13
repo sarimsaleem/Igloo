@@ -7,7 +7,7 @@
 
 .bookcolsultation-subparent-h1{
     margin-bottom: 30px;
-    font-family: "Open Sans";
+    font-family: var(--font-family);
     letter-spacing: 1px;
     line-height: 34px;
     color: var(--black);
@@ -18,7 +18,7 @@
 }
 .bookcolsultation-subparent-button{
     padding: 10px 22px;
-    font-family: "Open Sans";
+    font-family: var(--font-family);
     letter-spacing: 2px;
     background: var(--gradient);
     color: var(--white);

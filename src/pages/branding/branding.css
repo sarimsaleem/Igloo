@@ -9,7 +9,7 @@
   
   .brandingagencychoose-heading {
     margin-bottom: 0px;
-    font-family: "Open Sans";
+    font-family: var(--font-family);
     font-size: 31px;
     font-weight: 600;
     color: var(--black);
@@ -27,7 +27,7 @@
     line-height: 1.8;
     color: var(--sub-text);
     margin-bottom: 20px;
-    font-family: "Open Sans";
+    font-family: var(--font-family);
   }
   
   .brandingagencychoose-button {

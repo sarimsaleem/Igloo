@@ -20,7 +20,7 @@
     line-height: 26px;
     margin: 30px 0 20px;
     text-align: center;
-    font-family: "Open Sans";
+    font-family: var(--font-family);
 }
 
 .bounce-text-heading {

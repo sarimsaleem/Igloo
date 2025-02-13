@@ -7,7 +7,7 @@
     font-weight: 700;
     letter-spacing: 1px;
     text-align: center;
-    font-family: "Open Sans";
+    font-family: var(--font-family);
 }
 
 .homesection6-text {
@@ -38,7 +38,7 @@
     font-weight: 600;
     color: var(--black);
     margin-top: 10px;
-    font-family: "Open Sans";
+    font-family: var(--font-family);
 }
 
 .section6-text2 {
@@ -47,7 +47,7 @@
     font-weight: 400;
     color: #555;
     margin-bottom: 0;
-    font-family: "Open Sans";
+    font-family: var(--font-family);
 }
 
 /* Responsive Image Styling */

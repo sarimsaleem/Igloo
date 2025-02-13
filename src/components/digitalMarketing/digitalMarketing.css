@@ -4,12 +4,12 @@
 
 .homesection1-heading{
     text-align: center;
-    font-family: "Open Sans";
+    font-family: var(--font-family);
     margin-bottom: 5%;
     color: var(--sub-text);
 }
 .homesection1-sub-heading{
-    font-family: "Open Sans";       
+    font-family: var(--font-family);       
     font-weight: 700;
     letter-spacing: 1px;
     color: var(--black);
@@ -22,7 +22,7 @@
 }
 .homesection1-text{    
     text-align: center;
-    font-family: "Open Sans";   
+    font-family: var(--font-family);   
     color: var(--sub-text);
     margin-top: 56px;
     margin-bottom: 22px;
@@ -47,7 +47,7 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 13px;
-    font-family: "Open Sans";
+    font-family: var(--font-family);
     letter-spacing: 1px;
 }
 

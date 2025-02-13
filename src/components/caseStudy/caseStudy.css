@@ -42,7 +42,7 @@
     letter-spacing: 3px;
     text-transform: uppercase;
     color: var(--black);
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-family), sans-serif;
 }
 
 .case-study-subheading {
@@ -50,14 +50,14 @@
     font-weight: 600;
     text-transform: uppercase;
     margin: 5px 0 25px;
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-family), sans-serif;
     letter-spacing: 3px;
 }
 
 .case-study-description {
     margin-bottom: 22px;
     text-align: left;
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-family), sans-serif;
     letter-spacing: 3px;
     color: var(--sub-text);
 }

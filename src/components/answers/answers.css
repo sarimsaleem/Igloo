@@ -1,5 +1,5 @@
 .getnotice-btn {
-    font-family: "Open Sans";
+    font-family: var(--font-family);
     background: var(--white);
     color: var(--black);
     border: none;

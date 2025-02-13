@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-body{
-    font-family: 'Open Sans';
-}
-h1, h2,h3,h4, h5, h6, p, li{
-    font-family: "Open Sans";
+body {
+    font-family: var(--font-family);
 }
 
-.button{
-    font-family: "Open Sans";
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    font-family: var(--font-family);
 }
+
+.button {
+    font-family: var(--font-family);
+}
+
 @media (max-width: 990px) {
-    .consultation-btn{
+    .consultation-btn {
         margin-left: 0;
         margin-top: 10px;
     }
@@ -23,29 +31,31 @@ h1, h2,h3,h4, h5, h6, p, li{
     font-size: 30px;
     font-weight: 600;
     text-align: center;
-  }
-  
-  .main-description {
+}
+
+.main-description {
     font-size: 16px;
     line-height: 1.8;
     margin-bottom: 22px;
     /* text-align: center; */
     color: var(--black);
-    font-family: "Open Sans";
-  }
-  .main-description-bold {
+    font-family: var(--font-family);
+}
+
+.main-description-bold {
     font-size: 16px;
     line-height: 1.8;
     margin-bottom: 22px;
     color: var(--black);
-    font-family: "Open Sans";
+    font-family: var(--font-family);
     font-weight: 600;
-  }
-  
-:root{
+}
+
+:root {
     --white: #fff;
     --black: #000;
-    --text-color:#7f7f7f;
+    --text-color: #7f7f7f;
     --sub-text: #494646;
     --gradient: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
+    --font-family: "Open Sans", sans-serif;
 }

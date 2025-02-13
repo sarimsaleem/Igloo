@@ -18,7 +18,7 @@
     font-weight: 600;
     line-height: 34px;
     text-transform: uppercase;
-    font-family: "Open Sans";
+    font-family: var(--font-family);
     letter-spacing: 2px;
     padding-bottom: 39px;
     font-size: 36px;
@@ -35,7 +35,7 @@
 }
 
 .question-btn {
-    font-family: "Open Sans";
+    font-family: var(--font-family);
     background: linear-gradient(30deg,
             rgba(114, 35, 92, 1) 0%,
             rgba(162, 24, 90, 1) 28%,

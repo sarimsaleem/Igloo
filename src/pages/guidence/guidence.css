@@ -5,7 +5,7 @@
     line-height: 34px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: "Open Sans";
+    font-family: var(--font-family);
     text-align: center;
 }
 
@@ -25,7 +25,7 @@
     margin: 0;
     padding: 0;
     letter-spacing: .3px;
-    font-family: "Open Sans";
+    font-family: var(--font-family);
 }
 
 

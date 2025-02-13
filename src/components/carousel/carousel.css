@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(----white);
+    color: var(--white);
     background-size: cover;
     background-position: center;
 }

@@ -47,6 +47,5 @@ h1, h2,h3,h4, h5, h6, p, li{
     --black: #000;
     --text-color:#7f7f7f;
     --sub-text: #494646;
-    --footer-text: #626262;
     --gradient: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
 }

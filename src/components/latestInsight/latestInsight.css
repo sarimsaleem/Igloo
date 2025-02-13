@@ -3,7 +3,7 @@
   top: 50%;
   transform: translateY(-50%);
   background: var(--black);
-  color: var(----white);
+  color: var(--white);
   border: none;
   border-radius: 50%;
   padding: 4px 10px;
@@ -12,7 +12,7 @@
 }
 
 .slider-button:hover {
-  background: var(----white);
+  background: var(--white);
   color: var(--black);
   border: 1px solid var(--black);
 }

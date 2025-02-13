@@ -56,7 +56,7 @@
   
   .homesection4-button {
     background: var(--black);
-    color: var(----white);
+    color: var(--white);
     border: 2px solid var(--black);
     font-family: "Open Sans", sans-serif;
     padding: 5px 15px;
@@ -70,13 +70,13 @@
   }
   
   .homesection4-button:hover {
-    background: var(----white) !important;
+    background: var(--white) !important;
     color: var(--black) !important;
     border: 2px solid var(--black);
   }
   
   .homesection4-button:active {
-    background: var(----white) !important;
+    background: var(--white) !important;
     color: var(--black);
     border: 2px solid var(--black) !important;
   }

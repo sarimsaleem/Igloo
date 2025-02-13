@@ -79,12 +79,12 @@
     }
 
     .homesection5-subParent-icon {
-        color: var(----white);
+        color: var(--white);
         font-size: 60px;
     }
 
     .homesection5-subParent-text {
-        color: var(----white);
+        color: var(--white);
         font-weight: 600;
         font-size: 18px;
         margin: 0;
@@ -108,14 +108,14 @@
 
     .contact-btn {
         background: transparent;
-        border: 2px solid var(----white);
-        color: var(----white);
+        border: 2px solid var(--white);
+        color: var(--white);
     }
 
     .view-btn {
         background: var(--black);
         border: 2px solid var(--black);
-        color: var(----white);
+        color: var(--white);
     }
 
     .view-btn:hover,
@@ -127,7 +127,7 @@
     .contact-btn:hover,
     .contact-btn:active {
         background: transparent;
-        border: 2px solid var(----white);
+        border: 2px solid var(--white);
     }
 
     /* Responsive button alignment */

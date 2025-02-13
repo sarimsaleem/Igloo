@@ -98,7 +98,7 @@ const ContentCreationMaintenance = () => {
       id: 2,
       image:"ccMaintenance6.svg",
       title: "eBooks and White Papers",
-      description: "There is no better way to demonstrate your knowledge and professionalism than through a var(----white) paper or eBook. Our skilled writers can capture your brand essence and the message you want to communicate in a way that truly sells.",
+      description: "There is no better way to demonstrate your knowledge and professionalism than through a white paper or eBook. Our skilled writers can capture your brand essence and the message you want to communicate in a way that truly sells.",
     },
     {
       id: 3,

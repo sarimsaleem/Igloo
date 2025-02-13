@@ -1,6 +1,6 @@
 .getnotice-btn {
     font-family: "Open Sans";
-    background: var(----white);
+    background: var(--white);
     color: var(--black);
     border: none;
     font-size: 14px;
@@ -15,8 +15,8 @@
 
 .getnotice-btn:hover {
     background: transparent !important;
-    border: 2px solid var(----white) !important;
-    color: var(----white);
+    border: 2px solid var(--white) !important;
+    color: var(--white);
 }
 
 .question-btn-parent {

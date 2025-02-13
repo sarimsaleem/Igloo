@@ -1,6 +1,6 @@
 .section-contact {
   background: var(--gradient);
-  color: var(----white);
+  color: var(--white);
   text-align: center;
   padding: 30px 20px;
 }
@@ -34,7 +34,7 @@
 }
 
 .contactUs-btn {
-  color: var(----white);
+  color: var(--white);
   background: linear-gradient(
     30deg,
     rgba(114, 35, 92, 1) 0%,

@@ -20,7 +20,7 @@
 .brandingServices-heading {
     font-size: 30px;
     font-weight: 500;
-    color: #000;
+    color: var(--black);
     line-height: 34px;
     text-transform: uppercase;
     letter-spacing: 2px;

@@ -8,7 +8,7 @@
     font-weight: 600;
     text-transform: uppercase;
     font-size: 15px;
-    color: #000;
+    color: var(--black);
     position: relative;
     padding-bottom: 20px;
     font-family: "Open Sans";

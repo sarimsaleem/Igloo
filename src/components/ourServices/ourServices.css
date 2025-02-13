@@ -113,15 +113,15 @@
     }
 
     .view-btn {
-        background: #000;
-        border: 2px solid #000;
+        background: var(--black);
+        border: 2px solid var(--black);
         color: var(----white);
     }
 
     .view-btn:hover,
     .view-btn:active {
-        background: #000;
-        border: 2px solid #000;
+        background: var(--black);
+        border: 2px solid var(--black);
     }
 
     .contact-btn:hover,

@@ -1,5 +1,5 @@
 .bookcolsultation {
-    background: #000;
+    background: var(--black);
     padding-block: 50px;
 }
 

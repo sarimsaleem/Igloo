@@ -37,7 +37,7 @@
 }
 
 .navbar-scrolled .nav-link {
-    color: black !important;
+    color: var(--black) !important;
 }
 
 .navbar .dropdown-menu {
@@ -93,13 +93,13 @@
 }
 
 .navbar-scrolled .consultation-btn {
-    color: black ;
+    color: var(--black) ;
 }
 .navbar-scrolled .consultation-btn:hover{
     color: var(----white) ;
 }
 .navbar-scrolled .consultation-btn:hover:active{
-    color:black;
+    color:var(--black);
 }
 
 @media (max-width:991px) {
@@ -133,7 +133,7 @@
     }
 
     .navbar-scrolled .navbar-toggler {
-        border: 1px solid black;
+        border: 1px solid var(--black);
         color: transparent;
     }
 

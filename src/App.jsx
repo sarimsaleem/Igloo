@@ -35,7 +35,7 @@ import Cro from './pages/cro/Cro';
 import Coa from './pages/coa/Coa';
 import UserInterfaceDesign from './pages/userInterfaceDesign/UserInterfaceDesign';
 import WebOptimization from './pages/webOptimization/WebOptimization';
-import PortfolioDetailPage from './components/portfolioDetailPage/portfolioDetailPage';
+import PortfolioDetailPage from './components/portfolioDetailPage/PortfolioDetailPage';
 
 const App = () => {
     return (

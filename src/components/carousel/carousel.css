@@ -27,7 +27,7 @@
 .branding-carousel-sub-heading {
     margin-top: 10px;
     font-size: 1rem;
-    color: #aaa;
+    color: var(--white);
     text-align: end;
 }
 

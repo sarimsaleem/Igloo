@@ -91,10 +91,10 @@ const SEOs = () => {
   ];
 
   const answers = {
-    heading: "Accelerate Business Growth Through PPC and Google Ads",
+    heading: "Increase Website Traffic on a Budget",
     description: [
-      "With years of experience as a leading pay-per-click and digital marketing agency, our agency has the in-house knowledge to guarantee high-converting campaigns. With our full suite of marketing services, you have access to everything you need under a single roof.",
-      "If you’re experimenting with Google Ads for the first time or at a loss for how to improve your existing campaigns, we at Igloo have the tools to help. Book a consultation with one of our specialists today and get your paid search management campaign rolling."
+      "If your organic search traffic isn’t driving the results you’re looking for, working with the right SEO agency in Dubai might be the missing piece that you need.",
+      "Over the years, our SEO services have driven almost 8 million leads for many Dubai clients, and we can do the same for you. If online visibility and website traffic play a significant role in your marketing strategy, book a consultation with us today to find out how we can help you achieve long-lasting results."
     ],
     buttonText: "Book a Free Consultation",
     backgroundImage: "increaseTraffic.jpg",

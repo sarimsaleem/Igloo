@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import home1 from '/public/assets/images/fbAdsPort1.jpg';
 import home2 from '/public/assets/images/fbAdsPort2.jpg';
 import home3 from '/public/assets/images/fbAdsPort3.jpg';
@@ -19,6 +19,10 @@ import Clients from '../../components/clients/Clients';
 import Answers from '../../components/answers/Answers';
 
 const Youtube = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     const data = [
         {

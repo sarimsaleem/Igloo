@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Carousel from '../../components/carousel/Carousel'
 import About from '../../components/about/About'
 import Guidence from '../guidence/Guidence';
@@ -14,6 +14,10 @@ import BookConsultation from '../../components/bookConsultation/BookConsultation
 import Services from '../../components/services/Services';
 
 const PPCs = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     const data = [
         {

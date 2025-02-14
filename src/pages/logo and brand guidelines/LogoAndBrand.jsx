@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Carousel from '../../components/carousel/Carousel'
 import About from '../../components/about/About'
 import Portfolio from '../../components/portfolio/Portfolio';
@@ -21,6 +21,10 @@ import LatestInsight from '../../components/latestInsight/LatestInsight';
 import Faqs from '../../components/faqs/Faqs';
 
 const LogoAndBrand = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const data = [
     {

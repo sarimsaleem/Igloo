@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./socialMedia.css"
 import home1 from '/public/assets/images/fbAdsPort1.jpg';
 import home2 from '/public/assets/images/fbAdsPort2.jpg';
@@ -19,6 +19,10 @@ import LatestInsight from '../../components/latestInsight/LatestInsight';
 import BookConsultation from '../../components/bookConsultation/BookConsultation';
 import Questions from '../../components/questions/Questions';
 const SocialMediaManegement = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     const data = [
         {

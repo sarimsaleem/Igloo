@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./marketingAutomation.css"
 import { Col, Container, Row } from 'react-bootstrap';
 import marketingAutomation1 from "/public/assets/images/LEADMANAGEMENT1.svg"
@@ -18,6 +18,10 @@ import BookConsultation from '../../components/bookConsultation/BookConsultation
 import Offers from '../../components/offers/Offers';
 
 const MarketingAutomation = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const data = [
     {

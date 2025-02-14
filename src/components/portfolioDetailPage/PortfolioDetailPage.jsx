@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './portfolioDetailPage.css';
 
 import portfolio1 from "../../../public/assets/images/portfolio1.jpg";
@@ -41,6 +41,9 @@ const portfolioImages = [
 ];
 
 const PortfolioDetailPage = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div>
             <div className='carousel1'>

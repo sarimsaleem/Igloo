@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./branding.css"
 import Carousel from '../../components/carousel/Carousel'
 import About from '../../components/about/About'
@@ -16,6 +16,10 @@ import home4 from '/public/assets/images/portfolio4.jpg';
 import home5 from '/public/assets/images/portfolio5.jpg';
 
 const Branding = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     const data = [
         {

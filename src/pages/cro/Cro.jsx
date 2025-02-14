@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Carousel from '../../components/carousel/Carousel';
 import About from '../../components/about/About';
 import Guidence from '../guidence/Guidence';
@@ -12,6 +12,10 @@ import LatestInsight from '../../components/latestInsight/LatestInsight';
 import BookConsultation from '../../components/bookConsultation/BookConsultation';
 import { Col, Container, Row } from 'react-bootstrap';
 const Cro = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     const data = [
         {

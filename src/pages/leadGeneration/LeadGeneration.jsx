@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Carousel from '../../components/carousel/Carousel'
 import About from '../../components/about/About';
 import Guidence from '../guidence/Guidence';
@@ -12,7 +12,13 @@ import Faqs from '../../components/faqs/Faqs';
 import LatestInsight from '../../components/latestInsight/LatestInsight';
 import BookConsultation from '../../components/bookConsultation/BookConsultation';
 import { Container, Col, Row } from 'react-bootstrap'
+
 const LeadGeneration = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
 
   const data = [
     {
@@ -132,37 +138,37 @@ const LeadGeneration = () => {
   };
 
   const bounceData = [
-        {
-            image: "section6-7.jpg",
-            text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
-            heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
-        },
-        {
-            image: "bounce2.png",
-            text: "Igloo exceeded our expectations from the start. They built our company website with great professionalism, and we were so impressed that we entrusted them with a marketing campaign to acquire new students. The campaign’s success led us to hand over campaigns for all our schools.",
-            heading: "Chantel Matheson | Director of Marketing and Enrollments",
-        },
-        {
-            image: "bounce3.png",
-            text: "We’re so happy and thankful to have met the team at Igloo. Honestly, we wouldn’t still be in business without them. They’re not just great at what they do but truly care about our success and always go the extra mile to keep us profitable. Don’t waste your time or money with other agencies.",
-            heading: "Dr. Ramita | Founder and CEO",
-        },
-        {
-            image: "bounce4.jpg",
-            text: "Igloo helped us grow our business by 500% through various marketing tactics including paid ads, social, SEO, and marketing automation. I highly recommend working with Bassem and his team.",
-            heading: "Tariq Abu Samra | Managing Partner",
-        },
-        {
-            image: "bounce5.jpg",
-            text: "We hardly need any content revisions, Igloo just gets it right the first time. They understand our brand.",
-            heading: "Emily Davis | Brand Manager at Bounce Middle East",
-        },
-        {
-            image: "bounce6.png",
-            text: "As leader in our industry, communication, marketing and branding are important part of our day-to-day business. Brand awareness and positioning are of strategic importance and this is best left to experts.The Igloo team have assisted us with our social media activities, marketing and website solutions so far as well as working on special projects.",
-            heading: "Romain Liot | Managing Director",
-        },
-    ];
+    {
+      image: "section6-7.jpg",
+      text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
+      heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
+    },
+    {
+      image: "bounce2.png",
+      text: "Igloo exceeded our expectations from the start. They built our company website with great professionalism, and we were so impressed that we entrusted them with a marketing campaign to acquire new students. The campaign’s success led us to hand over campaigns for all our schools.",
+      heading: "Chantel Matheson | Director of Marketing and Enrollments",
+    },
+    {
+      image: "bounce3.png",
+      text: "We’re so happy and thankful to have met the team at Igloo. Honestly, we wouldn’t still be in business without them. They’re not just great at what they do but truly care about our success and always go the extra mile to keep us profitable. Don’t waste your time or money with other agencies.",
+      heading: "Dr. Ramita | Founder and CEO",
+    },
+    {
+      image: "bounce4.jpg",
+      text: "Igloo helped us grow our business by 500% through various marketing tactics including paid ads, social, SEO, and marketing automation. I highly recommend working with Bassem and his team.",
+      heading: "Tariq Abu Samra | Managing Partner",
+    },
+    {
+      image: "bounce5.jpg",
+      text: "We hardly need any content revisions, Igloo just gets it right the first time. They understand our brand.",
+      heading: "Emily Davis | Brand Manager at Bounce Middle East",
+    },
+    {
+      image: "bounce6.png",
+      text: "As leader in our industry, communication, marketing and branding are important part of our day-to-day business. Brand awareness and positioning are of strategic importance and this is best left to experts.The Igloo team have assisted us with our social media activities, marketing and website solutions so far as well as working on special projects.",
+      heading: "Romain Liot | Managing Director",
+    },
+  ];
 
   const faqData = [
     {
@@ -221,23 +227,23 @@ const LeadGeneration = () => {
           <Col md={4}>
             <div className="digitalmarketing">
               <h4 className='digitalmarketing-heading'><span className='digitalmarketing-heading-span'>01</span></h4>
-              <h2 className="digitalMarketing-subheadding" style={{fontSize:"20px"}} >Facebook</h2>
+              <h2 className="digitalMarketing-subheadding" style={{ fontSize: "20px" }} >Facebook</h2>
               <p className='digitalmarketing-detail'>Facebook is equipped with many native lead generation tools like landing pages, custom audience software, and lead scoring. With these tools, we make sure your audience knows what they’re signing up for, the benefits, and why they should continue to patronize your business.
-              We reduce drop-offs by automating forms and customizing them to cater to higher-quality leads. We then sync these leads to your existing CRM platform, allowing you to personalize lead ads further or make a quick follow-up.
+                We reduce drop-offs by automating forms and customizing them to cater to higher-quality leads. We then sync these leads to your existing CRM platform, allowing you to personalize lead ads further or make a quick follow-up.
               </p>
             </div>
           </Col>
           <Col md={4}>
             <div className="digitalmarketing">
               <h4 className='digitalmarketing-heading'><span className='digitalmarketing-heading-span'>02</span></h4>
-              <h2 className="digitalMarketing-subheadding" style={{fontSize:"20px"}} >Instagram</h2>
+              <h2 className="digitalMarketing-subheadding" style={{ fontSize: "20px" }} >Instagram</h2>
               <p className='digitalmarketing-detail'>To tap into the more than one billion users on Instagram every day, we take advantage of its built-in ad services and analytics. Our social media lead generation specialists pay close attention to detail, incorporating the right hashtags, implementing CTA buttons, and crafting a catchy bio.</p>
             </div>
           </Col>
           <Col md={4}>
             <div className="digitalmarketing">
               <h4 className='digitalmarketing-heading'><span className='digitalmarketing-heading-span'>03</span></h4>
-              <h2 className="digitalMarketing-subheadding" style={{fontSize:"20px"}} >Twitter</h2>
+              <h2 className="digitalMarketing-subheadding" style={{ fontSize: "20px" }} >Twitter</h2>
               <p className='digitalmarketing-detail'>Twitter is an excellent platform for communicating updates and bite-sized information to potential customers. Our specialists are well-versed in its automated Twitter Lead Gen Cards system, allowing you to generate leads through a single tweet without clicking out of the app. These Lead Gen Cards collect usernames and email addresses for you to follow up with.</p>
             </div>
           </Col>

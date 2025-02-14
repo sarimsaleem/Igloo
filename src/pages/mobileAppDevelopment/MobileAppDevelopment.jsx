@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import home1 from '/public/assets/images/webPortfolio1.jpg';
 import home2 from '/public/assets/images/webPortfolio2.jpg';
 import home3 from '/public/assets/images/webPortfolio3.jpg';
@@ -18,6 +18,10 @@ import Bounce from '../../components/bounce/Bounce';
 import Questions from '../../components/questions/Questions';
 
 const MobileAppDevelopment = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const data = [
     {

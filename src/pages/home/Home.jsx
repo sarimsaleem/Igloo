@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import home1 from '/public/assets/images/homesec4-1.jpg';
 import home2 from '/public/assets/images/homesec4-2.jpg';
 import home3 from '/public/assets/images/homesec4-3.jpg';
@@ -17,6 +17,10 @@ import Clients from '../../components/clients/Clients'
 import Portfolio from '../../components/portfolio/Portfolio'
 
 const Home = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     const bounceData = [
         {

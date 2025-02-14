@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./chatBot.css";
 import emailMarketinImg from "/public/assets/images/enhanceChatbox.jpg";
 import { Col, Container, Row } from 'react-bootstrap';
@@ -18,6 +18,10 @@ import LatestInsight from '../../components/latestInsight/LatestInsight';
 import BookConsultation from '../../components/bookConsultation/BookConsultation';
 
 const ChatBot = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     const data = [
         {

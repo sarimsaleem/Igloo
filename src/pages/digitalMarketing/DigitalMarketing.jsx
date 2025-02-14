@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./digitalMarketing.css"
 import Carousel from '../../components/carousel/Carousel'
 import About from '../../components/about/About';
@@ -22,6 +22,10 @@ import Questions from '../../components/questions/Questions';
 
 
 const DigitalMarketing = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const data = [
     {

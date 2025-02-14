@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Carousel from '../../components/carousel/Carousel'
 import Answers from '../../components/answers/Answers'
 import Clients from '../../components/clients/Clients'
@@ -15,6 +15,10 @@ import "./competetiveAnalysis.css"
 import CompetitiveAnalysisImg from "/public/assets/images/Competitive-Analysis-img_1.jpg";
 
 const CompetetiveAnalysis = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
 
     const data = [
         {

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import home1 from '/public/assets/images/fbAdsPort1.jpg';
 import home2 from '/public/assets/images/fbAdsPort2.jpg';
 import home3 from '/public/assets/images/fbAdsPort3.jpg';
@@ -18,6 +18,10 @@ import Faqs from '../../components/faqs/Faqs';
 import LatestInsight from '../../components/latestInsight/LatestInsight';
 import BookConsultation from '../../components/bookConsultation/BookConsultation';
 const Linkdin = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const data = [
     {

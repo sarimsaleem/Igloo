@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./emailMarketing.css"
 import emailMarketinImg from "/public/assets/images/emailMarketinImg.jpg";
 import Carousel from '../../components/carousel/Carousel'
@@ -14,6 +14,10 @@ import LatestInsight from '../../components/latestInsight/LatestInsight';
 import BookConsultation from '../../components/bookConsultation/BookConsultation';
 
 const EmailMarketing = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const data = [
     {

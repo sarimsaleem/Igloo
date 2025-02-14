@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Carousel from '../../components/carousel/Carousel'
 import About from '../../components/about/About'
 
@@ -13,6 +13,10 @@ import LatestInsight from '../../components/latestInsight/LatestInsight'
 import BookConsultation from '../../components/bookConsultation/BookConsultation'
 import Questions from '../../components/questions/Questions'
 const ContentCreationMaintenance = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const data = [
     {

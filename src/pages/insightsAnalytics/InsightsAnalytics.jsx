@@ -21,7 +21,7 @@ const InsightsAnalytics = () => {
         'If insights and analytics are not yet part of your marketing strategy, there are many reasons why they should be. At Igloo digital marketing agency, we use big data to inform your business decisions, communicate with customers, and enhance online and offline shopping experiences.',
       ],
       showButton: true,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];
 

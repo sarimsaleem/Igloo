@@ -23,7 +23,7 @@ const SEOs = () => {
         'At Igloo, search engine optimization is just one of the marketing solutions we use to enhance your digital presence and improve your bottom line. Because search engines constantly change, we ensure that our solutions can keep up.',
       ],
       showButton: true,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];
 

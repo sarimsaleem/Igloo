@@ -1,8 +1,11 @@
 import React from 'react';
 import { Button, Col, Row } from 'react-bootstrap';
 import './portfolio.css';
+import { useNavigate } from 'react-router-dom';
 
-const Portfolio = ({ columns, heading, buttonText, onButtonClick }) => {
+const Portfolio = ({ columns, heading, buttonText }) => {
+
+  const navigate = useNavigate()
 
   return (
     <div>
@@ -27,7 +30,7 @@ const Portfolio = ({ columns, heading, buttonText, onButtonClick }) => {
         <div className="center-button-container">
           <Button
             className="homesection4-button"
-            onClick={onButtonClick || (() => console.log('Button clicked!'))}
+            onClick={() => navigate("/our-portfolio")}
           >
             {buttonText || 'View All Portfolio'}
           </Button>

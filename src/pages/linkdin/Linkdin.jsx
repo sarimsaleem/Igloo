@@ -28,7 +28,7 @@ const Linkdin = () => {
         "Book a consultation with our experts today to launch a professional campaign that guarantees your ideal outcomes"
       ],
       showButton: false,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
     {
       heading: 'Professional Networking Done Right',
@@ -37,7 +37,7 @@ const Linkdin = () => {
         'Plus, 50% of all LinkedIn users have a college degree, allowing you to reach a more educated audience with the credentials you need. If your goal is to connect with decision-makers and high-level executives, Igloo is perfectly equipped to help you succeed. '
       ],
       showButton: true,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];
 

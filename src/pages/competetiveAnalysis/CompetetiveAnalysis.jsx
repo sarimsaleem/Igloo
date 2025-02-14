@@ -24,7 +24,7 @@ const CompetetiveAnalysis = () => {
                 'Fortunately, we are here to step in as your digital ecosystem planner and expert. With the help of our expert strategists, you can stay one step ahead of every change, all the time.'
             ],
             showButton: true,
-            buttonText: 'GET STARTED NOW',
+            buttonText: 'BOOK A FREE CONSULTATION',
         },
     ];
 

@@ -28,7 +28,7 @@ const Coa = () => {
         "At Igloo, we perform 360-degree assessments of your sales paths and determine what factors are keeping you from achieving the conversions you need."
       ],
       showButton: false,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
     {
       heading: 'Conversion Optimization Audit',
@@ -37,7 +37,7 @@ const Coa = () => {
         "At Igloo, we perform 360-degree assessments of your sales paths and determine what factors are keeping you from achieving the conversions you need."
       ],
       showButton: false,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];
 

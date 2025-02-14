@@ -28,7 +28,7 @@ const WebDesignDevelopment = () => {
                 "With over 65% of people preferring dynamic and interactive web pages over plain sites, prioritizing web design can make or break your success. If you want to increase website accessibility and provide a seamless user experience for site visitors, Igloo has comprehensive web and app development services that can provide impactful solutions."
             ],
             showButton: true,
-            buttonText: 'GET STARTED NOW',
+            buttonText: 'BOOK A FREE CONSULTATION',
         },
     ];
 

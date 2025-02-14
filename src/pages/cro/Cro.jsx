@@ -21,7 +21,7 @@ const Cro = () => {
                 "On average, most websites only have a conversion rate of 2.35%, which leaves a lot for potential buyers to be desired. Our CRO services can turn your success around if you have an impressive lineup of high-quality products and a beautifully designed website but aren’t achieving conversions."
             ],
             showButton: true,
-            buttonText: 'GET STARTED NOW',
+            buttonText: 'BOOK A FREE CONSULTATION',
         },
     ];
 

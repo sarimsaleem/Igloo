@@ -33,7 +33,7 @@ const FacebookAds = () => {
         'Facebook is one of the best channels for connecting, engaging, and nurturing new audiences. Your business can thrive on the world’s biggest social media platform with our services. Don’t wait—let us help.',
       ],
       showButton: false,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
     {
       heading: 'Facebook | Advertising for Billions',
@@ -41,7 +41,7 @@ const FacebookAds = () => {
         'Facebook is a hotbed for advice, inquiries, and reviews. As such, promoting the right content to the right audience is the key to your success. By trusting us to handle your Facebook advertising you can reap the benefits of:',
       ],
       showButton: false,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];
 

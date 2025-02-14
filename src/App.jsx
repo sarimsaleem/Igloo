@@ -35,6 +35,7 @@ import Cro from './pages/cro/Cro';
 import Coa from './pages/coa/Coa';
 import UserInterfaceDesign from './pages/userInterfaceDesign/UserInterfaceDesign';
 import WebOptimization from './pages/webOptimization/WebOptimization';
+import PortfolioDetailPage from './components/portfolioDetailPage/portfolioDetailPage';
 
 const App = () => {
     return (
@@ -71,6 +72,7 @@ const App = () => {
                     <Route path='/ux-ui-design' element={<UserInterfaceDesign />} />
                     <Route path='/website-optimization' element={<WebOptimization />} />
                     <Route path='/contact' element={<Contact />} />
+                    <Route path='/our-portfolio' element={<PortfolioDetailPage />} />
                 </Routes>
                 <Footer />
             </Router>

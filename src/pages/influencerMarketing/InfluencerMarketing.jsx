@@ -28,7 +28,7 @@ const InfluencerMarketing = () => {
                 "Depending on your business goals, we at Igloo can create a unique influencer strategy that can help you better engage with consumers. Contact us today to find the right face for your brand."
             ],
             showButton: false,
-            buttonText: 'GET STARTED NOW',
+            buttonText: 'BOOK A FREE CONSULTATION',
         },
         {
             heading: 'Let the Loudest Voices Speak for Your Brand',
@@ -37,7 +37,7 @@ const InfluencerMarketing = () => {
                 "And don’t worry about being a smaller brand. Since the rise of micro-influencers and ease of content creation over the years, startups have just as big a chance at success."
             ],
             showButton: true,
-            buttonText: 'GET STARTED NOW',
+            buttonText: 'BOOK A FREE CONSULTATION',
         },
     ];
 

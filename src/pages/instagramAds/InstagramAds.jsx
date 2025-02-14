@@ -28,7 +28,7 @@ const InstagramAds = () => {
         'If you want to drive more qualified traffic to your website and increase the chances of conversion, Instagram advertising should be your priority. Contact our team of experts today to get the results you deserve.'
       ],
       showButton: false,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
     {
       heading: 'Instagram: Turn Your Feed Into a Success',
@@ -37,7 +37,7 @@ const InstagramAds = () => {
         'Just think: 72% of consumers will eventually end up purchasing a product or service they see on their feeds. So if you run an eCommerce business and want to focus on increasing profits, Instagram is the place to be.'
       ],
       showButton: true,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];
 

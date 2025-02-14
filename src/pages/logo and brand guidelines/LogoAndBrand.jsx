@@ -30,7 +30,7 @@ const LogoAndBrand = () => {
         'Contact us today if building brand guidelines is on your list of things to do—we can help empower your team and tell your story effectively.'
       ],
       showButton: false,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
     {
       heading: 'Be Consistent, Be Remembered',
@@ -39,7 +39,7 @@ const LogoAndBrand = () => {
         'Choosing the right colors alone can improve brand recognition by up to 80%, so if you aren’t already crafting your brand guide, now is the best time to do so.'
       ],
       showButton: false,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
     {
       heading: 'What’s in a Logo?',
@@ -48,7 +48,7 @@ const LogoAndBrand = () => {
         'When developing a logo, we consider everything from color choices to brand psychology. Our logos don’t just satisfy internet appeal—they also further your marketing efforts and define your business.'
       ],
       showButton: true,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];
 

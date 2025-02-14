@@ -1,8 +1,12 @@
 import React from 'react';
 import './about.css';
 import { Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 const About = ({ data }) => {
+
+  const navigate = useNavigate()
+
   return (
     <div className="about">
       {data.map((section, index) => (
@@ -20,7 +24,7 @@ const About = ({ data }) => {
           ))}
           {section.showButton && (
             <div className="about-btn-parent">
-              <Button className="about-btn">
+              <Button className="about-btn" onClick={() => navigate("/contact")}>
                 {section.buttonText || 'BOOK A FREE CONSULTATION'}
               </Button>
             </div>

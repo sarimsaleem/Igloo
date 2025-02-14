@@ -27,7 +27,7 @@ const SocialMediaManegement = () => {
                 "Welcome to Igloo, the premier social media agency in Dubai dedicated to transforming your online presence. With over 15 years of experience, our team of social media experts and content creators in Dubai is committed to helping you achieve your business objectives through innovative and effective social media strategies."
             ],
             showButton: true,
-            buttonText: 'GET STARTED NOW',
+            buttonText: 'BOOK A FREE CONSULTATION',
         },
     ];
 

@@ -24,7 +24,7 @@ const Branding = () => {
                 'The Igloo branding team has worked with B2B, B2C, and e-commerce businesses across the region and beyond for over 15 years. We’ve launched hundreds of successful campaigns and helped our clients exceed their business goals through branding',
             ],
             showButton: true,
-            buttonText: 'GET STARTED NOW',
+            buttonText: 'BOOK A FREE CONSULTATION',
         },
     ];
 

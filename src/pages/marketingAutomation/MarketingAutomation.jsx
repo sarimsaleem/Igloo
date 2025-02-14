@@ -27,7 +27,7 @@ const MarketingAutomation = () => {
         'With the help of our marketing automation services, you can streamline the numerous tasks involved in your advertising campaigns, consumer journey management, lead scoring, analytics, and more. Just give us a call to find out how!',
       ],
       showButton: true,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];
 

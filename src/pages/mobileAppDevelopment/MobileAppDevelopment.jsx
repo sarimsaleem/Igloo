@@ -27,7 +27,7 @@ const MobileAppDevelopment = () => {
         "If you have a bubbling concept that requires fleshing out and seamless execution, contact our experts today to find out how we can help."
       ],
       showButton: false,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
     {
       heading: 'Create an Unbeatable Mobile Experience',
@@ -36,7 +36,7 @@ const MobileAppDevelopment = () => {
         "If you’re looking for an experienced team to create a mobile ecosystem for your business, look no further than what we have to offer at Igloo."
       ],
       showButton: true,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];
 

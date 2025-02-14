@@ -22,7 +22,7 @@ const LeadGeneration = () => {
         'Fortunately, agencies like Igloo provide comprehensive solutions for small businesses to large enterprises. Whether you are new to the industry or want to increase your following, collaborating with our specialists can be the key to increasing conversions and drastically improving your Dubai business’ bottom line.',
       ],
       showButton: true,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];
 

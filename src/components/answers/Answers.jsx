@@ -2,14 +2,18 @@ import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import "./answers.css";
 import { BASE_IMAGE_URL } from "../../util/contant";
+import { useNavigate } from 'react-router-dom';
 
-const Answers = ({ heading, description, buttonText, onButtonClick, backgroundImage }) => {
+const Answers = ({ heading, description, buttonText, backgroundImage }) => {
 
     const imageSrc = BASE_IMAGE_URL + backgroundImage;
 
     const sectionStyle = {
         backgroundImage: `url(${imageSrc})`,
     };
+
+      const navigate = useNavigate()
+    
 
     return (
         <div className='questions' style={sectionStyle}>
@@ -26,7 +30,7 @@ const Answers = ({ heading, description, buttonText, onButtonClick, backgroundIm
 
                     {buttonText && (
                         <div className="question-btn-parent">
-                            <Button className="getnotice-btn" onClick={onButtonClick}>
+                            <Button className="getnotice-btn" onClick={() => navigate("/contact")}>
                                 {buttonText}
                             </Button>
                         </div>

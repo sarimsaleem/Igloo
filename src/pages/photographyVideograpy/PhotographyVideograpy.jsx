@@ -28,7 +28,7 @@ const PhotographyVideograpy = () => {
                 "If you’re looking for the most innovative way to tell your story, our photographers and videographers are fully equipped to handle all types of applications. Book a consultation today to find out how we can make your brand shine through visual storytelling."
             ],
             showButton: false,
-            buttonText: 'GET STARTED NOW',
+            buttonText: 'BOOK A FREE CONSULTATION',
         },
         {
             heading: 'Become a Visual Storyteller',
@@ -37,7 +37,7 @@ const PhotographyVideograpy = () => {
                 "So if you’re looking to publish a successful marketing campaign, these statistics should remind you why photography and videography are the best tools for engaging your audience."
             ],
             showButton: true,
-            buttonText: 'GET STARTED NOW',
+            buttonText: 'BOOK A FREE CONSULTATION',
         },
     ];
 

@@ -27,7 +27,7 @@ const UserInterfaceDesign = () => {
         "With a powerful UX/UI strategy behind you, you can ensure regular website traffic, a good brand reputation, and customer retention. If the promise of a bright brand future entices you, don’t hesitate to book a consultation with our marketing and design experts today."
       ],
       showButton: false,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
     {
       heading: 'Do More When You Focus on Your Clients',
@@ -36,7 +36,7 @@ const UserInterfaceDesign = () => {
         "When you take a client-first approach to business, growing your user base becomes quicker and more effortless than ever."
       ],
       showButton: true,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];
 

@@ -28,7 +28,7 @@ const WebOptimization = () => {
         "If your ultimate goal is to create a user experience that generates results, Igloo is here for you. Book a consultation today to find out how we can optimize your website for success."
       ],
       showButton: false,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
     {
       heading: 'Improve UX and Generate Unparalleled Results',
@@ -37,7 +37,7 @@ const WebOptimization = () => {
         "By fine-tuning aspects of your website like its moving parts, visuals, and searchability, you can achieve the boosted conversions you’ve always wanted."
       ],
       showButton: true,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];
 

@@ -24,7 +24,7 @@ const EmailMarketing = () => {
         "Need a hand hitting send? Contact us today to find out how we can turn your email campaigns into the best investment you’ve ever made."
       ],
       showButton: false,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
     {
       heading: 'Build Richer, More Dynamic Email Marketing Campaigns',
@@ -33,7 +33,7 @@ const EmailMarketing = () => {
         'If you haven’t yet considered investing in your email marketing, we’re here to tell you that a little goes a long way.',
       ],
       showButton: true,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];
 

@@ -27,7 +27,7 @@ const ChatBot = () => {
                 'At Igloo, we are proud to be well-versed in the most advanced artificial intelligence systems that can significantly impact how users experience your website. If you want to incorporate digital assistance into your website, contact us to learn more about how we build chatbots for our clients.',
             ],
             showButton: true,
-            buttonText: 'GET STARTED NOW',
+            buttonText: 'BOOK A FREE CONSULTATION',
         },
     ];
 

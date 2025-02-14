@@ -31,6 +31,9 @@
   display: flex;
   gap: 20px;
 }
+.footer-links a:first-child{
+  padding-left: 0;
+}
 
 .footer-links a {
   text-decoration: none;
@@ -47,6 +50,10 @@
 .footer-icons {
   display: flex;
   gap: 15px;
+}
+
+.footer-icons a:last-child{
+  padding-right: 0;
 }
 
 .footer-icons .icon {

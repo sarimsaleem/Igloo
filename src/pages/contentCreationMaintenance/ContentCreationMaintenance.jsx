@@ -22,7 +22,7 @@ const ContentCreationMaintenance = () => {
         'At Igloo, we promise click and share-worthy content for businesses from every industry. Book a consultation with us today to develop a content plan that drives and converts!'
       ],
       showButton: false,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
     {
       heading: 'GIVE YOUR BRAND A BOOST WITH THE RIGHT CONTENT',
@@ -30,7 +30,7 @@ const ContentCreationMaintenance = () => {
         'Nowadays, at least 82% of businesses utilize content creation strategies, proving its obvious success as a marketing effort. With our help, you can reach the right people, build brand awareness, increase traffic on your website, and gain qualified leads.',
       ],
       showButton: true,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];
 

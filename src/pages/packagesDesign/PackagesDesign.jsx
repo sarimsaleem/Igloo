@@ -33,7 +33,7 @@ const PackagesDesign = () => {
         'If you’re looking to win over your market with stellar packaging that speaks volumes about the quality of your product, contact us today.'
       ],
       showButton: false,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
     {
       heading: 'Catch Eyes with the Right Product Packaging',
@@ -42,7 +42,7 @@ const PackagesDesign = () => {
         'Want to be part of the 30% of businesses that report increases in revenue thanks to intelligent packaging design? Then it’s time to invest in better packaging design.'
       ],
       showButton: true,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];
   const portfolioColumns = [

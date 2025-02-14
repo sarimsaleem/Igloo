@@ -28,7 +28,7 @@ const Youtube = () => {
                 'If you are one of the many advertisers overlooking the value of YouTube advertising, don’t be. By connecting with our video and marketing development experts at Igloo, you can craft a winning strategy that places your videos in front of billions.',
             ],
             showButton: false,
-            buttonText: 'GET STARTED NOW',
+            buttonText: 'BOOK A FREE CONSULTATION',
         },
         {
             heading: 'Take the Power of Video to the Next Level',
@@ -37,7 +37,7 @@ const Youtube = () => {
                 'Plus, in 2021, YouTube’s global ad revenues hit an all-time high of $28 billion—something you can be part of with the help of the right advertising experts—us!'
             ],
             showButton: true,
-            buttonText: 'GET STARTED NOW',
+            buttonText: 'BOOK A FREE CONSULTATION',
         },
     ];
 

@@ -23,7 +23,7 @@ const PPCs = () => {
                 'PPC campaigns can drastically increase website traffic and yield an impressive ROI when adequately deployed. At Igloo, we focus on developing Google Ads to deliver immediate results, target customers in real-time, and improve brand recognition for your Dubai business.   ',
             ],
             showButton: true,
-            buttonText: 'GET STARTED NOW',
+            buttonText: 'BOOK A FREE CONSULTATION',
         },
     ];
 

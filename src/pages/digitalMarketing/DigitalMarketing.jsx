@@ -32,7 +32,7 @@ const DigitalMarketing = () => {
         'We are an award-winning digital marketing agency based in Dubai with over a decade of experience running successful digital marketing campaigns. Our services cover digital marketing end-to-end from strategy to execution to automation.'
       ],
       showButton: true,
-      buttonText: 'GET STARTED NOW',
+      buttonText: 'BOOK A FREE CONSULTATION',
     },
   ];  
 

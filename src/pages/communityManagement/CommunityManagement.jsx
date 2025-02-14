@@ -28,7 +28,7 @@ const CommunityManagement = () => {
                 "Fortunately, our specialists at Igloo are experts at nurturing business relationships and can bridge the gap between consumers and your brand. If your social media accounts lack a dedicated community manager, contact Igloo for help today."
             ],
             showButton: false,
-            buttonText: 'GET STARTED NOW',
+            buttonText: 'BOOK A FREE CONSULTATION',
         },
         {
             heading: 'Happy Customers Make for a Successful Business',
@@ -36,7 +36,7 @@ const CommunityManagement = () => {
                 "Social media community management defines the process by which your audience engages with consumers online. Community managers are responsible for managing communications, discovering new ways to engage digital communities, and being overall advocates for your brand."
             ],
             showButton: true,
-            buttonText: 'GET STARTED NOW',
+            buttonText: 'BOOK A FREE CONSULTATION',
         },
     ];
 

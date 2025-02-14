@@ -128,37 +128,37 @@ const EmailMarketing = () => {
   };
 
   const bounceData = [
-    {
-      image: "section6-7.jpg",
-      text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
-      heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
-    },
-    {
-      image: "section6-7.jpg",
-      text: "Our partnership with Igloo has revolutionized our marketing strategies.",
-      heading: "John Doe | CEO of Bounce Middle East",
-    },
-    {
-      image: "section6-7.jpg",
-      text: "Igloo’s personalized approach is unmatched in the industry.",
-      heading: "Jane Smith | Marketing Lead at Bounce Middle East",
-    },
-    {
-      image: "section6-7.jpg",
-      text: "With Igloo, we achieved milestones we never thought possible.",
-      heading: "Michael Brown | Operations Manager at Bounce Middle East",
-    },
-    {
-      image: "section6-7.jpg",
-      text: "Igloo's creativity and execution are truly world-class.",
-      heading: "Emily Davis | Brand Manager at Bounce Middle East",
-    },
-    {
-      image: "section6-7.jpg",
-      text: "Collaborating with Igloo was a game changer for our business.",
-      heading: "Sophia Wilson | VP of Marketing at Bounce Middle East",
-    },
-  ];
+        {
+            image: "section6-7.jpg",
+            text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
+            heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
+        },
+        {
+            image: "bounce2.png",
+            text: "Igloo exceeded our expectations from the start. They built our company website with great professionalism, and we were so impressed that we entrusted them with a marketing campaign to acquire new students. The campaign’s success led us to hand over campaigns for all our schools.",
+            heading: "Chantel Matheson | Director of Marketing and Enrollments",
+        },
+        {
+            image: "bounce3.png",
+            text: "We’re so happy and thankful to have met the team at Igloo. Honestly, we wouldn’t still be in business without them. They’re not just great at what they do but truly care about our success and always go the extra mile to keep us profitable. Don’t waste your time or money with other agencies.",
+            heading: "Dr. Ramita | Founder and CEO",
+        },
+        {
+            image: "bounce4.jpg",
+            text: "Igloo helped us grow our business by 500% through various marketing tactics including paid ads, social, SEO, and marketing automation. I highly recommend working with Bassem and his team.",
+            heading: "Tariq Abu Samra | Managing Partner",
+        },
+        {
+            image: "bounce5.jpg",
+            text: "We hardly need any content revisions, Igloo just gets it right the first time. They understand our brand.",
+            heading: "Emily Davis | Brand Manager at Bounce Middle East",
+        },
+        {
+            image: "bounce6.png",
+            text: "As leader in our industry, communication, marketing and branding are important part of our day-to-day business. Brand awareness and positioning are of strategic importance and this is best left to experts.The Igloo team have assisted us with our social media activities, marketing and website solutions so far as well as working on special projects.",
+            heading: "Romain Liot | Managing Director",
+        },
+    ];
 
   const faqData = [
     {

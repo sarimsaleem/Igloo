@@ -22,7 +22,7 @@ const CaseStudy = ({ caseStudy }) => {
             <div style={{ maxWidth: '100%', width: '100%', margin: '0 auto' }}>
                 <Slider {...sliderSettings}>
                     {caseStudy.map((slide, index) => {
-                        const imageSrc = BASE_IMAGE_URL + slide.image; // Fix variable declaration
+                        const imageSrc = BASE_IMAGE_URL + slide.image; 
 
                         return (
                             <div key={index}>

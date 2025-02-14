@@ -6,8 +6,12 @@ import { IoMegaphoneOutline } from 'react-icons/io5'
 import { GiAirBalloon, GiOnTarget } from 'react-icons/gi'
 import { PiRecycleThin, PiToolboxLight } from 'react-icons/pi'
 import { BsFileBarGraph } from 'react-icons/bs'
+import { useNavigate } from 'react-router-dom'
 
 const OurServices = () => {
+
+    const navigate = useNavigate()
+
     return (
         <div className='homesection5'>
             <Container>
@@ -65,8 +69,8 @@ const OurServices = () => {
                             <p className='homesection5-subParent-text'>WANT TO SEE MORE AMAZING WORKS?</p>
                         </div>
                         <div className="homesection5-btn-parent">
-                            <Button className='homesection5-btn view-btn'>VIEW PORTFOLIO</Button>
-                            <Button className='homesection5-btn contact-btn'>CONTACT US</Button>
+                            <Button className='homesection5-btn view-btn' onClick={() => navigate("/our-portfolio")}>VIEW PORTFOLIO</Button>
+                            <Button className='homesection5-btn contact-btn' onClick={() => navigate("/contact")}>CONTACT US</Button>
                         </div>
                     </div>
                 </Container>

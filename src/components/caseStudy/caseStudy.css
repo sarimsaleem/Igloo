@@ -12,9 +12,6 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
-    /* Add gap to maintain spacing without extra margins */
-    max-width: 1200px;
-    /* Limit max width to avoid excessive stretching */
     width: 100%;
     margin: 0 auto;
 }

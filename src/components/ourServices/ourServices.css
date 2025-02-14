@@ -113,21 +113,21 @@
     }
 
     .view-btn {
-        background: var(--black);
+        background: var(--black) ;
         border: 2px solid var(--black);
         color: var(--white);
     }
 
     .view-btn:hover,
     .view-btn:active {
-        background: var(--black);
-        border: 2px solid var(--black);
+        background: var(--black) !important;
+        border: 2px solid var(--black) !important;
     }
 
     .contact-btn:hover,
     .contact-btn:active {
-        background: transparent;
-        border: 2px solid var(--white);
+        background: transparent !important;
+        border: 2px solid var(--white) !important;
     }
 
     /* Responsive button alignment */

@@ -28,6 +28,7 @@ import portfolio25 from "../../../public/assets/images/webPortfolio2.jpg";
 import portfolio26 from "../../../public/assets/images/webPortfolio3.jpg";
 import portfolio27 from "../../../public/assets/images/webPortfolio4.jpg";
 import { Col } from 'react-bootstrap';
+import Carousel from '../carousel/Carousel';
 
 // Array of images
 const portfolioImages = [
@@ -49,6 +50,7 @@ const PortfolioDetailPage = () => {
                     </div>
                 </div>
             </div>
+            {/* <Carousel /> */}
 
             <h1 className='profolio-detail'>All Portfolio</h1>
 

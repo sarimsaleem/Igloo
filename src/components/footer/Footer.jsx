@@ -38,36 +38,36 @@ const Footer = () => {
                         {/* Certifications & Specialties Section */}
                         <Col xs={24} sm={12} md={12} lg={5}>
                             <Title level={4} style={{ color: 'var(--black)' }}>SPECIALTIES</Title>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>Education</Text>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>E-commerce</Text>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>Healthcare</Text>
+                            <Text><a href=""style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}> Education</a></Text>
+                            <Text><a href=""style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}> E-commerce</a></Text>
+                            <Text><a href=""style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}> Healthcare</a></Text>
                         </Col>
 
                         {/* Services Section */}
                         <Col xs={24} sm={12} md={12} lg={6}>
                             <Title level={4} style={{ color: 'var(--black)' }}>SERVICES</Title>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>CRO</Text>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>PPC</Text>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>SEO</Text>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>SMM</Text>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>Digital Marketing</Text>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>WEB/APP</Text>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>BRANDING</Text>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>Lead Generation</Text>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>Insights and Analytics</Text>
+                            <Text><a href="/conversion-rate-optimization" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >CRO</a></Text>
+                            <Text><a href="/ppc-management-agency" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >PPC</a></Text>
+                            <Text><a href="/seo-agency-in-dubai" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >SEO</a></Text>
+                            <Text><a href="/website-optimization" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >WebOptimization</a></Text>
+                            <Text><a href="/digital-marketing-agency-in-dubai" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >Digital Marketing</a></Text>
+                            <Text><a href="/web-design-agency-in-dubai" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >WEB/ APP </a></Text>
+                            <Text><a href="/branding" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >BRANDING </a></Text>
+                            <Text><a href="/lead-generation-agency" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >Lead Generation</a></Text>
+                            <Text><a href="/insights-and-analytics" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >Insights and Analytics</a></Text>
                         </Col>
 
                         <Col xs={24} sm={12} md={12} lg={6}>
                             <Title level={4} style={{ color: 'var(--black)' }}>OUR OFFICES</Title>
                             <Title level={5} style={{ color: 'var(--black)', marginBlock: "5px" }}>DUBAI</Title>
                             <Text style={{ display: 'block', color: 'var(--sub-text)' }}>Fortune Executive Tower, Suite 1204, JLT, DUBAI 336101</Text>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>T: +97144310831</Text>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>E: info@weareigloo.com</Text>
+                            <Text><a href="tel:+97144310831" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}> T: +97144310831</a></Text>
+                            <Text><a href="mailto:info@weareigloo.com" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}>  E: info@weareigloo.com</a></Text>
 
                             <Title level={5} style={{ color: 'var(--black)' }}>Miami</Title>
                             <Text style={{ display: 'block', color: 'var(--sub-text)' }}>11900 Biscayne Blvd, Suite 105, Miami, FL 33181</Text>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>T: +1 (305) 497-3267</Text>
-                            <Text style={{ display: 'block', color: 'var(--sub-text)' }}>E: info@weareigloo.com</Text>
+                            <Text><a href="tel:+13054973267" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}> T: +1 (305) 497-3267</a></Text>
+                            <Text><a href="mailto:info@weareigloo.com" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}>  E: info@weareigloo.com</a></Text>
 
 
                         </Col>
@@ -77,16 +77,16 @@ const Footer = () => {
                         <div className="footer-links">
                             <a href="#">About</a>
                             <a href="#">Careers</a>
-                            <a href="#">Portfolio</a>
+                            <a href="/our-portfolio">Portfolio</a>
                             <a href="#">Clients</a>
                             <a href="#">Blog</a>
                             <a href="#">Podcast</a>
-                            <a href="#">Contact</a>
+                            <a href="/contact">Contact</a>
                         </div>
                         <div className="footer-icons">
-                            <a href="#" className="icon facebook"><FacebookOutlined /></a>
-                            <a href="#" className="icon instagram"><InstagramOutlined /></a>
-                            <a href="#" className="icon linkedin"><LinkedinOutlined /></a>
+                            <a href="https://www.facebook.com/weareigloo" className="icon facebook"><FacebookOutlined /></a>
+                            <a href="https://www.instagram.com/igloome/" className="icon instagram"><InstagramOutlined /></a>
+                            <a href="https://www.linkedin.com/company/igloo-marketing-solutions/" className="icon linkedin"><LinkedinOutlined /></a>
                         </div>
                     </div>
 
@@ -96,7 +96,7 @@ const Footer = () => {
                 <Container >
                     <div className="sub-footer-content">
                         <div className="footer-text">
-                            <Text style={{ color: 'var(--sub-text)' }}>
+                            <Text style={{ color: 'var(--white)' }}>
                                 © {new Date().getFullYear()} We Are Igloo. All Rights Reserved.
                             </Text>
                         </div>

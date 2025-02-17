@@ -50,6 +50,7 @@
 .footer-icons {
   display: flex;
   gap: 15px;
+  cursor: pointer;
 }
 
 .footer-icons a:last-child{

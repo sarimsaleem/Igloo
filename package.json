@@ -25,6 +25,7 @@
     "slick-carousel": "^1.8.1",
     "slick-slider": "^1.8.2",
     "typewriter-effect": "^2.21.0",
+    "yet-another-react-lightbox": "^3.21.7",
     "yup": "^1.6.1"
   },
   "devDependencies": {

@@ -38,7 +38,7 @@ const DigitalMarketing = () => {
       showButton: true,
       buttonText: 'BOOK A FREE CONSULTATION',
     },
-  ];  
+  ];
 
   const guidence = [
     {
@@ -170,71 +170,71 @@ const DigitalMarketing = () => {
   };
 
   const bounceData = [
-        {
-            image: "section6-7.jpg",
-            text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
-            heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
-        },
-        {
-            image: "bounce2.png",
-            text: "Igloo exceeded our expectations from the start. They built our company website with great professionalism, and we were so impressed that we entrusted them with a marketing campaign to acquire new students. The campaign’s success led us to hand over campaigns for all our schools.",
-            heading: "Chantel Matheson | Director of Marketing and Enrollments",
-        },
-        {
-            image: "bounce3.png",
-            text: "We’re so happy and thankful to have met the team at Igloo. Honestly, we wouldn’t still be in business without them. They’re not just great at what they do but truly care about our success and always go the extra mile to keep us profitable. Don’t waste your time or money with other agencies.",
-            heading: "Dr. Ramita | Founder and CEO",
-        },
-        {
-            image: "bounce4.jpg",
-            text: "Igloo helped us grow our business by 500% through various marketing tactics including paid ads, social, SEO, and marketing automation. I highly recommend working with Bassem and his team.",
-            heading: "Tariq Abu Samra | Managing Partner",
-        },
-        {
-            image: "bounce5.jpg",
-            text: "We hardly need any content revisions, Igloo just gets it right the first time. They understand our brand.",
-            heading: "Emily Davis | Brand Manager at Bounce Middle East",
-        },
-        {
-            image: "bounce6.png",
-            text: "As leader in our industry, communication, marketing and branding are important part of our day-to-day business. Brand awareness and positioning are of strategic importance and this is best left to experts.The Igloo team have assisted us with our social media activities, marketing and website solutions so far as well as working on special projects.",
-            heading: "Romain Liot | Managing Director",
-        },
-    ];
+    {
+      image: "section6-7.jpg",
+      text: "Igloo being a boutique agency, has high service standards, comparable to any large global agency.",
+      heading: "Manuri Nakkawita-Anthonis | Director of Marketing at Bounce Middle East",
+    },
+    {
+      image: "bounce2.png",
+      text: "Igloo exceeded our expectations from the start. They built our company website with great professionalism, and we were so impressed that we entrusted them with a marketing campaign to acquire new students. The campaign’s success led us to hand over campaigns for all our schools.",
+      heading: "Chantel Matheson | Director of Marketing and Enrollments",
+    },
+    {
+      image: "bounce3.png",
+      text: "We’re so happy and thankful to have met the team at Igloo. Honestly, we wouldn’t still be in business without them. They’re not just great at what they do but truly care about our success and always go the extra mile to keep us profitable. Don’t waste your time or money with other agencies.",
+      heading: "Dr. Ramita | Founder and CEO",
+    },
+    {
+      image: "bounce4.jpg",
+      text: "Igloo helped us grow our business by 500% through various marketing tactics including paid ads, social, SEO, and marketing automation. I highly recommend working with Bassem and his team.",
+      heading: "Tariq Abu Samra | Managing Partner",
+    },
+    {
+      image: "bounce5.jpg",
+      text: "We hardly need any content revisions, Igloo just gets it right the first time. They understand our brand.",
+      heading: "Emily Davis | Brand Manager at Bounce Middle East",
+    },
+    {
+      image: "bounce6.png",
+      text: "As leader in our industry, communication, marketing and branding are important part of our day-to-day business. Brand awareness and positioning are of strategic importance and this is best left to experts.The Igloo team have assisted us with our social media activities, marketing and website solutions so far as well as working on special projects.",
+      heading: "Romain Liot | Managing Director",
+    },
+  ];
 
   const faqData = [
     {
-        id: 0,
-        question: "Do you guarantee results?",
-        answer: "Yes, we do. When digital marketing is done right, then an agency should be able to guarantee results.",
+      id: 0,
+      question: "Do you guarantee results?",
+      answer: "Yes, we do. When digital marketing is done right, then an agency should be able to guarantee results.",
     },
     {
-        id: 1,
-        question: "Which digital marketing channels we should invest in?",
-        answer: "The answer varies from business to business, it’s better for some businesses to focus on push marketing like Social Media & Display Ads, and some on Search Ads and SEO.",
+      id: 1,
+      question: "Which digital marketing channels we should invest in?",
+      answer: "The answer varies from business to business, it’s better for some businesses to focus on push marketing like Social Media & Display Ads, and some on Search Ads and SEO.",
     },
     {
-        id: 2,
-        question: "What industries do you work with?",
-        answer: "We work with various industries including FMCG, E-Commerce, Real Estate, Automotive, Healthcare, Education, Law, Finance, and more.",
+      id: 2,
+      question: "What industries do you work with?",
+      answer: "We work with various industries including FMCG, E-Commerce, Real Estate, Automotive, Healthcare, Education, Law, Finance, and more.",
     },
     {
-        id: 3,
-        question: "Where is your digital marketing team based?",
-        answer:
-            "Client-facing and select backend staff are located in our physical offices in Dubai and Miami, while the rest of our backend team works from various offices in countries such as Lebanon, Egypt, India, Macedonia, Poland, and England.",
+      id: 3,
+      question: "Where is your digital marketing team based?",
+      answer:
+        "Client-facing and select backend staff are located in our physical offices in Dubai and Miami, while the rest of our backend team works from various offices in countries such as Lebanon, Egypt, India, Macedonia, Poland, and England.",
     },
     {
-        id: 4,
-        question: "Do you share monthly reports?",
-        answer: "Yes, we do. Additionally, we provide a real-time report that clients can access 24/7 through a dedicated link.",
+      id: 4,
+      question: "Do you share monthly reports?",
+      answer: "Yes, we do. Additionally, we provide a real-time report that clients can access 24/7 through a dedicated link.",
     },
     {
-        id: 5,
-        question: "What is better SEO or Google Ads?",
-        answer: "Both are good. It depends if you are looking for quick results or long-term. Google Ads can go live immediately and started generating sales, while SEO takes months to start generating you a good amount of traffic and sales. SEO traffic quality is usually more qualified as the users that know the difference normally don’t trust ads.",
+      id: 5,
+      question: "What is better SEO or Google Ads?",
+      answer: "Both are good. It depends if you are looking for quick results or long-term. Google Ads can go live immediately and started generating sales, while SEO takes months to start generating you a good amount of traffic and sales. SEO traffic quality is usually more qualified as the users that know the difference normally don’t trust ads.",
     },
-];
+  ];
 
 
   return (
@@ -245,7 +245,7 @@ const DigitalMarketing = () => {
         imageUrl="digitalmarkering-crousel.jpg"
       />
       <About data={data} />
-      
+
       <Container>
         <h1 className='main-heading'>Why Hire a Digital Marketing Agency?</h1>
         <div className='heading-underline'></div>
@@ -272,7 +272,7 @@ const DigitalMarketing = () => {
           </Col>
         </Row>
       </Container>
-      
+
       <Guidence guidence={guidence} />;
       <Answers
         heading={answers.heading}
@@ -295,43 +295,51 @@ const DigitalMarketing = () => {
           </p>
           <h4 className='digitalMarketingServices-subheading'>CLICK THE LINKS BELOW TO FIND OUT MORE ABOUT OUR SERVICES.</h4>
         </div>
+
         <Container>
           <Row>
-            <div className="digitalmarketing-icons-parent" style={{ justifyContent: "center" }}>
-              <Col md={2}>
-                <div className="digitalmarketing-icon-parent">
-                  <GiAirBalloon className="digitalmarketing-icons" />
-                  <p className='digitalmarketing-text'>Branding</p>
+            <div className="homesection5-icons-parent">
+              <Col xs={12} sm={4} md={4} lg={2} xl={2}>
+                <div className="homesection5-icon-parent">
+                  <GiAirBalloon className="homesection5-icons" />
+                  <p className='homesection5-text'>Branding</p>
                 </div>
               </Col>
-              <Col md={2}>
-                <div className="digitalmarketing-icon-parent">
-                  <PiRecycleThin className="digitalmarketing-icons" />
-                  <p className='digitalmarketing-text'>Social Media</p>
+              <Col xs={12} sm={4} md={4} lg={2} xl={2}>
+                <div className="homesection5-icon-parent">
+                  <PiRecycleThin className="homesection5-icons" />
+                  <p className='homesection5-text'>Social Media</p>
                 </div>
               </Col>
-              <Col md={2}>
-                <div className="digitalmarketing-icon-parent">
-                  <AiOutlineGlobal className="digitalmarketing-icons" />
-                  <p className='digitalmarketing-text'>Web design</p>
+              <Col xs={12} sm={4} md={4} lg={2} xl={2}>
+                <div className="homesection5-icon-parent">
+                  <AiOutlineGlobal className="homesection5-icons" />
+                  <p className='homesection5-text'>Web design</p>
                 </div>
               </Col>
-              <Col md={2}>
-                <div className="digitalmarketing-icon-parent">
-                  <BsFileBarGraph className="digitalmarketing-icons" />
-                  <p className='digitalmarketing-text'>SEO</p>
+              <Col xs={12} sm={4} md={4} lg={2} xl={2}>
+                <div className="homesection5-icon-parent">
+                  <BsFileBarGraph className="homesection5-icons" />
+                  <p className='homesection5-text'>SEO</p>
                 </div>
               </Col>
-              <Col md={2}>
-                <div className="digitalmarketing-icon-parent">
-                  <IoMegaphoneOutline className="digitalmarketing-icons" />
-                  <p className='digitalmarketing-text'>Google Ads</p>
+              <Col xs={12} sm={4} md={4} lg={2} xl={2}>
+                <div className="homesection5-icon-parent">
+                  <IoMegaphoneOutline className="homesection5-icons" />
+                  <p className='homesection5-text'>Google Ads</p>
+                </div>
+              </Col>
+              <Col xs={12} sm={4} md={4} lg={2} xl={2}>
+                <div className="homesection5-icon-parent">
+                  <GiOnTarget className="homesection5-icons" />
+                  <p className='homesection5-text'>Marketing consultancy</p>
                 </div>
               </Col>
             </div>
           </Row>
         </Container>
       </div>
+
 
       <Questions
         heading={questionData.heading}

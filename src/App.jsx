@@ -36,6 +36,7 @@ import Coa from './pages/coa/Coa';
 import UserInterfaceDesign from './pages/userInterfaceDesign/UserInterfaceDesign';
 import WebOptimization from './pages/webOptimization/WebOptimization';
 import PortfolioDetailPage from './components/portfolioDetailPage/PortfolioDetailPage';
+import Education from './pages/education/Education';
 
 const App = () => {
     return (
@@ -73,6 +74,7 @@ const App = () => {
                     <Route path='/website-optimization' element={<WebOptimization />} />
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/our-portfolio' element={<PortfolioDetailPage />} />
+                    <Route path='/education-marketing-agency' element={<Education />} />
                 </Routes>
                 <Footer />
             </Router>

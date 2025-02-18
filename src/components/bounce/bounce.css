@@ -36,11 +36,8 @@
 
 .slick-prev,
 .slick-next {
-    /* width: 40px;
-    height: 40px;
-    z-index: 10; */
-    display: none;
-    background: transparent;
+    /* display: none; */
+    /* background: transparent; */
 }
 
 .slick-prev {
@@ -58,18 +55,7 @@
 .slick-prev:before{
     color: transparent;
 }
+
 @media (max-width: 768px) {
-    /* .slick-prev,
-    .slick-next {
-        width: 30px;
-        height: 30px;
-    }
 
-    .slick-prev {
-        left: 5px;
-    }
-
-    .slick-next {
-        right: 5px;
-    } */
 }

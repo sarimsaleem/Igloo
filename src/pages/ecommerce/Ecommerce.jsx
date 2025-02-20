@@ -13,7 +13,7 @@ import CaseStudy from '../../components/caseStudy/CaseStudy'
 import BookConsultation from '../../components/bookConsultation/BookConsultation'
 import About from '../../components/about/About'
 
-const Education = () => {
+const Ecommerce = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -21,11 +21,15 @@ const Education = () => {
 
     const data = [
         {
-            heading: 'EDUCATION MARKETING AGENCY',
+            heading: 'E-COMMERCE MARKETING AGENCY',
             description: [
-                'Are you looking for a marketing agency that specializes in the education sector? Do you need help in promoting your school or university and attract more students?',
-                'Igloo can help you optimize your website, promote your brand, increase the number of students, and grow your revenues.We believe that every educational institution needs to have a strong digital presence in order to promote its competitive advantage and generate an interest from parents.',
-                'In order to compete and win, your marketing strategy needs to include a sales-driven website, paid ads, organic listings (SEO), social media posts and ads, marketing automation, and more.Igloo specializes in the education sector and have been helping many institutions like yours grow their businesses by applying strategic digital marketing methods.Talk to one of our trusted education consultants to discuss your requirements.'
+                'E-commerce Marketing Agency. Are you looking for an e-commerce specialized digital marketing agency to help you build your website or grow your revenues?',
+                'E-commerce is very important for the success of any business. More and more customers are shopping online and businesses need to capitalize on that in order to compete. Through ecommerce, you get the opportunity to offer your products and services beyond your your local market increasing your chances of success.',
+                'Your ecommerce website needs to include flashy multimedia and professional design to attract and keep customers on your website. At Igloo, we will help build or redesign your ecommerce store to provides a unique and pleasant experience to your customer.',
+                "Working with an Ecommerce team, you can expect to operate your websites quickly and cost-effectively. We offer management tools allow you to list products, upload images, change product descriptions, offer promotions, make secure transactions, do inventory management, etc.",
+                "At Igloo, we will also help you increase the visibility of your ecommerce website via search engine optimization, advertising, and/or social media.",
+                "Depending on the market you sell to, our professionals will set up strategies to market your website, attract new visitors and grow your customer base. In addition, we will integrate Google Analytics into our Ecommerce website so you can get access to valuable information about your products, traffic, conversions, shopping cart abandonment and more.",
+                "Talk to one of our trusted ecommerce consultants to discuss your requirements."
             ],
             showButton: true,
             buttonText: 'BOOK A FREE CONSULTATION',
@@ -89,9 +93,9 @@ const Education = () => {
     return (
         <div>
             <Carousel
-                heading="Education Marketing Agency"
-                breadcrumb="Home | Education Marketing Agency"
-                imageUrl="marketingAutomation-carousel.jpg"
+                heading="E-commerce Marketing Agency"
+                breadcrumb="Home | E-commerce Marketing Agency"
+                imageUrl="cmpetetive-crousel.jpg"
             />
             <About data={data} />
 
@@ -150,4 +154,4 @@ const Education = () => {
     )
 }
 
-export default Education
+export default Ecommerce

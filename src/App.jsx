@@ -37,6 +37,8 @@ import UserInterfaceDesign from './pages/userInterfaceDesign/UserInterfaceDesign
 import WebOptimization from './pages/webOptimization/WebOptimization';
 import PortfolioDetailPage from './components/portfolioDetailPage/PortfolioDetailPage';
 import Education from './pages/education/Education';
+import Ecommerce from './pages/ecommerce/Ecommerce';
+import Healthcare from './pages/healthcare/Healthcare';
 
 const App = () => {
     return (
@@ -75,6 +77,8 @@ const App = () => {
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/our-portfolio' element={<PortfolioDetailPage />} />
                     <Route path='/education-marketing-agency' element={<Education />} />
+                    <Route path='/ecommerce-marketing-agency' element={<Ecommerce />} />
+                    <Route path='/healthcare-marketing-agency' element={<Healthcare />} />
                 </Routes>
                 <Footer />
             </Router>

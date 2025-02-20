@@ -13,7 +13,7 @@ import CaseStudy from '../../components/caseStudy/CaseStudy'
 import BookConsultation from '../../components/bookConsultation/BookConsultation'
 import About from '../../components/about/About'
 
-const Education = () => {
+const Healthcare = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -21,11 +21,12 @@ const Education = () => {
 
     const data = [
         {
-            heading: 'EDUCATION MARKETING AGENCY',
+            heading: 'HEALTHCARE MARKETING AGENCY',
             description: [
-                'Are you looking for a marketing agency that specializes in the education sector? Do you need help in promoting your school or university and attract more students?',
-                'Igloo can help you optimize your website, promote your brand, increase the number of students, and grow your revenues.We believe that every educational institution needs to have a strong digital presence in order to promote its competitive advantage and generate an interest from parents.',
-                'In order to compete and win, your marketing strategy needs to include a sales-driven website, paid ads, organic listings (SEO), social media posts and ads, marketing automation, and more.Igloo specializes in the education sector and have been helping many institutions like yours grow their businesses by applying strategic digital marketing methods.Talk to one of our trusted education consultants to discuss your requirements.'
+                'Are you looking for a healthcare specialized digital marketing agency to help you build or optimize your website, increase the number of patients, and grow revenues?',
+                'It is important for every healthcare organization to have a strong digital presence in order to win patients. In order to compete and win, your strategy needs to a marketing-driven website, search ads, display ads, search engine optimization (SEO), social media marketing, blogs, and more.',
+                'Igloo specializes in the healthcare sector and have been helping many institutions like yours grow their businesses by developing their brand online, and growing their revenues through tactical digital marketing activities.',
+                "Talk to one of our trusted healthcare consultants to discuss your requirements.",
             ],
             showButton: true,
             buttonText: 'BOOK A FREE CONSULTATION',
@@ -89,9 +90,9 @@ const Education = () => {
     return (
         <div>
             <Carousel
-                heading="Education Marketing Agency"
-                breadcrumb="Home | Education Marketing Agency"
-                imageUrl="marketingAutomation-carousel.jpg"
+                heading="E-commerce Marketing Agency"
+                breadcrumb="Home | E-commerce Marketing Agency"
+                imageUrl="health.jpg"
             />
             <About data={data} />
 
@@ -150,4 +151,4 @@ const Education = () => {
     )
 }
 
-export default Education
+export default Healthcare

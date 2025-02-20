@@ -39,8 +39,8 @@ const Footer = () => {
                         <Col xs={24} sm={12} md={12} lg={5}>
                             <Title level={4} style={{ color: 'var(--black)' }}>SPECIALTIES</Title>
                             <Text><a href="education-marketing-agency"style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}> Education</a></Text>
-                            <Text><a href=""style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}> E-commerce</a></Text>
-                            <Text><a href=""style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}> Healthcare</a></Text>
+                            <Text><a href="ecommerce-marketing-agency"style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}> E-commerce</a></Text>
+                            <Text><a href="healthcare-marketing-agency"style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}> Healthcare</a></Text>
                         </Col>
 
                         {/* Services Section */}

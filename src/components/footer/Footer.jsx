@@ -75,12 +75,12 @@ const Footer = () => {
                     <hr style={{ margin: "0" }} />
                     <div className="footer-container">
                         <div className="footer-links">
-                            <a href="#">About</a>
-                            <a href="#">Careers</a>
+                            <a href="/about-us">About</a>
+                            <a href="/careers">Careers</a>
                             <a href="/our-portfolio">Portfolio</a>
-                            <a href="#">Clients</a>
-                            <a href="#">Blog</a>
-                            <a href="#">Podcast</a>
+                            <a href="/clients">Clients</a>
+                            <a href="/blog">Blog</a>
+                            <a href="/masters-of-marketing-podcast">Podcast</a>
                             <a href="/contact">Contact</a>
                         </div>
                         <div className="footer-icons">

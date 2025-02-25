@@ -39,6 +39,11 @@ import PortfolioDetailPage from './components/portfolioDetailPage/PortfolioDetai
 import Education from './pages/education/Education';
 import Ecommerce from './pages/ecommerce/Ecommerce';
 import Healthcare from './pages/healthcare/Healthcare';
+import OurClientsPage from './pages/ourClientsPage/OurClientsPage';
+import Careers from './pages/careers/Careers';
+import About from './components/about/About';
+import Podcast from './pages/podcast/Podcast';
+import { BiLogIn } from 'react-icons/bi';
 
 const App = () => {
     return (
@@ -79,6 +84,11 @@ const App = () => {
                     <Route path='/education-marketing-agency' element={<Education />} />
                     <Route path='/ecommerce-marketing-agency' element={<Ecommerce />} />
                     <Route path='/healthcare-marketing-agency' element={<Healthcare />} />
+                    <Route path='/clients' element={<OurClientsPage />} />
+                    <Route path='/careers' element={<Careers />} />
+                    <Route path='/about-us' element={<About />} />
+                    <Route path='/masters-of-marketing-podcast' element={<Podcast />} />
+                    <Route path='/blog' element={<BiLogIn />} />
                 </Routes>
                 <Footer />
             </Router>

@@ -28,7 +28,11 @@ const Contact = () => {
 
   return (
     <>
-      <Carousel heading="Contact"  breadcrumb="Home | Contact" />
+      <Carousel
+        heading="Contact"
+        breadcrumb="Home | Contact" 
+        textColor="var(--black)"
+       />
       <div>
         <section className='section-contact'>
           <h2 className='contact-subheading'>

@@ -146,7 +146,6 @@ const Ecommerce = () => {
 
             <LeaderShip />
             <Bounce slides={bounceData} />
-
             <Clients />
             <CaseStudy caseStudy={caseStudyData} />
             <BookConsultation />

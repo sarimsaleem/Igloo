@@ -52,7 +52,7 @@ const Bounce = ({ slides }) => {
                         return (
                             <div key={index} className="bounce-slide">
                                 <div className="bounceImg">
-                                    <img src={imageSrc} alt={`Slide ${index + 1}`} /> {/* Use imageSrc here */}
+                                    <img src={imageSrc} alt={`Slide ${index + 1}`} /> 
                                 </div>
                                 <div className="bounce-text">
                                     <p className="bounce-text-p">{slide.text}</p>

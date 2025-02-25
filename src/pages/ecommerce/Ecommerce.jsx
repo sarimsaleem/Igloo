@@ -96,6 +96,7 @@ const Ecommerce = () => {
                 heading="E-commerce Marketing Agency"
                 breadcrumb="Home | E-commerce Marketing Agency"
                 imageUrl="cmpetetive-crousel.jpg"
+                textColor="var(--white)"
             />
             <About data={data} />
 

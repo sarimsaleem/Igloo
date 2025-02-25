@@ -244,6 +244,7 @@ const MobileAppDevelopment = () => {
         heading="Mobile App Design"
         breadcrumb="Home | Mobile App Design"
         imageUrl="cmpetetive-crousel.jpg"
+        textColor="var(--white)"
       />
       <About data={data} />
       <Portfolio

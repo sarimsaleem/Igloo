@@ -205,6 +205,7 @@ const EmailMarketing = () => {
         heading="Email Marketing"
         breadcrumb="Home | Email Marketing"
         imageUrl="marketingAutomation-carousel.jpg"
+        textColor="var(--white)"
       />
       <About data={data} />
 

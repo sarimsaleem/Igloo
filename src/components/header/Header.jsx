@@ -1,17 +1,19 @@
 import React, { useState, useEffect } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Button } from 'react-bootstrap';
+import { Divider } from 'antd';
 import logo from "/public/assets/images/logo.png";
 import logoBlack from "/public/assets/images/logoBlack.png";
 import "./header.css";
-import { Button } from 'react-bootstrap';
-import { Divider } from 'antd';
-import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
+    const location = useLocation();
+    const navigate = useNavigate();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -19,19 +21,21 @@ const Header = () => {
         };
 
         window.addEventListener('scroll', handleScroll);
-
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-    const navigate = useNavigate()
+
+    // Check if user is on the homepage
+    const isHomePage = location.pathname === "/";
+
     return (
-        <Navbar expand="lg" className={scrolled ? "navbar navbar-scrolled" : "navbar"}>
+        <Navbar expand="lg" className={isHomePage ? (scrolled ? "navbar navbar-scrolled" : "navbar") : "navbar navbar-scrolled"}>
             <Container>
                 <Navbar.Brand onClick={() => navigate("/")}>
                     <img
                         className="logo"
-                        src={scrolled ? logoBlack : logo}
+                        src={scrolled || !isHomePage ? logoBlack : logo}
                         alt="Logo"
                     />
                 </Navbar.Brand>
@@ -39,9 +43,9 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <NavDropdown title="Branding" id="basic-nav-dropdown">
-                            <NavDropdown.Item onClick={() => navigate('/branding')} >Branding</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate('/branding')}>Branding</NavDropdown.Item>
                             <Divider className='navbar-divider' />
-                            <NavDropdown.Item onClick={() => navigate('/logo-and-brand-guidelines')} >Logo and Brand Guidelines</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate('/logo-and-brand-guidelines')}>Logo and Brand Guidelines</NavDropdown.Item>
                             <Divider className='navbar-divider' />
                             <NavDropdown.Item onClick={() => navigate("/packaging-design")}>Packaging Design</NavDropdown.Item>
                         </NavDropdown>
@@ -52,7 +56,7 @@ const Header = () => {
                             <Divider className='navbar-divider' />
                             <NavDropdown.Item onClick={() => navigate("/marketing-automation")}>Marketing Automation</NavDropdown.Item>
                             <Divider className='navbar-divider' />
-                            <NavDropdown.Item onClick={() => navigate("/email-marketing")} >Email Marketing</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate("/email-marketing")}>Email Marketing</NavDropdown.Item>
                             <Divider className='navbar-divider' />
                             <NavDropdown.Item onClick={() => navigate("/chatbots-live-chat")}>Chatbots/Live Chat</NavDropdown.Item>
                             <Divider className='navbar-divider' />
@@ -97,7 +101,7 @@ const Header = () => {
                             <Divider className='navbar-divider' />
                             <NavDropdown.Item onClick={() => navigate("/website-optimization")}>Website Optimization</NavDropdown.Item>
                         </NavDropdown>
-                        <Button className='consultation-btn' onClick={() => navigate("/contact")} >Free Consultation</Button>
+                        <Button className='consultation-btn' onClick={() => navigate("/contact")}>Free Consultation</Button>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

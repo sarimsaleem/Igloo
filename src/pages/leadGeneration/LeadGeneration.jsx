@@ -210,6 +210,7 @@ const LeadGeneration = () => {
         heading="Lead Generation Agency in dubai"
         breadcrumb="Home | Lead Generation Agency in dubai"
         imageUrl="lead-gen-carousel.jpg"
+        textColor="var(--white)"
       />
       <About data={data} />
       <Guidence guidence={guidence} />

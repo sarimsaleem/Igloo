@@ -49,7 +49,7 @@ const PortfolioDetailPage = () => {
             <Carousel
                 heading="PORTFOLIO"
                 breadcrumb="Home | PORTFOLIO"
-                imageUrl="seo-banner.jpg"
+                // imageUrl="health.jpg"
             />
 
             <h1 className='profolio-detail'>Portfolio</h1>

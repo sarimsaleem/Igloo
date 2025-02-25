@@ -174,6 +174,7 @@ const ChatBot = () => {
                 heading="Chatbots/Live Chat"
                 breadcrumb="Home | Chatbots/Live Chat"
                 imageUrl="marketingAutomation-carousel.jpg"
+                textColor="var(--white)"
             />
             <About data={data} />
             <div className="competetiveanalysis-imageContainer">

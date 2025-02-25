@@ -189,6 +189,7 @@ const InstagramAds = () => {
         heading="Instagram Ads"
         breadcrumb="Home | Instagram Ads"
         imageUrl="cmpetetive-crousel.jpg"
+        textColor="var(--white)"
       />
       <About data={data} />
 

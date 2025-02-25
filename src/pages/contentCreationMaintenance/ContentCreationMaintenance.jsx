@@ -214,6 +214,7 @@ const ContentCreationMaintenance = () => {
         heading="Content Creation and Maintenance"
         breadcrumb="Home | Content Creation and Maintenance"
         imageUrl="marketingAutomation-carousel.jpg"
+        textColor="var(--white)"
       />
       <About data={data} />
       <div className="competetiveanalysis-imageContainer">

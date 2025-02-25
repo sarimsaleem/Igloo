@@ -280,6 +280,7 @@ const SEOs = () => {
         heading="SEO Agency in dubai"
         breadcrumb="Home | SEO Agency in dubai"
         imageUrl="seo-banner.jpg"
+        textColor="var(--white)"
       />
       <About data={data} />
       <Guidence guidence={guidence} />

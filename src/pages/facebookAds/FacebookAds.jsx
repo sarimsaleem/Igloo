@@ -163,6 +163,7 @@ const FacebookAds = () => {
         heading="PPC MANAGEMENT AGENCY IN DUBAI"
         breadcrumb="Home | PPC MANAGEMENT AGENCY IN DUBAI"
         imageUrl="cmpetetive-crousel.jpg"
+        textColor="var(--white)"
       />
       <About data={data} />
 

@@ -175,6 +175,7 @@ const CompetetiveAnalysis = () => {
                 heading="Competitive Analysis"
                 breadcrumb="Home | Competitive Analysis"
                 imageUrl="cmpetetive-crousel.jpg"
+                textColor="var(--white)"
             />
 
             <About data={data} />

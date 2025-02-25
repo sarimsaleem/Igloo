@@ -206,6 +206,7 @@ const SocialMediaManegement = () => {
                 heading="SOCIAL MEDIA AGENCY IN DUBAI"
                 breadcrumb="Home | SOCIAL MEDIA AGENCY IN DUBAI"
                 imageUrl="socialMedia-carousel.jpg"
+                textColor="var(--white)"
             />
             <About data={data} />
             <Guidence guidence={guidence} />

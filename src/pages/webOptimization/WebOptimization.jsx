@@ -217,6 +217,7 @@ const WebOptimization = () => {
         heading="Website Optimization"
         breadcrumb="Home | Website Optimization"
         imageUrl="cmpetetive-crousel.jpg"
+        textColor="var(--white)"
       />
       <About data={data} />
       <Portfolio

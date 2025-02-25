@@ -230,6 +230,7 @@ const InfluencerMarketing = () => {
                 heading="Influencer Marketing"
                 breadcrumb="Home | Influencer Marketing"
                 imageUrl="marketingAutomation-carousel.jpg"
+                textColor="var(--white)"
             />
             <About data={data} />
             <Portfolio

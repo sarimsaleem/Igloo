@@ -227,6 +227,7 @@ const PhotographyVideograpy = () => {
                 heading="Photography and Videography"
                 breadcrumb="Home | Photography and Videography"
                 imageUrl="cmpetetive-crousel.jpg"
+                textColor="var(--white)"
             />
             <About data={data} />
             <Portfolio

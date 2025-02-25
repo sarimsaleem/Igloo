@@ -252,6 +252,7 @@ const WebDesignDevelopment = () => {
                 heading="Photography and Videography"
                 breadcrumb="Home | Photography and Videography"
                 imageUrl="webDesignDev.jpg"
+                textColor="var(--white)"
             />
             <About data={data} />
             <Guidence guidence={guidence} />

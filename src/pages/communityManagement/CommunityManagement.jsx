@@ -215,6 +215,7 @@ const CommunityManagement = () => {
                 heading="SOCIAL MEDIA AGENCY IN DUBAI"
                 breadcrumb="Home | SOCIAL MEDIA AGENCY IN DUBAI"
                 imageUrl="marketingAutomation-carousel.jpg"
+                textColor="var(--white)"
             />
             <About data={data} />
             <Portfolio

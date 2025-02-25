@@ -236,6 +236,7 @@ const InsightsAnalytics = () => {
         heading="Insights and Analytics"
         breadcrumb="Home | Insights and Analytics"
         imageUrl="insight-carousesl.jpg"
+        textColor="var(--white)"
       />
       <About data={data} />
       <Guidence guidence={guidence} />

@@ -28,9 +28,8 @@ const Contact = () => {
 
   return (
     <>
-      <Carousel heading="Get In Touch" imageUrl="seo-banner.jpg" breadcrumb="Home | Contact" />
-
-      <div style={{ paddingTop: '100px' }}>
+      <Carousel heading="Contact"  breadcrumb="Home | Contact" />
+      <div>
         <section className='section-contact'>
           <h2 className='contact-subheading'>
             LET’S WORK TOGETHER <br /> ON YOUR NEXT PROJECT

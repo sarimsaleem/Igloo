@@ -227,6 +227,7 @@ const Youtube = () => {
                 heading="YouTube Ads"
                 breadcrumb="Home | YouTube Ads"
                 imageUrl="cmpetetive-crousel.jpg"
+                textColor="var(--white)"
             />
             <About data={data} />
             <Portfolio

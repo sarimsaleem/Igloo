@@ -220,6 +220,7 @@ const Linkdin = () => {
         heading="LinkedIn Ads"
         breadcrumb="Home | LinkedIn Ads"
         imageUrl="cmpetetive-crousel.jpg"
+        textColor="var(--white)"
       />
       <About data={data} />
       <Portfolio

@@ -236,6 +236,7 @@ const LogoAndBrand = () => {
         heading="Logo and Brand Guidelines / Style Guides"
         breadcrumb="Home | Logo and Brand Guidelines / Style Guides"
         imageUrl="banner.png"
+        textColor="var(--white)"
       />
       <About data={data} />
       <Portfolio

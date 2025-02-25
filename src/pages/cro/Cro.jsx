@@ -226,6 +226,7 @@ const Cro = () => {
                 heading="Conversion Rate Optimization agency in dubai & miami"
                 breadcrumb="Home | Conversion Rate Optimization agency in dubai & miami"
                 imageUrl="lead-gen-carousel.jpg"
+                textColor="var(--white)"
             />
             <About data={data} />
             <Guidence guidence={guidence} />

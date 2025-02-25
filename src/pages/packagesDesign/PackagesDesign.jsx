@@ -244,6 +244,7 @@ const PackagesDesign = () => {
         heading="Packaging Design"
         breadcrumb="Home | Packaging Design"
         imageUrl="banner.png"
+        textColor="var(--white)"
       />
       <About data={data} />
       <Portfolio

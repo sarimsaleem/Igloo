@@ -9,9 +9,13 @@ import { IoMegaphoneOutline } from 'react-icons/io5'
 import LeaderShip from '../../components/leadership/LeaderShip'
 import Clients from '../../components/clients/Clients'
 import Bounce from '../../components/bounce/Bounce'
-import CaseStudy from '../../components/caseStudy/CaseStudy'
 import BookConsultation from '../../components/bookConsultation/BookConsultation'
 import About from '../../components/about/About'
+import Portfolio from '../../components/portfolio/Portfolio'
+import portfolioHealth1 from '/public/assets/images/portfolioHealth1.jpg';
+import portfolioHealth2 from '/public/assets/images/portfolioHealth2.jpg';
+import portfolioHealth3 from '/public/assets/images/portfolioHealth3.jpg';
+import portfolioHealth4 from '/public/assets/images/portfolioHealth4.jpg';
 
 const Healthcare = () => {
 
@@ -66,32 +70,32 @@ const Healthcare = () => {
         },
     ];
 
-    const caseStudyData = [
+    const portfolioColumns = [
         {
-            image: "section6-6.jpg",
-            heading: "GMCClinics Case Study",
-            subHead: "Group of Clinics | GMCClinics",
-            text: "GMCClinics first contacted Igloo to help them acquire new patients (PPC) and to improve their ranking on the search engines (SEO).",
+            images: [
+
+
+                { src: portfolioHealth2, alt: 'Work 1' },
+            ],
         },
         {
-            image: "caseStudy4.jpg",
-            heading: "We202 Case Study",
-            subHead: "Group of WellFitEMS | We202",
-            text: "We202 (formerly known as WellFitEMS), approached Igloo while searching for an advisor who could help them with the rebranding of their cutting-edge fitness training program.",
+            images: [
+                { src: portfolioHealth1, alt: 'Work 3' },
+                { src: portfolioHealth3, alt: 'Work 5' },
+            ],
         },
         {
-            image: "caseStudy5.jpg",
-            heading: "Digital Marketing Case Study",
-            subHead: "Leading University in Dubai | UAE",
-            text: "To increase the number of students through online marketing.",
+            images: [
+                { src: portfolioHealth4, alt: 'Work 4' },
+            ],
         },
     ];
 
     return (
         <div>
             <Carousel
-                heading="E-commerce Marketing Agency"
-                breadcrumb="Home | E-commerce Marketing Agency"
+                heading="Healthcare Marketing Agency"
+                breadcrumb="Home | Healthcare Marketing Agency"
                 imageUrl="health.jpg"
             />
             <About data={data} />
@@ -144,7 +148,11 @@ const Healthcare = () => {
             <Bounce slides={bounceData} />
 
             <Clients />
-            <CaseStudy caseStudy={caseStudyData} />
+            <Portfolio
+                columns={portfolioColumns}
+                heading="PORTFOLIO"
+                buttonText="View All Portfolio"
+            />
             <BookConsultation />
 
         </div>

@@ -92,6 +92,7 @@ const Education = () => {
                 heading="Education Marketing Agency"
                 breadcrumb="Home | Education Marketing Agency"
                 imageUrl="marketingAutomation-carousel.jpg"
+                textColor="var(--white)"
             />
             <About data={data} />
 

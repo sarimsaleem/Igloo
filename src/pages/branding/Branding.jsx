@@ -142,6 +142,7 @@ const Branding = () => {
                 heading="Branding Agency in Dubai"
                 breadcrumb="Home | Branding Agency in Dubai"
                 imageUrl="banner.png"
+                textColor="var(--white)"
             />
             <About data={data} />
             <Portfolio

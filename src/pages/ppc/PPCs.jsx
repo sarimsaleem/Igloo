@@ -242,6 +242,7 @@ const PPCs = () => {
                 heading="PPC MANAGEMENT AGENCY IN DUBAI"
                 breadcrumb="Home | PPC MANAGEMENT AGENCY IN DUBAI"
                 imageUrl="media-carousel.jpg"
+                textColor="var(--white)"
             />
             <About data={data} />
             <Guidence guidence={guidence} />

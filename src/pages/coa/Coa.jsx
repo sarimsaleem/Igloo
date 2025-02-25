@@ -202,6 +202,7 @@ const Coa = () => {
         heading="Conversion Optimization Audit"
         breadcrumb="Home | Conversion Optimization Audit"
         imageUrl="cmpetetive-crousel.jpg"
+        textColor="var(--white)"
       />
       <About data={data} />
       <Container>

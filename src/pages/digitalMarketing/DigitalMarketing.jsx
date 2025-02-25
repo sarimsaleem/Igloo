@@ -243,6 +243,7 @@ const DigitalMarketing = () => {
         heading="DIGITAL MARKETING AGENCY IN DUBAI"
         breadcrumb="Home | DIGITAL MARKETING AGENCY IN DUBAI"
         imageUrl="digitalmarkering-crousel.jpg"
+        textColor="var(--white)"
       />
       
       <About data={data} />

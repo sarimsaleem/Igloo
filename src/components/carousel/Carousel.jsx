@@ -1,9 +1,8 @@
 import React from 'react';
 import "./carousel.css";
-import { BASE_IMAGE_URL } from "../../util/contant"; // Ensure correct import
+import { BASE_IMAGE_URL } from "../../util/contant"; 
 
-const Carousel = ({ heading, breadcrumb, imageUrl }) => {
-  // Construct the full image URL
+const Carousel = ({ heading, breadcrumb, imageUrl, textColor }) => {
   const imageSrc = BASE_IMAGE_URL + imageUrl;
 
   return (
@@ -13,8 +12,8 @@ const Carousel = ({ heading, breadcrumb, imageUrl }) => {
     >
       <div className="container">
         <div className='carousel-overlay'>
-          <h1 className='branding-carousel-heading'>{heading}</h1>
-          <p className='branding-carousel-sub-heading'>{breadcrumb}</p>
+          <h1 className='branding-carousel-heading' style={{ color: textColor }}>{heading}</h1>
+          <p className='branding-carousel-sub-heading' style={{ color: textColor }} >{breadcrumb}</p>
         </div>
       </div>
     </div>

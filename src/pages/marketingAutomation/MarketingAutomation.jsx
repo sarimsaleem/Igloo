@@ -165,6 +165,7 @@ const MarketingAutomation = () => {
         heading="Marketing Automation"
         breadcrumb="Home | Marketing Automation"
         imageUrl="marketingAutomation-carousel.jpg"
+        textColor="var(--white)"
       />
       <About data={data} />
 

@@ -229,6 +229,7 @@ const UserInterfaceDesign = () => {
         heading="UX/UI Design"
         breadcrumb="Home | UX/UI Design"
         imageUrl="cmpetetive-crousel.jpg"
+        textColor="var(--white)"
       />
       <About data={data} />
       <Portfolio

@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--white);
+    /* color: var(--white); */
     background-size: cover;
     background-position: center;
 }
@@ -20,14 +20,14 @@
     font-weight: bold;
     margin: 0;
     text-transform: uppercase;
-    text-align: start;
+    text-align: center;
     width: 60%;
 }
 
 .branding-carousel-sub-heading {
     margin-top: 10px;
     font-size: 1rem;
-    color: var(--white);
+    /* color: var(--white); */
     text-align: end;
 }
 

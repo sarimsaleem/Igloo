@@ -78,7 +78,7 @@ const Footer = () => {
                     <hr style={{ margin: "0" }} />
                     <div className="footer-container">
                         <div className="footer-links">
-                            <p onClick={() => navigate('/about-us')}> About</p>
+                            <p onClick={() => navigate('/about-us')}> <a href="">About</a> </p>
                             <a href="/about-us">About</a>
                             <a href="/careers">Careers</a>
                             <a href="/our-portfolio">Portfolio</a>

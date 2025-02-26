@@ -1,0 +1,129 @@
+.footer-about-crousel {
+    background: var(--black);
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.footer-about-crousel-text-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: 17px 35px;
+    margin-bottom: 40px;
+}
+
+.footer-about-crousel-text-parent h3 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.footer-about-crousel-data {
+    width: 40%;
+    text-align: center;
+    line-height: 23px;
+    font-size: 16px;
+    letter-spacing: .3px;
+}
+
+.footer-about-data {
+    padding-block: 70px;
+}
+
+.footer-about-data-p {
+    text-align: start;
+}
+
+.footer-about-carts {
+    background: #f5f5f5;
+    padding: 70px 0;
+}
+
+.footer-about-cart-item {
+    line-height: 23px;
+    font-size: 16px;
+}
+
+.footer-about-cart-img-container {}
+
+.footer-about-cart-img-container img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.footer-about-cart-text-container {
+    text-align: center;
+}
+
+.footer-about-cart-text-container h4 {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.footer-about-cart-text-container h4::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background: #000;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+}
+
+.footer-about-description-parent {
+    background-image: url(../../../public/assets/images/insight-carousesl.jpg);
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-about-description-heading {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-about-description-heading h1{
+    width: 50%;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.footer-about-description-subparent{
+
+}
+
+.footer-about-description-subparent h2{
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    padding: 38px 0;
+}
+
+.footer-about-description-subparent p{
+    margin: 0 0 22px;
+
+}

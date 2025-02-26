@@ -16,41 +16,139 @@
 }
 
 .career-header p {
-    font-size: 1rem;
+    font-size: 13px;
     margin-top: 10px;
-    font-weight: 500;
+    font-weight: 600;
     width: 50%;
     text-align: end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
 }
 
-.career-body{
+.career-body {
     padding-block: 50px;
 }
 
-.career-img-container{
+.career-img-container {
     background-image: url(../../../public/assets/images/career.jpg);
     width: 100%;
     height: 367px;
     display: flex;
     background-size: cover;
     justify-content: end;
+
 }
 
-.career-text-parent{
+.career-text-parent {
     background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
     padding: 80px;
 }
 
-.career-text-parent h1{
+.career-text-parent h1 {
     color: var(--white);
     font-size: 36px;
     text-transform: uppercase;
     font-weight: 700;
 }
 
-.career-text-parent p{
+.career-text-parent p {
     color: var(--white);
     line-height: 26px;
     font-size: 16px;
     margin: 30px 0;
+}
+
+.career-sub-body {
+    padding-block: 0 50px;
+}
+
+.career-body-column1-parent {
+    padding-inline: 30px;
+}
+
+.career-body-column1-parent-heading {
+    font-size: 24px;
+    letter-spacing: inherit;
+    line-height: 30px;
+    font-weight: 600;
+    position: relative;
+    color: #000;
+    padding-bottom: 14px;
+    margin-bottom: 25px;
+}
+
+.career-body-column1-parent-heading::after {
+    width: 30px;
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background: #000;
+}
+
+.career-body-column1-parent-data {
+    line-height: 24px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.career-body-column1-parent-btn {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 22px;
+    margin: 30px 0;
+    background: transparent;
+    border: 3px solid var(--black);
+}
+
+.career-body-column1-parent-btn a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.career-body-column2-parent {}
+
+.career-body-column2-parent-heading {
+    line-height: 23px;
+    font-size: 16px;
+    letter-spacing: .3px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.career-body-column2-parent-data {
+    line-height: 23px;
+    font-size: 16px;
+    letter-spacing: .3px;
+    margin-bottom: 12px;
+}
+
+.career-body-column2-parent-ul{
+    line-height: 23px;
+    font-size: 16px;
+    letter-spacing: .3px;
+    padding-left: 20px;
+}
+.career-body-column2-parent-ul li{
+    line-height: 23px;
+    font-size: 16px;
+    padding: 10px;
+    list-style: disc;
+}
+
+.career-body-column2-parent-btn {
+    background: none;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0;
+}
+
+
+.career-body-column2-parent-btn a {
+    color: var(--black);
 }

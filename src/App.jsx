@@ -41,9 +41,9 @@ import Ecommerce from './pages/ecommerce/Ecommerce';
 import Healthcare from './pages/healthcare/Healthcare';
 import OurClientsPage from './pages/ourClientsPage/OurClientsPage';
 import Careers from './pages/careers/Careers';
-import About from './components/about/About';
+import About from './pages/about/About';
 import Podcast from './pages/podcast/Podcast';
-import { BiLogIn } from 'react-icons/bi';
+import Blog from './pages/blog/Blog';
 
 const App = () => {
     return (
@@ -88,7 +88,7 @@ const App = () => {
                     <Route path='/careers' element={<Careers />} />
                     <Route path='/about-us' element={<About />} />
                     <Route path='/masters-of-marketing-podcast' element={<Podcast />} />
-                    <Route path='/blog' element={<BiLogIn />} />
+                    <Route path='/blog' element={<Blog />} />
                 </Routes>
                 <Footer />
             </Router>

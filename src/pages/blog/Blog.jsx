@@ -10,6 +10,8 @@ const Blog = () => {
           <p>HOME | BLOG</p>
         </div>
       </Container>
+
+      
     </>
   )
 }

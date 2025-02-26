@@ -1,0 +1,59 @@
+.podcast {
+    padding-block: 60px;
+}
+
+.podcast-subparent{
+    padding-inline: 70px;
+}
+
+.podcast-item{
+    cursor: pointer;
+}
+
+.podcast-image-container {
+    margin-bottom: 30px;
+}
+
+.podcast-image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.podcast-text-container h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    line-height: 30px;
+
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.podcast-text-container h3::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    background: #72235c;
+    height: 2px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    left: 0;
+    bottom: 0;
+}
+
+.podcast-btn{
+    margin:  20px 0 10px auto;
+    display: flex;
+    border: none;
+    background: none;
+}
+
+.podcast-btn a{
+    color: var(--black);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}

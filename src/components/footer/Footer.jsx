@@ -54,7 +54,7 @@ const Footer = () => {
                             <Text onClick={() => navigate("/website-optimization")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>Web Optimization</Text>
                             <Text onClick={() => navigate("/digital-marketing-agency-in-dubai")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>Digital Marketing</Text>
                             <Text onClick={() => navigate("/web-design-agency-in-dubai")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>WEB/APP</Text>
-                            <Text onClick={() => navigate("/branding")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px" }}>BRANDING</Text>
+                            <Text onClick={() => navigate("/branding")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>BRANDING</Text>
                             <Text onClick={() => navigate("/lead-generation-agency")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>Lead Generation</Text>
                             <Text onClick={() => navigate("/insights-and-analytics")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>Insights and Analytics</Text>
                         </Col>

@@ -30,11 +30,11 @@
   display: flex;
   gap: 20px;
 }
-.footer-links a:first-child{
+.footer-links p:first-child{
   padding-left: 0;
 }
 
-.footer-links a {
+.footer-links p{
   text-decoration: none;
   color: var(--black);
   letter-spacing: 1px;
@@ -43,7 +43,7 @@
   font-weight: 500;
   font-family: var(--font-family);
   text-transform: uppercase;
-
+  cursor: pointer;
 }
 
 .footer-icons {
@@ -101,6 +101,7 @@
 }
 .footer-logo {
   text-align: left; 
+  cursor: pointer;
 }
 
 .footer-text {

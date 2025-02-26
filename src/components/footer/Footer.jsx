@@ -38,39 +38,39 @@ const Footer = () => {
                             </Row>
                         </Col>
 
-                        {/* Certifications & Specialties Section */}
                         <Col xs={24} sm={12} md={12} lg={5}>
                             <Title level={4} style={{ color: 'var(--black)' }}>SPECIALTIES</Title>
-                            <Text><a href="education-marketing-agency"style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}> Education</a></Text>
-                            <Text><a href="ecommerce-marketing-agency"style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}> E-commerce</a></Text>
-                            <Text><a href="healthcare-marketing-agency"style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}> Healthcare</a></Text>
+                            <Text onClick={() => navigate("/education-marketing-agency")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>Education</Text>
+                            <Text onClick={() => navigate("/ecommerce-marketing-agency")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>E-commerce</Text>
+                            <Text onClick={() => navigate("/healthcare-marketing-agency")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>Healthcare</Text>
                         </Col>
 
                         {/* Services Section */}
                         <Col xs={24} sm={12} md={12} lg={6}>
                             <Title level={4} style={{ color: 'var(--black)' }}>SERVICES</Title>
-                            <Text><a href="/conversion-rate-optimization" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >CRO</a></Text>
-                            <Text><a href="/ppc-management-agency" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >PPC</a></Text>
-                            <Text><a href="/seo-agency-in-dubai" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >SEO</a></Text>
-                            <Text><a href="/website-optimization" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >WebOptimization</a></Text>
-                            <Text><a href="/digital-marketing-agency-in-dubai" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >Digital Marketing</a></Text>
-                            <Text><a href="/web-design-agency-in-dubai" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >WEB/ APP </a></Text>
-                            <Text><a href="/branding" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >BRANDING </a></Text>
-                            <Text><a href="/lead-generation-agency" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >Lead Generation</a></Text>
-                            <Text><a href="/insights-and-analytics" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }} >Insights and Analytics</a></Text>
+                            <Text onClick={() => navigate("/conversion-rate-optimization")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>CRO</Text>
+                            <Text onClick={() => navigate("/ppc-management-agency")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>PPC</Text>
+                            <Text onClick={() => navigate("/seo-agency-in-dubai")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>SEO</Text>
+                            <Text onClick={() => navigate("/website-optimization")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>Web Optimization</Text>
+                            <Text onClick={() => navigate("/digital-marketing-agency-in-dubai")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>Digital Marketing</Text>
+                            <Text onClick={() => navigate("/web-design-agency-in-dubai")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>WEB/APP</Text>
+                            <Text onClick={() => navigate("/branding")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px" }}>BRANDING</Text>
+                            <Text onClick={() => navigate("/lead-generation-agency")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>Lead Generation</Text>
+                            <Text onClick={() => navigate("/insights-and-analytics")} style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px", cursor: "pointer" }}>Insights and Analytics</Text>
                         </Col>
+
 
                         <Col xs={24} sm={12} md={12} lg={6}>
                             <Title level={4} style={{ color: 'var(--black)' }}>OUR OFFICES</Title>
                             <Title level={5} style={{ color: 'var(--black)', marginBlock: "5px" }}>DUBAI</Title>
                             <Text style={{ display: 'block', color: 'var(--sub-text)' }}>Fortune Executive Tower, Suite 1204, JLT, DUBAI 336101</Text>
-                            <Text><a href="tel:+97144310831" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}> T: +97144310831</a></Text>
-                            <Text><a href="mailto:info@weareigloo.com" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}>  E: info@weareigloo.com</a></Text>
+                            <Text><a href="tel:+97144310831" style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px" }}> T: +97144310831</a></Text>
+                            <Text><a href="mailto:info@weareigloo.com" style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px" }}>  E: info@weareigloo.com</a></Text>
 
                             <Title level={5} style={{ color: 'var(--black)' }}>Miami</Title>
                             <Text style={{ display: 'block', color: 'var(--sub-text)' }}>11900 Biscayne Blvd, Suite 105, Miami, FL 33181</Text>
-                            <Text><a href="tel:+13054973267" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}> T: +1 (305) 497-3267</a></Text>
-                            <Text><a href="mailto:info@weareigloo.com" style={{ display: 'block', color: 'var(--sub-text)', marginBlock:"3px"  }}>  E: info@weareigloo.com</a></Text>
+                            <Text><a href="tel:+13054973267" style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px" }}> T: +1 (305) 497-3267</a></Text>
+                            <Text><a href="mailto:info@weareigloo.com" style={{ display: 'block', color: 'var(--sub-text)', marginBlock: "3px" }}>  E: info@weareigloo.com</a></Text>
 
 
                         </Col>
@@ -78,14 +78,13 @@ const Footer = () => {
                     <hr style={{ margin: "0" }} />
                     <div className="footer-container">
                         <div className="footer-links">
-                            <p onClick={() => navigate('/about-us')}> <a href="">About</a> </p>
-                            <a href="/about-us">About</a>
-                            <a href="/careers">Careers</a>
-                            <a href="/our-portfolio">Portfolio</a>
-                            <a href="/clients">Clients</a>
-                            <a href="/blog">Blog</a>
-                            <a href="/masters-of-marketing-podcast">Podcast</a>
-                            <a href="/contact">Contact</a>
+                            <p onClick={() => navigate('/about-us')}>About</p>
+                            <p onClick={() => navigate('/careers')}>Careers</p>
+                            <p onClick={() => navigate('/our-portfolio')}>Portfolio</p>
+                            <p onClick={() => navigate('/clients')}>Clients</p>
+                            <p onClick={() => navigate('/blog')}>Blog</p>
+                            <p onClick={() => navigate('/masters-of-marketing-podcast')}>Podcast</p>
+                            <p onClick={() => navigate('/contact')}>Contact</p>
                         </div>
                         <div className="footer-icons">
                             <a href="https://www.facebook.com/weareigloo" className="icon facebook"><FacebookOutlined /></a>

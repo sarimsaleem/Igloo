@@ -8,10 +8,13 @@ import footerimg4 from "/public/assets/images/4.svg"
 import Logo from '/public/assets/images/logo.png';
 import "./footer.css"
 import { FacebookOutlined, InstagramOutlined, LinkedinOutlined } from '@ant-design/icons';
+import { useNavigate } from 'react-router-dom';
 
 const { Title, Text } = Typography;
 
 const Footer = () => {
+    const navigate = useNavigate()
+
     return (
         <>
             <Layout.Footer className="footer" style={{ backgroundColor: 'var(--white)', color: 'var(--sub-text)', padding: '40px 0 0 0' }}>
@@ -75,6 +78,7 @@ const Footer = () => {
                     <hr style={{ margin: "0" }} />
                     <div className="footer-container">
                         <div className="footer-links">
+                            <p onClick={() => navigate('/about-us')}> About</p>
                             <a href="/about-us">About</a>
                             <a href="/careers">Careers</a>
                             <a href="/our-portfolio">Portfolio</a>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { CiHeart } from "react-icons/ci";
 import { FaRegComment } from "react-icons/fa";
@@ -21,6 +21,11 @@ const Blog = () => {
     { id: 5, src: "/public/assets/images/blog1.png", heading: "The Ultimate SEO Growth Guide for 2025", subheading: "Posted by Igloo | 19 February 2025 | SEO", description: "SEO has become more than just a priority in the UAE—it’s a fundamental aspect of long-term growth and success for any UAE business. Whether you’re running a cozy cafe in Dubai, a boutique shop in Abu Dhabi, or a service-based business in Sharjah, SEO is your secret to success.  From mobile optimization to voice search", btn: "CONTINUE READING" },
 
   ]
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
 
 
   const categories = [
@@ -55,43 +60,52 @@ const Blog = () => {
       <div className="blog">
         <Container>
           <Row>
-            {blogData?.map((item, index) => (
-              <>
-                <Col md={8}>
-                  <div className="blog-item">
-                    <div className="blog-img-container">
-                      <img src={item.src} alt="" />
-                    </div>
-                    <div className="blog-text-container">
-                      <h3>{item.subheading}</h3>
-                      <h1>{item.heading}</h1>
-                      <p>{item.description}</p>
-                      <div className="icons-parent">
-                        <i><a href=""><CiHeart /><span>Like Likes</span></a></i>
-                        <i><a href=""> <FaRegComment /><span>Leave a comment</span></a></i>
-                      </div>
-                    </div>
-                    <button className='blog-btn'><a href="">{item.btn}</a></button>
+            <Col md={8}>
+              {blogData.map((item) => (
+                <div key={item.id} className="blog-item">
+                  <div className="blog-img-container">
+                    <img src={item.src} alt="" />
                   </div>
-                </Col>
-              </>
-            ))}
-
+                  <div className="blog-text-container">
+                    <h3>{item.subheading}</h3>
+                    <h1>{item.heading}</h1>
+                    <p>{item.description}</p>
+                    <div className="icons-parent">
+                      <i>
+                        <a href="">
+                          <CiHeart />
+                          <span>Like Likes</span>
+                        </a>
+                      </i>
+                      <i>
+                        <a href="">
+                          <FaRegComment />
+                          <span>Leave a comment</span>
+                        </a>
+                      </i>
+                    </div>
+                  </div>
+                  <button className="blog-btn">
+                    <a href="">{item.btn}</a>
+                  </button>
+                </div>
+              ))}
+            </Col>
             <Col md={4}>
               <div className="blog-item2">
-                <h4 className='blog-item2-heading'>
-                  SEARCH
-                </h4>
-                <div className="blog-item2-input-parent">
-                <input className='blog-item2-input' type="text"  />
-                <IoIosSearch />
+                <div className="blog-item2-first-first-sec">
+                  <h4 className="blog-item2-heading">SEARCH</h4>
+                  <div className="blog-item2-input-parent">
+                    <input className="blog-item2-input" type="text" />
+                    <button className='blog-item2-input-btn'><IoIosSearch /></button>
+                  </div>
                 </div>
                 <div className="categories-container">
-                  <h4 className='blog-item2-heading'>Categories</h4>
+                  <h4 className="blog-item2-heading">Categories</h4>
                   <ul className="blog-item2-list">
                     {categories.map((category, index) => (
                       <li key={index} className="blog-item2-item">
-                        {category.name} <span className="count">({category.count})</span>
+                        <a href="">{category.name}</a><span className="count"> / {category.count}</span>
                       </li>
                     ))}
                   </ul>
@@ -101,7 +115,6 @@ const Blog = () => {
           </Row>
         </Container>
       </div>
-
     </>
   )
 }

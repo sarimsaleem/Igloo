@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./about.css"
 import { Col, Container, Row } from 'react-bootstrap';
 import LeaderShip from '../../components/leadership/LeaderShip';
@@ -11,6 +11,10 @@ const About = () => {
     { title: "WE LOVE TECHNOLOGY", src: "/assets/images/footercart2.jpg" },
     { title: "WE LOVE WINNING", src: "/assets/images/footercart3.jpg" }
   ];
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
 
   return (

@@ -42,7 +42,11 @@
 
 .career-text-parent {
     background: linear-gradient(30deg, rgba(114, 35, 92, 1) 0%, rgba(162, 24, 90, 1) 28%, rgba(114, 35, 92, 1) 100%);
-    padding: 80px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 0 80px;
 }
 
 .career-text-parent h1 {
@@ -60,7 +64,7 @@
 }
 
 .career-sub-body {
-    padding-block: 0 50px;
+    padding-block: 50px;
 }
 
 .career-body-column1-parent {
@@ -127,13 +131,14 @@
     margin-bottom: 12px;
 }
 
-.career-body-column2-parent-ul{
+.career-body-column2-parent-ul {
     line-height: 23px;
     font-size: 16px;
     letter-spacing: .3px;
     padding-left: 20px;
 }
-.career-body-column2-parent-ul li{
+
+.career-body-column2-parent-ul li {
     line-height: 23px;
     font-size: 16px;
     padding: 10px;
@@ -151,4 +156,90 @@
 
 .career-body-column2-parent-btn a {
     color: var(--black);
+}
+
+@media (max-width:767px) {
+
+    .career-img-container {
+        background-image: none;
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .career-text-parent {
+        padding: 30px;
+    }
+
+    .career-text-parent h1 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .career-text-parent p {
+        font-size: 15px;
+        text-align: center;
+        margin-block: 20px 0;
+    }
+
+    .career-container {
+        max-width: 100%;
+    }
+
+    .career-body-column1-parent {
+        padding-inline: 0;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .career-container {
+        max-width: 100%;
+    }
+
+    .career-body-column1-parent {
+        padding-inline: 0;
+    }
+
+    .career-sub-body {
+        padding-block: 50px;
+    }
+
+    .career-text-parent h1 {
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .career-text-parent p {
+        font-size: 16px;
+        text-align: center;
+        margin-block: 20px;
+    }
+
+    .career-text-parent {
+        min-height: 367px;
+    }
+
+
+}
+
+@media (min-width:992px) and (max-width:1999px) {
+    .career-body-column1-parent {
+        padding-inline: 0;
+    }
+    .career-text-parent {
+        min-height: 367px;
+    }
+    .career-text-parent h1{
+        font-size: 34px;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+    
+    .career-text-parent {
+        min-height: 367px;
+    }
+
 }

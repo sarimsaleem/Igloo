@@ -127,3 +127,32 @@
     margin: 0 0 22px;
 
 }
+
+@media (max-width:767px) {
+    .footer-about-description-heading h1{
+        font-size: 26px;
+        width: 100%;
+    }
+
+    .footer-about-crousel-data{
+        width: 80%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .footer-about-description-heading h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .footer-about-crousel-data{
+        width: 80%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    .footer-about-description-heading h1{
+        font-size: 30px;
+        width: 70%;
+    }
+}

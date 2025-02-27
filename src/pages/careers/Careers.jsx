@@ -8,10 +8,10 @@ const Careers = () => {
     const toggleReadMore = () => {
         setIsExpanded(!isExpanded);
     };
-      useEffect(() => {
+    useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
-    
+    }, []);
+
 
     return (
         <>
@@ -22,23 +22,21 @@ const Careers = () => {
                 </div>
             </Container>
 
-            <div className="career-body">
-                <div className="career-img-container">
-                    <Container>
-                        <Row>
-                            <Col md={5} sm={5} xs={12}></Col>
-                            <Col md={7} sm={7} xs={12}>
-                                <div className="career-text-parent">
-                                    <h1>WE LOVE WHAT WE DO</h1>
-                                    <p>Igloo is a rapidly growing. We believe in creating an amazing working environment where people learn, grow, share ideas, and be creative. Join our team to help us promote brands, create amazing work, and make our clients successful.</p>
-                                </div>
-                            </Col>
-                        </Row>
-                    </Container>
-                </div>
+            <div className="career-img-container">
+                <Container className='career-container'>
+                    <Row style={{ display: "flex", justifyContent: "end" }}>
+                        <Col style={{ padding: "0px" }} md={7} sm={12} xs={12}>
+                            <div className="career-text-parent">
+                                <h1>WE LOVE WHAT WE DO</h1>
+                                <p>Igloo is a rapidly growing. We believe in creating an amazing working environment where people learn, grow, share ideas, and be creative. Join our team to help us promote brands, create amazing work, and make our clients successful.</p>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
+
             <div className="career-sub-body">
-                <Container>
+                <Container className='career-container'>
                     <Row>
                         <Col md={4}>
                             <div className="career-body-column1-parent">

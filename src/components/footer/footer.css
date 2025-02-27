@@ -23,18 +23,19 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 39px;
-  padding-bottom: 39px; 
+  padding-bottom: 39px;
 }
 
 .footer-links {
   display: flex;
   gap: 20px;
 }
-.footer-links p:first-child{
+
+.footer-links p:first-child {
   padding-left: 0;
 }
 
-.footer-links p{
+.footer-links p {
   text-decoration: none;
   color: var(--black);
   letter-spacing: 1px;
@@ -44,6 +45,7 @@
   font-family: var(--font-family);
   text-transform: uppercase;
   cursor: pointer;
+  margin-bottom: 0;
 }
 
 .footer-icons {
@@ -52,7 +54,7 @@
   cursor: pointer;
 }
 
-.footer-icons a:last-child{
+.footer-icons a:last-child {
   padding-right: 0;
 }
 
@@ -62,52 +64,92 @@
   padding: 0 16px;
   font-size: 30px;
 }
-@media (max-width: 650px) {
-  .footer-links{
-    gap: 5px;
-  }
-  .footer-links a{
-    font-size: 9px;
-    letter-spacing: 0px;
-  }
-  .footer-icons .icon{
-    font-size: 25px;
-  }
-}
-
-@media (max-width: 1199px) {
-  .footer-links a{
-      padding: 0;
-  }
-  .footer-container{
-    display: block;
-  }
-  .footer-icons{
-    justify-content: center;
-    margin-top: 20px;
-  }
-  .footer-links{
-    justify-content: center;
-  }
-}
 
 .footer-content {
   padding: 10px 0;
 }
-.sub-footer-content{
+
+.sub-footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .footer-logo {
-  text-align: left; 
+  text-align: left;
   cursor: pointer;
 }
 
 .footer-text {
-  text-align: right; 
+  text-align: left;
 }
 
 .footer-logo img {
   width: 90px;
+}
+
+
+@media (max-width: 767px) {
+  
+  
+  .footer-links {
+    flex-direction: column;
+  }
+
+
+  .footer-links p {
+    padding: 0;
+
+  }
+
+  .footer-container {
+    display: block;
+  }
+
+  .footer-icons {
+    margin-top: 20px;
+  }
+
+  .footer-icons a:first-child{
+    padding-left: 0;
+  }
+
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+
+  .footer-links p {
+    padding: 0;
+  }
+
+  .footer-container {
+    display: block;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+
+}
+
+@media (min-width:992px) and (max-width: 1199px) {
+
+  .footer-links p {
+    padding: 0;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+
 }

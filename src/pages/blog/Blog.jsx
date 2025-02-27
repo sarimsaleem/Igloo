@@ -96,7 +96,7 @@ const Blog = () => {
                 <div className="blog-item2-first-first-sec">
                   <h4 className="blog-item2-heading">SEARCH</h4>
                   <div className="blog-item2-input-parent">
-                    <input className="blog-item2-input" type="text" />
+                    <input className="blog-item2-input" placeholder='ENTER YOUR KEYWORDS' type="text" />
                     <button className='blog-item2-input-btn'><IoIosSearch /></button>
                   </div>
                 </div>

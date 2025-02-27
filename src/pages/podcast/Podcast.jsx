@@ -21,6 +21,10 @@ const Podcast = () => {
     AOS.init({ duration: 2000 });
   }, []);
 
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
   const questionData = {
     heading: "Still Have Questions?",
     text: [""],

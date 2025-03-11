@@ -1,8 +1,7 @@
 import React from 'react';
 import Slider from 'react-slick';
 import './caseStudy.css';
-import { Button, Container } from 'react-bootstrap';
-import { BASE_IMAGE_URL } from '../../util/contant'; // Ensure correct import
+import { BASE_IMAGE_URL } from '../../util/contant'; 
 
 const CaseStudy = ({ caseStudy }) => {
     const sliderSettings = {
@@ -45,9 +44,9 @@ const CaseStudy = ({ caseStudy }) => {
                                                     {slide.subHead}
                                                 </h4>
                                                 <p className="case-study-description">{slide.text}</p>
-                                                <Button className="case-study-button">
+                                                {/* <Button className="case-study-button">
                                                     View Case Study
-                                                </Button>
+                                                </Button> */}
                                             </div>
                                         </div>
                                     </div>

@@ -50,12 +50,10 @@
     font-family: var(--font-family);
 }
 
-/* Responsive Image Styling */
 .responsive-image {
     width: 100%;
-    max-width: 150px;
+    max-width: 200px;
     height: auto;
-    /* border-radius: 50%; */
 }
 
 /* Responsive Design */

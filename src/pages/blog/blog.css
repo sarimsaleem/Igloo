@@ -116,6 +116,7 @@
 .blog-item2-input{
     border: none;
     width: 90%;
+    outline: none;
 }
 
 .blog-item2-input::placeholder{

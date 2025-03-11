@@ -97,6 +97,7 @@ const Healthcare = () => {
                 heading="Healthcare Marketing Agency"
                 breadcrumb="Home | Healthcare Marketing Agency"
                 imageUrl="health.jpg"
+                textColor="var(--white)"
             />
             <About data={data} />
 

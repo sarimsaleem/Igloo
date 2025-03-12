@@ -20,7 +20,7 @@ const Home = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
 
     const bounceData = [
         {
@@ -81,6 +81,11 @@ const Home = () => {
             heading: "GMCClinics Case Study",
             subHead: "Group of Clinics | GMCClinics",
             text: "GMCClinics first contacted Igloo to help them acquire new patients (PPC) and to improve their ranking on the search engines (SEO).",
+            detailtext:[
+                "GMCClinics first contacted Igloo to help them acquire new patients (PPC) and to improve their ranking on the search engines (SEO). After few months GMC awarded Igloo the design and development of their new website,then their social media and content creation, and later the creation of their mobile app.",
+                "GMC was looking for the right partner to improve their brand recognition, grow the organic traffic to their website,and provide their clients with high level customer experience. Igloo was happy to take on the challenge."
+            ],
+            detailImg: "ourclients25.jpg"
         },
         {
             image: "caseStudy4.jpg",

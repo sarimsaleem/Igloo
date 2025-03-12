@@ -46,6 +46,7 @@ import Careers from './pages/careers/Careers';
 import About from './pages/about/About';
 import Podcast from './pages/podcast/Podcast';
 import Blog from './pages/blog/Blog';
+import CaseStudyDetail from './components/caseStudyDetail/CaseStudyDetail';
 
 const App = () => {
     return (
@@ -54,6 +55,7 @@ const App = () => {
                 <Header />
                 <Routes>
                     <Route path='/' element={<Home />} />
+                    <Route path="/case-study/:id" element={<CaseStudyDetail />} />
                     <Route path='/branding' element={<Branding />} />
                     <Route path='/logo-and-brand-guidelines' element={<LogoAndBrand />} />
                     <Route path='/packaging-design' element={<PackagesDesign />} />

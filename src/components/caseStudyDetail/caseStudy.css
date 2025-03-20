@@ -1,0 +1,25 @@
+.caseStudy-detail-parent {
+    padding-bottom: 70px;
+}
+
+.caseStudyDetail-heading {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    line-height: 34px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 39px;
+}
+
+.caseStudyDetail-text {
+    margin: 0 0 22px;
+    color: var(--sub-text);
+}
+
+.caseStudy-detail {
+    width: 100%;
+    /* border-radius: 10px; */
+
+}
